@@ -1,4 +1,5 @@
-### Praktikumsunterlagen
+# Praktikumsunterlagen
+{: .reading}
 ## **Biosignalverarbeitung - Teil 1**
 ### WS 2025
 
