@@ -16,16 +16,26 @@
 /*    HEADER ICONS     */
 /***********************/
 h1.reading:before {
-    /*content: url('https://sakai.mci4me.at/library/editor/ckextraplugins/extraicons/images/blue/readings.png');*/
+    /*content: url('https://sakai.mci4me.at/library/editor/ckextraplugins/extraicons/images/orange/readings.png');*/
     content: "";
     display: block;
-    background: url('https://sakai.mci4me.at/library/editor/ckextraplugins/extraicons/images/blue/readings.png') no-repeat;
+    background: url('https://sakai.mci4me.at/library/editor/ckextraplugins/extraicons/images/orange/groupwork.png') no-repeat;
     width: 50px;
     height: 50px;
     float: left;
     margin: 0 6px 0 0;
 }
-
+/***********************/
+h1.groupwork:before {
+  /*content: url('https://sakai.mci4me.at/library/editor/ckextraplugins/extraicons/images/orange/readings.png');*/
+  content: "";
+  display: block;
+  background: url('https://sakai.mci4me.at/library/editor/ckextraplugins/extraicons/images/orange/groupwork.png') no-repeat;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0 6px 0 0;
+}
 /***********************/
 /* SYNTAX HIGHLIGHTING */
 /***********************/
