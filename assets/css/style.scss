@@ -25,9 +25,8 @@ h1.reading:before {
     float: left;
     margin: 0 6px 0 0;
 }
-/***********************/
-h2.groupwork:before {
-  /*content: url('https://sakai.mci4me.at/library/editor/ckextraplugins/extraicons/images/orange/readings.png');*/
+h2.reading:before {
+  /*content: url('https://sakai.mci4me.at/library/editor/ckextraplugins/extraicons/images/orange/groupwork.png');*/
   content: "";
   display: block;
   background: url('https://sakai.mci4me.at/library/editor/ckextraplugins/extraicons/images/orange/groupwork.png') no-repeat;
@@ -36,6 +35,7 @@ h2.groupwork:before {
   float: left;
   margin: 0 6px 0 0;
 }
+
 /***********************/
 /* SYNTAX HIGHLIGHTING */
 /***********************/

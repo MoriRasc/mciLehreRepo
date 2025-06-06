@@ -96,7 +96,7 @@ Kit.
 
 
 ## **1.2 Teil 1 - Aufbau der Hardware & Datenakquise**
-{: .groupwork}
+{: .reading}
 **Ziele**
 
 1. Crashkurs: Arduino IDE, C und Arduino Uno
