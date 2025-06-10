@@ -1,4 +1,4 @@
-# **Aufgabe 3: Setup mit Batterieversorgung**
+# **Setup mit Batterieversorgung**
 
 In dieser Aufgabe soll das System mit einer Batterieversorgung betrieben werden.
 Da der Mikrocontroller über keine onboard Speichermöglichkeiten verfügt, wird

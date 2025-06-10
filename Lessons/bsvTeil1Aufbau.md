@@ -1,5 +1,3 @@
-# **1.2 Teil 1 - Aufbau der Hardware & Datenakquise**
-
 **Benötigte Komponenten**
 
 1. Mikrocontroller mit USB-Kabel

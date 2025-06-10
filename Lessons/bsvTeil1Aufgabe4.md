@@ -1,4 +1,4 @@
-# **Aufgabe 4: Verarbeitung und Darstellung**
+# **Verarbeitung und Darstellung**
 
 Für diese Aufgabe wird Python zur Auswertung der aufgenommenen Daten verwendet. Es dürfen sowohl VS Code als auch Jupiter Notebooks zum Lösen der
 Aufgabe verwendet werden. Aufgrund der einfachen Zugänglichkeit, werden die

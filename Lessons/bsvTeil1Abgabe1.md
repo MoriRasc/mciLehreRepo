@@ -1,4 +1,3 @@
-# **Abgabe: Teil 1**
 
   - Pflicht: Abgabe der Python Dateien in .zip-File
 

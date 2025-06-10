@@ -1,4 +1,4 @@
-# **Aufgabe 2: Datenaufnahme mit dem Beschleunigungssensor**
+# **Datenaufnahme mit dem Beschleunigungssensor**
 
 Um Daten mit Ihrem Beschleunigungssensor aufnehmen können, muss zuerst eine
 SparkFun spezifische Bibliothek installiert werden. Dazu sind folgende Schritte zu befolgen:

@@ -1,4 +1,4 @@
-# **Aufgabe 1: Erster Test am Mikrocontroller**
+# **Erster Test am Mikrocontroller**
 
 Bevor das Sparkfun Board über USB mit dem Computer verbunden werden kann,
 muss ein Driver Update durchgeführt werden. Dieses ist Teil der Anleitung und ist unter folgendem **[Link](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers)** zu finden. Arbeiten Sie die im Link zur Verfügung gestellte Anleitung durch (Driver installieren, Arduino IDE installieren, Beispiel Blink). Bei erfolgreichem Abschluss und keinen Fehlermeldungen können Sie mit
