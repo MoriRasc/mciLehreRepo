@@ -1,5 +1,5 @@
 #**Ziele**
-
+{: .reading}
 1. Crashkurs: Arduino IDE, C und Arduino Uno
 
 2. Datenakquise mit Mikrocontroller-Setup
