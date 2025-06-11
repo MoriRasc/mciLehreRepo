@@ -5,9 +5,9 @@ SparkFun spezifische Bibliothek installiert werden. Dazu sind folgende Schritte 
 
 1. **Installieren der Bibliothek**
 
-Die Bibliothek wird f¨ur die SparkFun Qwiic Verbindung benötigt und bietet Beispiel-Code zum Vorverarbeiten von Daten oder um Einstellungen am
+Die Bibliothek wird für die SparkFun Qwiic Verbindung benötigt und bietet Beispiel-Code zum Vorverarbeiten von Daten oder um Einstellungen am
 Sensor vornehmen zu können. Die Installation findet in der Arduino IDE
-statt, klicken Sie daf¨ur auf *Sketch →* *Bibliothek einbinden →* *Bibliotheken verwalten... →* Eingabe in Suchzeile: *SparkFun MMA8452Q Accelerometer → installieren* klicken
+statt, klicken Sie dafür auf *Sketch →* *Bibliothek einbinden →* *Bibliotheken verwalten... →* Eingabe in Suchzeile: *SparkFun MMA8452Q Accelerometer → installieren* klicken
 
 2. **Testen mit Beispiel 1: Basic Reading**
 In der Bibliothek ist ein Beispiel-Code enthalten, welcher durch *Datei →*
@@ -23,7 +23,7 @@ und nochmal versuchen ... bitte vorsichtig!). Uber den Hochladen-Button
 den Code nun auf den Mikrocontroller laden.
 
 4. **Serieller Monitor & Plotter**
-¨Uber *Werkzeug →* *serieller Monitor* lassen sich Daten durch die *print()*
+über *Werkzeug →* *serieller Monitor* lassen sich Daten durch die *print()*
 Funktion darstellen. Dabei ist zu Beginn eines C-Programmes die *Baud*   Rate angegeben, welche angibt, wie schnell Daten vom Mikrocontroller zum
 seriellen Monitor transferiert werden können. Daten werden nur angezeigt,
 **wenn die Baud Rate im seriellen Monitor gleich der im Code**
@@ -38,12 +38,12 @@ Probieren Sie auch den seriellen Plotter aus, dieser ermöglicht eine grafische 
 **Plotter ODER Monitor angezeigt werden!**
 
 5. **Aufgabe: Koordinatensystem**
-Auf dem Beschleunigungssensor ist ein Koordinatensystem gegeben, welches die x-, y- und z-Achse angibt. Welcher Wert der drei angezeigten Beschleunigungen geh¨ort zu welcher Achse? Wie kann man dies testen und in
+Auf dem Beschleunigungssensor ist ein Koordinatensystem gegeben, welches die x-, y- und z-Achse angibt. Welcher Wert der drei angezeigten Beschleunigungen gehört zu welcher Achse? Wie kann man dies testen und in
 welcher Einheit werden die Daten ausgegeben?
 
 6. **Speichern der Daten**
 Das Speichern der Daten in eine *.txt* Datei wird über einfaches Copy&Paste
-durchgeführt. Daf¨ur muss ein neues .txt-Dokument erstellt und geöffnet
+durchgeführt. Dafür muss ein neues .txt-Dokument erstellt und geöffnet
 werden. Trennen Sie nun die Verbindung zwischen Mikrocontroller und
 
 
@@ -56,6 +56,6 @@ mit der Tastenkombination *Strg + A* (Alles auswählen) *→* *Strg + C* (Kopier
   Mit jedem Hochladen eines Programmes muss die Baud-Rate mit der im
 seriellen Monitor/Plotter übereinstimmen, sonst werden keine Daten angezeigt.
 
-  - Falls der Fehler *”NoSuchFileException“* beim Download der Bibliothek f¨ur
+  - Falls der Fehler *”NoSuchFileException“* beim Download der Bibliothek für
 den Beschleunigungssensor entsteht, gibt es in diesem **[Forum](https://forum.arduino.cc/t/library-manager-cant-install-update-libraries/465361)** mögliche Lösungsansätze.
 

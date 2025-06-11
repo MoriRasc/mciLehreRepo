@@ -22,7 +22,7 @@ Letztes Update: 05. Juni 2025
 # **Praktikum**
 
 In diesem Praktikum werden Sie lernen, mit frei verfügbarer Hardware Biosignale am Menschen aufzunehmen und die Daten über Programmierung zu filtern,
-verarbeiten und analysieren. Dabei werden Sie Biosignale vom Muskel-, Nerven und Herz-Kreislauf-System kennenlernen und f¨ur sich erforschen.
+verarbeiten und analysieren. Dabei werden Sie Biosignale vom Muskel-, Nerven und Herz-Kreislauf-System kennenlernen und für sich erforschen.
 ## **1.1 Organisatorisches**
 
 1. **Bewertung**
@@ -32,7 +32,7 @@ Gruppen durchgeführt und bewertet.
 
 2. **Gruppenbildung**
 Die Gruppenbildung ist Ihnen innerhalb der bereits aufgeteilten Gruppen
-A & B frei überlassen. Die Aufteilung wird im Rahmen der ersten Vorlesung durchgeführt und gilt fortlaufend f¨ur das Semester. Nachträgliche
+A & B frei überlassen. Die Aufteilung wird im Rahmen der ersten Vorlesung durchgeführt und gilt fortlaufend für das Semester. Nachträgliche
 Änderungen von Gruppen werden nur unter besonderen Umständen und in
 Absprache mit dem Lehrenden vorgenommen.
 
@@ -135,7 +135,7 @@ Aufgabe 2 fortfahren.
 
 **Bitte machen Sie sich mit den Grundlagen der Arduino IDE unter folgendem 
 **[Link](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino##arduino-software-tools-1)** bekannt. Fokussieren Sie sich auf die Sektionen beginnend
-**mit ”Arduino API“.Downloaden Sie f¨ur dieses Praktikum die Version**
+**mit ”Arduino API“.Downloaden Sie für dieses Praktikum die Version**
 **1.8.19, welche als Legacy Version geführt wird (Siehe [Abbildung 1.1](../assets/img/arduinoLegacy.bmp)).**
 
 **ACHTUNG: Fehlerbehebung**
@@ -150,9 +150,9 @@ SparkFun spezifische Bibliothek installiert werden. Dazu sind folgende Schritte 
 
 1. **Installieren der Bibliothek**
 
-Die Bibliothek wird f¨ur die SparkFun Qwiic Verbindung benötigt und bietet Beispiel-Code zum Vorverarbeiten von Daten oder um Einstellungen am
+Die Bibliothek wird für die SparkFun Qwiic Verbindung benötigt und bietet Beispiel-Code zum Vorverarbeiten von Daten oder um Einstellungen am
 Sensor vornehmen zu können. Die Installation findet in der Arduino IDE
-statt, klicken Sie daf¨ur auf *Sketch →* *Bibliothek einbinden →* *Bibliotheken verwalten... →* Eingabe in Suchzeile: *SparkFun MMA8452Q Accelerometer → installieren* klicken
+statt, klicken Sie dafür auf *Sketch →* *Bibliothek einbinden →* *Bibliotheken verwalten... →* Eingabe in Suchzeile: *SparkFun MMA8452Q Accelerometer → installieren* klicken
 
 2. **Testen mit Beispiel 1: Basic Reading**
 In der Bibliothek ist ein Beispiel-Code enthalten, welcher durch *Datei →*
@@ -168,7 +168,7 @@ und nochmal versuchen ... bitte vorsichtig!). Uber den Hochladen-Button
 den Code nun auf den Mikrocontroller laden.
 
 4. **Serieller Monitor & Plotter**
-¨Uber *Werkzeug →* *serieller Monitor* lassen sich Daten durch die *print()*
+über *Werkzeug →* *serieller Monitor* lassen sich Daten durch die *print()*
 Funktion darstellen. Dabei ist zu Beginn eines C-Programmes die *Baud*   Rate angegeben, welche angibt, wie schnell Daten vom Mikrocontroller zum
 seriellen Monitor transferiert werden können. Daten werden nur angezeigt,
 **wenn die Baud Rate im seriellen Monitor gleich der im Code**
@@ -183,12 +183,12 @@ Probieren Sie auch den seriellen Plotter aus, dieser ermöglicht eine grafische 
 **Plotter ODER Monitor angezeigt werden!**
 
 5. **Aufgabe: Koordinatensystem**
-Auf dem Beschleunigungssensor ist ein Koordinatensystem gegeben, welches die x-, y- und z-Achse angibt. Welcher Wert der drei angezeigten Beschleunigungen geh¨ort zu welcher Achse? Wie kann man dies testen und in
+Auf dem Beschleunigungssensor ist ein Koordinatensystem gegeben, welches die x-, y- und z-Achse angibt. Welcher Wert der drei angezeigten Beschleunigungen gehört zu welcher Achse? Wie kann man dies testen und in
 welcher Einheit werden die Daten ausgegeben?
 
 6. **Speichern der Daten**
 Das Speichern der Daten in eine *.txt* Datei wird über einfaches Copy&Paste
-durchgeführt. Daf¨ur muss ein neues .txt-Dokument erstellt und geöffnet
+durchgeführt. Dafür muss ein neues .txt-Dokument erstellt und geöffnet
 werden. Trennen Sie nun die Verbindung zwischen Mikrocontroller und
 
 
@@ -201,28 +201,28 @@ mit der Tastenkombination *Strg + A* (Alles auswählen) *→* *Strg + C* (Kopier
   Mit jedem Hochladen eines Programmes muss die Baud-Rate mit der im
 seriellen Monitor/Plotter übereinstimmen, sonst werden keine Daten angezeigt.
 
-  - Falls der Fehler *”NoSuchFileException“* beim Download der Bibliothek f¨ur
+  - Falls der Fehler *”NoSuchFileException“* beim Download der Bibliothek für
 den Beschleunigungssensor entsteht, gibt es in diesem **[Forum](https://forum.arduino.cc/t/library-manager-cant-install-update-libraries/465361)** mögliche Lösungsansätze.
 
 ### **Aufgabe 3: Setup mit Batterieversorgung**
 
 In dieser Aufgabe soll das System mit einer Batterieversorgung betrieben werden.
 Da der Mikrocontroller über keine onboard Speichermöglichkeiten verfügt, wird
-daf¨ur das OpenLog Modul mit Qwiic Anschluss verwendet. Dieses kann Daten auf
+dafür das OpenLog Modul mit Qwiic Anschluss verwendet. Dieses kann Daten auf
 eine MicroSD Karte schreiben und erlaubt somit eine mobile und vom Computer
 losgelöste Aufnahme von Daten. Dadurch ergeben sich neue Einsatzgebiete wie
 Aufnahmen beim Gehen, Fahrradfahren oder anderen Sportaktivitäten, die zuvor
-durch einen station¨aren Computer limitiert wurden.
+durch einen stationären Computer limitiert wurden.
 
 1. **OpenLog mit Computer**
 
-(a) Zuerst werden Sie prüfen, ob ihr OpenLog Chip mit der dazugehörigen SD-Karte ordnungsgemäß funktioniert. Daf¨ur wird eine Verbindung mit dem Computer hergestellt und gleichzeitig die Daten auf die SD-Karte geschrieben. Zuerst muss die passende Bibliothek für das
+(a) Zuerst werden Sie prüfen, ob ihr OpenLog Chip mit der dazugehörigen SD-Karte ordnungsgemäß funktioniert. Dafür wird eine Verbindung mit dem Computer hergestellt und gleichzeitig die Daten auf die SD-Karte geschrieben. Zuerst muss die passende Bibliothek für das
 OpenLog Modul installiert werden. Dies findet ähnlich wie in Aufgabe
 2.1. über *Sketch →* *Bibliothek einbinden →* *Bibliotheken verwalten...*
 *→* Eingabe in Suchzeile: ” *SparkFun Qwiic OpenLog* “ *→* *installieren*
 statt.
 
-(b) Wie zuvor schon beim Beschleunigungssensor durchgeführt soll ¨uber
+(b) Wie zuvor schon beim Beschleunigungssensor durchgeführt soll über
 ***Datei*** *→* ***Beispiele*** *→* ***Beispiele aus eigenen Bibliotheken***
 **(ganz unten)** *→* ***SparkFun Qwiic OpenLog*** *→* ***Example1 Writing-***
 ***Log*** der Beispiel-Code geöffnet und hochgeladen werden.
@@ -265,7 +265,7 @@ Verbindung mit der 9 V Batterie einmal gedrückt werden. Dies startet
 das hochgeladene C-Programm neu.
 
 3. **Beschleunigungsdaten mit OpenLog und Batterieversorgung**
-In diesem Teil werden Sie Beschleunigungsdaten im batteriebetriebenen Zustand aufnehmen und auf der SD-Karte speichern. Daf¨ur müssen Sie ihr
+In diesem Teil werden Sie Beschleunigungsdaten im batteriebetriebenen Zustand aufnehmen und auf der SD-Karte speichern. Dafür müssen Sie ihr
 Programm vom Computer auf den Mikrocontroller laden, die Verbindung
 
 
@@ -273,8 +273,8 @@ Programm vom Computer auf den Mikrocontroller laden, die Verbindung
 anschließend trennen, das OpenLog- und Sensor-Modul mit Qwiic Kabeln
 verbinden (Reihenfolge egal) und die Batterie anschließen.
 
-**Aufgabe:** Um OpenLog und den Beschleunigungssensor gleichzeitig zu nutzen, m¨ussen Sie den Code der vorherigen Beispiele zusammenf¨ugen. Schreiben Sie ein neues Skript mit dem Namen *MobileAcceleration*, in dem eine
-mobile Datenerfassung und Sicherung von Beschleunigungswerten erm¨oglichen.
+**Aufgabe:** Um OpenLog und den Beschleunigungssensor gleichzeitig zu nutzen, müssen Sie den Code der vorherigen Beispiele zusammenfügen. Schreiben Sie ein neues Skript mit dem Namen *MobileAcceleration*, in dem eine
+mobile Datenerfassung und Sicherung von Beschleunigungswerten ermöglichen.
 
 **ACHTUNG: Fehlerbehebung**
 
@@ -311,12 +311,12 @@ nicht in der Arduino Umgebung statt.
 2. **Importieren der Daten**
 Die Daten werden entweder über die SD-Karte direkt gespeichert oder aus
 dem seriellen Monitor herauskopiert (dafür immer erst den Mikrocontroller
-vom PC trennen, um die Daten¨ubertragung zu stoppen).
+vom PC trennen, um die Datenübertragung zu stoppen).
 **Aufgabe:** Lesen Sie die Daten in ihrer Python Umgebung in einen **Pandas**
 **Dataframe** ein.
 
 3. **Verarbeitung und Darstellung**
-Für das Filtern der Daten sind verschiedene Bibliotheken in Python notwendig. F¨ur diesen Teil werden folgende Bibliotheken benötigt:
+Für das Filtern der Daten sind verschiedene Bibliotheken in Python notwendig. Für diesen Teil werden folgende Bibliotheken benötigt:
 
    - pandas
     - matplotlib.pyplot
@@ -371,7 +371,7 @@ wird. Beschriften Sie dabei jede Komponente und beschreiben Sie diese kurz
 
     (a) Welches Messverfahren verwendet Ihr Beschleunigungssensor?
 
-    (b) Wie w¨urden Sie den Beschleunigungssensor kalibrieren, um valide Daten aufzunehmen?
+    (b) Wie würden Sie den Beschleunigungssensor kalibrieren, um valide Daten aufzunehmen?
 
     (c) Beschreiben Sie die Messdaten Ihres Beschleunigungssensors, wenn
 dieser, in einem ausgedachten Szenario, auf einem Auto liegen würden
@@ -407,16 +407,16 @@ unten oder oben zeigt. Ergeben die Daten Sinn? **(1 Paragraph, 2**
 
 7. Geben Sie die essenziellen Zeilen des Filter-Algorithmus in Python an. **(Code, 1 Punkt)**
 
-8. Führen Sie folgendes Experiment aus (Nehmen Sie daf¨ur den gegebenen
+8. Führen Sie folgendes Experiment aus (Nehmen Sie dafür den gegebenen
 Arduino Code **Lab1Code1** ): Nehmen Sie den Beschleunigungssensor in
 Ihre geschlossene Hand und bewegen Sie ihn sehr schnell pro Sekunde einmal
-hoch und runter (ohne Rotation). Führen Sie dies f¨ur 10 Sekunden aus und
+hoch und runter (ohne Rotation). Führen Sie dies für 10 Sekunden aus und
 speichern Sie die Daten.
 
 (a) Plotten Sie 4 Sekunden der Daten **(1 Darstellung, 1.5 Punkte)**
 
 (b) Diskutieren Sie die Plateaus der Peaks. Warum sind diese alle beim
-gleichen Wert? Wie könnte man dieses Problem l¨osen? **(1 Paragraph,**
+gleichen Wert? Wie könnte man dieses Problem lösen? **(1 Paragraph,**
 **1.5 Punkte)**
 
 9. Nutzen Sie den Ihnen zur Verfügung stehenden **Lab1Code2**, der eine Messung von bis zu 8 *g* ermöglicht und wiederholen Sie das Experiment. Plotten Sie wieder 4 Sekunden der Daten und vergleichen Sie den Plot mit dem aus der vorhergegangenen Aufgabe. Was sing Gemeinsamkeiten und welche Unterschiede gibt es und warum gibt es sie? **(1 Darstellung, 1 Paragraph, 2 Punkte)**
@@ -433,12 +433,12 @@ Batterie. Nehmen Sie mit dem Code **Lab1Code4** etwa 10 Sekunden auf
 Warum sind diese unterschiedlich? **(1 Paragraph, 2 Punkte)**
 
 13. Ihr abgegebener Code funktioniert und erzeugt die richtigen Plots, welche
-f¨ur diesen Bericht gefordert waren. **(1 Punkt)**
+für diesen Bericht gefordert waren. **(1 Punkt)**
 
 **Gesamte Punkte: 24**
 
 **Abgabe auf Sakai:**
-Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweise ( **Lab1_Groupnumber**) f¨ur die Gruppeneinreichung und speichern Sie die
+Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweise ( **Lab1_Groupnumber**) für die Gruppeneinreichung und speichern Sie die
 folgenden Dateien in dieser *.zip*-Datei:
 
  -  (optional) Laborbericht als PDF als *Bericht 1 Gruppe Gruppennummer*

@@ -6,7 +6,7 @@ Aufgabe 2 fortfahren.
 
 **Bitte machen Sie sich mit den Grundlagen der Arduino IDE unter folgendem 
 **[Link](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino##arduino-software-tools-1)** bekannt. Fokussieren Sie sich auf die Sektionen beginnend
-**mit ”Arduino API“.Downloaden Sie f¨ur dieses Praktikum die Version**
+**mit ”Arduino API“.Downloaden Sie für dieses Praktikum die Version**
 **1.8.19, welche als Legacy Version geführt wird (Siehe [Abbildung 1.1](../assets/img/arduinoLegacy.bmp)).**
 
 **ACHTUNG: Fehlerbehebung**

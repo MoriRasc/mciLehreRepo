@@ -21,7 +21,7 @@ Letztes Update: 05. Juni 2025
 # **Praktikum**
 
 In diesem Praktikum werden Sie lernen, mit frei verfügbarer Hardware Biosignale am Menschen aufzunehmen und die Daten über Programmierung zu filtern,
-verarbeiten und analysieren. Dabei werden Sie Biosignale vom Muskel-, Nerven und Herz-Kreislauf-System kennenlernen und f¨ur sich erforschen.
+verarbeiten und analysieren. Dabei werden Sie Biosignale vom Muskel-, Nerven und Herz-Kreislauf-System kennenlernen und für sich erforschen.
 ## **1.1 Organisatorisches**
 
 1. **Bewertung**
@@ -31,7 +31,7 @@ Gruppen durchgeführt und bewertet.
 
 2. **Gruppenbildung**
 Die Gruppenbildung ist Ihnen innerhalb der bereits aufgeteilten Gruppen
-A & B frei überlassen. Die Aufteilung wird im Rahmen der ersten Vorlesung durchgeführt und gilt fortlaufend f¨ur das Semester. Nachträgliche
+A & B frei überlassen. Die Aufteilung wird im Rahmen der ersten Vorlesung durchgeführt und gilt fortlaufend für das Semester. Nachträgliche
 Änderungen von Gruppen werden nur unter besonderen Umständen und in
 Absprache mit dem Lehrenden vorgenommen.
 

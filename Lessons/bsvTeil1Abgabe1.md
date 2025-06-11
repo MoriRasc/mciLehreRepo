@@ -27,7 +27,7 @@ wird. Beschriften Sie dabei jede Komponente und beschreiben Sie diese kurz
 
     (a) Welches Messverfahren verwendet Ihr Beschleunigungssensor?
 
-    (b) Wie w¨urden Sie den Beschleunigungssensor kalibrieren, um valide Daten aufzunehmen?
+    (b) Wie würden Sie den Beschleunigungssensor kalibrieren, um valide Daten aufzunehmen?
 
     (c) Beschreiben Sie die Messdaten Ihres Beschleunigungssensors, wenn
 dieser, in einem ausgedachten Szenario, auf einem Auto liegen würden
@@ -63,16 +63,16 @@ unten oder oben zeigt. Ergeben die Daten Sinn? **(1 Paragraph, 2**
 
 7. Geben Sie die essenziellen Zeilen des Filter-Algorithmus in Python an. **(Code, 1 Punkt)**
 
-8. Führen Sie folgendes Experiment aus (Nehmen Sie daf¨ur den gegebenen
+8. Führen Sie folgendes Experiment aus (Nehmen Sie dafür den gegebenen
 Arduino Code **Lab1Code1** ): Nehmen Sie den Beschleunigungssensor in
 Ihre geschlossene Hand und bewegen Sie ihn sehr schnell pro Sekunde einmal
-hoch und runter (ohne Rotation). Führen Sie dies f¨ur 10 Sekunden aus und
+hoch und runter (ohne Rotation). Führen Sie dies für 10 Sekunden aus und
 speichern Sie die Daten.
 
 (a) Plotten Sie 4 Sekunden der Daten **(1 Darstellung, 1.5 Punkte)**
 
 (b) Diskutieren Sie die Plateaus der Peaks. Warum sind diese alle beim
-gleichen Wert? Wie könnte man dieses Problem l¨osen? **(1 Paragraph,**
+gleichen Wert? Wie könnte man dieses Problem lösen? **(1 Paragraph,**
 **1.5 Punkte)**
 
 9. Nutzen Sie den Ihnen zur Verfügung stehenden **Lab1Code2**, der eine Messung von bis zu 8 *g* ermöglicht und wiederholen Sie das Experiment. Plotten Sie wieder 4 Sekunden der Daten und vergleichen Sie den Plot mit dem aus der vorhergegangenen Aufgabe. Was sing Gemeinsamkeiten und welche Unterschiede gibt es und warum gibt es sie? **(1 Darstellung, 1 Paragraph, 2 Punkte)**
@@ -89,12 +89,12 @@ Batterie. Nehmen Sie mit dem Code **Lab1Code4** etwa 10 Sekunden auf
 Warum sind diese unterschiedlich? **(1 Paragraph, 2 Punkte)**
 
 13. Ihr abgegebener Code funktioniert und erzeugt die richtigen Plots, welche
-f¨ur diesen Bericht gefordert waren. **(1 Punkt)**
+für diesen Bericht gefordert waren. **(1 Punkt)**
 
 **Gesamte Punkte: 24**
 
 **Abgabe auf Sakai:**
-Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweise ( **Lab1_Groupnumber**) f¨ur die Gruppeneinreichung und speichern Sie die
+Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweise ( **Lab1_Groupnumber**) für die Gruppeneinreichung und speichern Sie die
 folgenden Dateien in dieser *.zip*-Datei:
 
  -  (optional) Laborbericht als PDF als *Bericht 1 Gruppe Gruppennummer*

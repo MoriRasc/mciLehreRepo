@@ -2,21 +2,21 @@
 
 In dieser Aufgabe soll das System mit einer Batterieversorgung betrieben werden.
 Da der Mikrocontroller über keine onboard Speichermöglichkeiten verfügt, wird
-daf¨ur das OpenLog Modul mit Qwiic Anschluss verwendet. Dieses kann Daten auf
+dafür das OpenLog Modul mit Qwiic Anschluss verwendet. Dieses kann Daten auf
 eine MicroSD Karte schreiben und erlaubt somit eine mobile und vom Computer
 losgelöste Aufnahme von Daten. Dadurch ergeben sich neue Einsatzgebiete wie
 Aufnahmen beim Gehen, Fahrradfahren oder anderen Sportaktivitäten, die zuvor
-durch einen station¨aren Computer limitiert wurden.
+durch einen stationären Computer limitiert wurden.
 
 1. **OpenLog mit Computer**
 
-(a) Zuerst werden Sie prüfen, ob ihr OpenLog Chip mit der dazugehörigen SD-Karte ordnungsgemäß funktioniert. Daf¨ur wird eine Verbindung mit dem Computer hergestellt und gleichzeitig die Daten auf die SD-Karte geschrieben. Zuerst muss die passende Bibliothek für das
+(a) Zuerst werden Sie prüfen, ob ihr OpenLog Chip mit der dazugehörigen SD-Karte ordnungsgemäß funktioniert. Dafür wird eine Verbindung mit dem Computer hergestellt und gleichzeitig die Daten auf die SD-Karte geschrieben. Zuerst muss die passende Bibliothek für das
 OpenLog Modul installiert werden. Dies findet ähnlich wie in Aufgabe
 2.1. über *Sketch →* *Bibliothek einbinden →* *Bibliotheken verwalten...*
 *→* Eingabe in Suchzeile: ” *SparkFun Qwiic OpenLog* “ *→* *installieren*
 statt.
 
-(b) Wie zuvor schon beim Beschleunigungssensor durchgeführt soll ¨uber
+(b) Wie zuvor schon beim Beschleunigungssensor durchgeführt soll über
 ***Datei*** *→* ***Beispiele*** *→* ***Beispiele aus eigenen Bibliotheken***
 **(ganz unten)** *→* ***SparkFun Qwiic OpenLog*** *→* ***Example1 Writing-***
 ***Log*** der Beispiel-Code geöffnet und hochgeladen werden.
@@ -59,7 +59,7 @@ Verbindung mit der 9 V Batterie einmal gedrückt werden. Dies startet
 das hochgeladene C-Programm neu.
 
 3. **Beschleunigungsdaten mit OpenLog und Batterieversorgung**
-In diesem Teil werden Sie Beschleunigungsdaten im batteriebetriebenen Zustand aufnehmen und auf der SD-Karte speichern. Daf¨ur müssen Sie ihr
+In diesem Teil werden Sie Beschleunigungsdaten im batteriebetriebenen Zustand aufnehmen und auf der SD-Karte speichern. Dafür müssen Sie ihr
 Programm vom Computer auf den Mikrocontroller laden, die Verbindung
 
 
@@ -67,8 +67,8 @@ Programm vom Computer auf den Mikrocontroller laden, die Verbindung
 anschließend trennen, das OpenLog- und Sensor-Modul mit Qwiic Kabeln
 verbinden (Reihenfolge egal) und die Batterie anschließen.
 
-**Aufgabe:** Um OpenLog und den Beschleunigungssensor gleichzeitig zu nutzen, m¨ussen Sie den Code der vorherigen Beispiele zusammenf¨ugen. Schreiben Sie ein neues Skript mit dem Namen *MobileAcceleration*, in dem eine
-mobile Datenerfassung und Sicherung von Beschleunigungswerten erm¨oglichen.
+**Aufgabe:** Um OpenLog und den Beschleunigungssensor gleichzeitig zu nutzen, müssen Sie den Code der vorherigen Beispiele zusammenfügen. Schreiben Sie ein neues Skript mit dem Namen *MobileAcceleration*, in dem eine
+mobile Datenerfassung und Sicherung von Beschleunigungswerten ermöglichen.
 
 **ACHTUNG: Fehlerbehebung**
 

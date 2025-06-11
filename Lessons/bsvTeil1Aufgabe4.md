@@ -14,12 +14,12 @@ nicht in der Arduino Umgebung statt.
 2. **Importieren der Daten**
 Die Daten werden entweder über die SD-Karte direkt gespeichert oder aus
 dem seriellen Monitor herauskopiert (dafür immer erst den Mikrocontroller
-vom PC trennen, um die Daten¨ubertragung zu stoppen).
+vom PC trennen, um die Datenübertragung zu stoppen).
 **Aufgabe:** Lesen Sie die Daten in ihrer Python Umgebung in einen **Pandas**
 **Dataframe** ein.
 
 3. **Verarbeitung und Darstellung**
-Für das Filtern der Daten sind verschiedene Bibliotheken in Python notwendig. F¨ur diesen Teil werden folgende Bibliotheken benötigt:
+Für das Filtern der Daten sind verschiedene Bibliotheken in Python notwendig. Für diesen Teil werden folgende Bibliotheken benötigt:
 
    - pandas
     - matplotlib.pyplot
