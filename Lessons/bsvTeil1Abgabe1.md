@@ -80,7 +80,7 @@ gleichen Wert? Wie könnte man dieses Problem l¨osen? **(1 Paragraph,**
 10. Nutzen Sie die gesammelten Daten, um die Messfrequenz zu bestimmen
 **(Code, 1 Punkt)**
 
-11. Wiederholen Sie das Experiment aus Aufgabe 8. mit **Lab1Code3** . Warum
+11. Wiederholen Sie das Experiment aus Aufgabe 8. mit **Lab1Code3**. Warum
 stellen die Daten nicht exakt die durchgeführten Bewegungen dar? **(2-3 Sätze, 1 Punkt)**
 
 12. Verwenden Sie das kabellose Messsystem und mit dem DataLogger und der
@@ -93,7 +93,7 @@ für diesen Bericht gefordert waren. **(1 Punkt)**
 
 **Gesamte Punkte: 24**
 
-**Abgabe auf Sakai:**
+## **Abgabe auf Sakai:**
 Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweise (Lab1_*Gruppe_Gruppennummer*) für die Gruppeneinreichung und speichern Sie die folgenden Dateien in dieser *.zip*-Datei:
 
  -  (optional) Laborbericht als PDF als *Bericht_1_Gruppe_Gruppennummer*
@@ -105,6 +105,6 @@ Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweis
   - Selbstgeschrieben Python Bibliotheken, welche für *MainCode1* benötigt
 werden
 
-  - **Bitte alles in eine** ***.zip*** **-Datei speichern!!!**
+  - **Bitte alles in eine *.zip* -Datei speichern!!!**
 
 

@@ -1,4 +1,6 @@
-# **Abgabe: Teil 2**
+  - Pflicht: Abgabe der Python Dateien in .zip-File
+
+  - Pflicht: Praktikumsbericht zu übrigen Fragen
 
 Für Teil 2 des Praktikums werden Sie einen Laborbericht einreichen müssen, in
 dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Der Bericht soll in LATEX geschrieben werden.
@@ -96,7 +98,7 @@ Antwort Beispiele und verweisen Sie auf die Literatur. **(1 langer Paragraph (un
 
 **Gesamte Punkte: 37**
 
-**Abgabe auf Sakai:**
+## **Abgabe auf Sakai:**
 Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweise (Lab2_*Gruppe_Gruppennummer*) für die Gruppeneinreichung und speichern Sie die
 folgenden Dateien in dieser *.zip* -Datei:
 
@@ -109,9 +111,9 @@ folgenden Dateien in dieser *.zip* -Datei:
   - Selbstgeschrieben Python Bibliotheken, welche für *MainCode2* benötigt
 werden
 
-  - **Bitte alles in eine** ***.zip*** **-Datei speichern!!!**
+  - **Bitte alles in eine *.zip* -Datei speichern!!!**
 
-# **Literaturverzeichnis**
+## **Literaturverzeichnis**
 
 [1] H. Hiilloskorpi, M. Pasanen, M. Fogelholm, R. M. Laukkanen, and
 A. Mänttäri, “Use of heart rate to predict energy expenditure from low to
