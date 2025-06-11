@@ -72,7 +72,7 @@ speichern Sie die Daten.
 (a) Plotten Sie 4 Sekunden der Daten **(1 Darstellung, 1.5 Punkte)**
 
 (b) Diskutieren Sie die Plateaus der Peaks. Warum sind diese alle beim
-gleichen Wert? Wie könnte man dieses Problem lösen? **(1 Paragraph,**
+gleichen Wert? Wie könnte man dieses Problem l¨osen? **(1 Paragraph,**
 **1.5 Punkte)**
 
 9. Nutzen Sie den Ihnen zur Verfügung stehenden **Lab1Code2**, der eine Messung von bis zu 8 *g* ermöglicht und wiederholen Sie das Experiment. Plotten Sie wieder 4 Sekunden der Daten und vergleichen Sie den Plot mit dem aus der vorhergegangenen Aufgabe. Was sing Gemeinsamkeiten und welche Unterschiede gibt es und warum gibt es sie? **(1 Darstellung, 1 Paragraph, 2 Punkte)**
@@ -94,10 +94,9 @@ für diesen Bericht gefordert waren. **(1 Punkt)**
 **Gesamte Punkte: 24**
 
 **Abgabe auf Sakai:**
-Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweise ( **Lab1_Groupnumber**) für die Gruppeneinreichung und speichern Sie die
-folgenden Dateien in dieser *.zip*-Datei:
+Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweise (Lab1_*Gruppe_Gruppennummer*) für die Gruppeneinreichung und speichern Sie die folgenden Dateien in dieser *.zip*-Datei:
 
- -  (optional) Laborbericht als PDF als *Bericht 1 Gruppe Gruppennummer*
+ -  (optional) Laborbericht als PDF als *Bericht_1_Gruppe_Gruppennummer*
 
   - **Main Skript der Python Auswertung als** ***MainCode1.ipynb***
 

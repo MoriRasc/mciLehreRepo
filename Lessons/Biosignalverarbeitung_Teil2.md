@@ -1,14 +1,14 @@
-### Praktikumsunterlagen
+# Praktikumsunterlagen
 ## **Biosignalverarbeitung - Teil 2**
-### WS 2024
+### WS 2025
 
 Bachelorstudiengang
 ### Medizin-, Gesundheits- und Sporttechnologie
 
 Autoren:
-#### *Yannic Heyer / Niklas Brown* *Adaptiert von: Gerda Strutzenberger, PhD / Lukas Neururer*
+#### *Yannic Heyer / Niklas Brown* *Adaptiert von: Gerda Strutzenberger, PhD / Lukas Neururer / Aitor Morillo*
 
-Letztes Update: 30. September 2024
+Letztes Update: 11. Juni 2025
 
 # **Inhaltsverzeichnis**
 
@@ -18,18 +18,9 @@ Letztes Update: 30. September 2024
 
 1.2 Teil 2 - Elektrokardiografie (EKG) . . . . . . . . . . . . . . . . . . 5
 
-**Literaturverzeichnis** **IV**
-
-**Abbildungsverzeichnis** **V**
-
-**Tabellenverzeichnis** **VI**
-
-1
-
-# **Kapitel 1** **Praktikum**
-
 In diesem Praktikum werden Sie lernen, mit frei verfügbarer Hardware Biosignale am Menschen aufzunehmen und die Daten über Programmierung zu filtern,
 verarbeiten und analysieren. Dabei werden Sie Biosignale vom Muskel-, Nervenund Herz-Kreislauf-System kennenlernen und für sich erforschen.
+
 ### **1.1 Organisatorisches**
 
 1. **Bewertung**
