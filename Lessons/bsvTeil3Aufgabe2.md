@@ -97,7 +97,7 @@ sich bei einem Gewicht von 50 % des MVC eine gemessene Muskelaktivierung von XYZ
 
 ## 3. **Berechnung der Spektralen Leistungsdichte**
 Für die Analyse von EMG-Signalen wird oft die spektrale Leistungsdichte
-bzw. eine Frequenzanalyse herangezogen. Dies wird nochmals unter folgendem [Link](https://www.intechopen.com/chapters/40123) beschrieben und erklärt (Englisch). Die Frequenzanalyse beruht auf der Fast Fourier Transformation, welche Sie unter folgendem [Link_FT_1](https://www.youtube.com/watch?v=spUNpyF58BY) und [Link_FT_2](https://www.youtube.com/watch?v=3gjJDuCAEQQ) als YouTube Video zur Wiederholung ansehen können. Mit dieser Anleitung werden Sie eine Spektralanalyse an Ihren EMG-Daten durchführen können. Dafür müssen Sie Ihre gefilterten Daten (Offset eliminiert und gefiltert) verwendet und folgende Schritte durchführen:
+bzw. eine Frequenzanalyse herangezogen. Dies wird nochmals unter folgendem [Link](https://www.intechopen.com/chapters/40123){:target="_blank"} beschrieben und erklärt (Englisch). Die Frequenzanalyse beruht auf der Fast Fourier Transformation, welche Sie unter folgendem [Link_FT_1](https://www.youtube.com/watch?v=spUNpyF58BY){:target="_blank"} und [Link_FT_2](https://www.youtube.com/watch?v=3gjJDuCAEQQ){:target="_blank"} als YouTube Video zur Wiederholung ansehen können. Mit dieser Anleitung werden Sie eine Spektralanalyse an Ihren EMG-Daten durchführen können. Dafür müssen Sie Ihre gefilterten Daten (Offset eliminiert und gefiltert) verwendet und folgende Schritte durchführen:
 
 (a) Isolieren Sie jeweils 0.5 Sekunden zu Beginn, in der Mitte und am Ende einer Aktivierung (Burst). Dadurch werden Sie drei neue Variablen
 erzeugen, welche jeweils einen Datensatz mit einer Länge von 0.5 Sekunden enthalten. Dies ist exemplarisch in Abbildung [1.6](../assets/img/aktEMG.bmp) dargestellt.
@@ -158,9 +158,9 @@ C. Disselhorst-Klug, and G. Hägg, “European recommendations for surface
 electromyography,” **Roessingh research and development**, vol. 8, no. 2,
 pp. 13–54, 1999.
 
-[[3] Website, online erhältlich unter: https://www.sportbachelor.com/lexikon/](https://www.sportbachelor.com/lexikon/maximum-voluntary-contraction-mvc/)
-[maximum-voluntary-contraction-mvc/; abgerufen am 25. August 2022.](https://www.sportbachelor.com/lexikon/maximum-voluntary-contraction-mvc/)
+[[3] Website, online erhältlich unter: https://www.sportbachelor.com/lexikon/](https://www.sportbachelor.com/lexikon/maximum-voluntary-contraction-mvc/){:target="_blank"}
+[maximum-voluntary-contraction-mvc/; abgerufen am 25. August 2022.](https://www.sportbachelor.com/lexikon/maximum-voluntary-contraction-mvc/){:target="_blank"}
 
-[[4] Website, online erhältlich unter: https://de.wikipedia.org/wiki/Isometrische](https://de.wikipedia.org/wiki/Isometrische_Kontraktion)
+[[4] Website, online erhältlich unter: https://de.wikipedia.org/wiki/Isometrische](https://de.wikipedia.org/wiki/Isometrische_Kontraktion){:target="_blank"}
 
-[Kontraktion; abgerufen am 25. August 2022.](https://de.wikipedia.org/wiki/Isometrische_Kontraktion)
+[Kontraktion; abgerufen am 25. August 2022.](https://de.wikipedia.org/wiki/Isometrische_Kontraktion){:target="_blank"}

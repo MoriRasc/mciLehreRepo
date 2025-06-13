@@ -12,7 +12,7 @@ folgende Stellen kleben:
 
 - Elektrode 1 (weiß) an das Manubrium
 
-- Elektrode 2 (rot) an den **[linken V6 Ableitpunkt](https://en.wikipedia.org/wiki/Electrocardiography#/media/File:Precordial_leads_in_ECG.png)** . Als Hilfestellung wird folgender **[Link](https://en.wikipedia.org/wiki/Electrocardiography#/media/File:Precordial_leads_in_ECG.png)** bereitgestellt, in dem das Ermitteln des V6
+- Elektrode 2 (rot) an den **[linken V6 Ableitpunkt](https://en.wikipedia.org/wiki/Electrocardiography#/media/File:Precordial_leads_in_ECG.png){:target="_blank"}** . Als Hilfestellung wird folgender **[Link](https://en.wikipedia.org/wiki/Electrocardiography#/media/File:Precordial_leads_in_ECG.png){:target="_blank"}** bereitgestellt, in dem das Ermitteln des V6
 erläutert wird.
 
 - Elektrode 3 (schwarz) ist die Referenzelektrode. Dies sollte möglichst
@@ -70,7 +70,7 @@ Textdatei hineinkopieren, um ihre Messwerte zu speichern.
 In diesem Experiment werden Sie ein 10-minütiges Ruhe-EKG aufnehmen.
 Nutzen Sie den Ihnen auf Sakai zur Verfügung gestellten Code **Lab2Code1**,
 bei dem mit einer Frequenz von 500 Hz und einer Baud Rate von 500000
-aufgenommen wird. **Achtung: Der serielle Monitor kann nur 10 Minuten (300.000 Zeilen) Daten bei 500 Hz aufnehmen. Drücken Sie bei Beginn den Button *Ausgabe löschen*, um Fehler zu vermei den (Siehe Abbildung 1.2)** . Wenn Sie dennoch einen längeren Zeitraum aufnehmen möchten oder eine Frequenz von 1000 Hz wählen, können Sie das OpenLog verwenden. Dies könnte vor allem für Ihr Abschlussprojekt interessant sein.
+aufgenommen wird. **Achtung: Der serielle Monitor kann nur 10 Minuten (300.000 Zeilen) Daten bei 500 Hz aufnehmen. Drücken Sie bei Beginn den Button *Ausgabe löschen*, um Fehler zu vermeiden (Siehe Abbildung 1.2)** . Wenn Sie dennoch einen längeren Zeitraum aufnehmen möchten oder eine Frequenz von 1000 Hz wählen, können Sie das OpenLog verwenden. Dies könnte vor allem für Ihr Abschlussprojekt interessant sein.
 
 (a) Bauen Sie die gesamte Hardware auf und laden Sie den Code auf Ihren
 Mikrocontroller
@@ -114,6 +114,6 @@ iii. Stoppen zu treten - 5 Minuten ruhen und Puls erholen lassen
 
 (b) **Experiment 2 - Conconi Test (15 min)**
 Für den Conconi Test schließen Sie bitte Ihr mobiles Setup an, da dieser etwa 14 Minuten dauert. Gehen Sie sicher, dass Ihre SD-Karte
-funktioniert und starten Sie die Messung. Die einzustellenden Leistungsstufen und die jeweilige Dauer sind unter folgendem **[Link](https://de.wikipedia.org/wiki/Conconi-Test#:~:text=Der%20Conconi%2DTest%20ist%20eine,an%20der%20anaeroben%20Schwelle%20festzustellen.)** zu finden.
+funktioniert und starten Sie die Messung. Die einzustellenden Leistungsstufen und die jeweilige Dauer sind unter folgendem **[Link](https://de.wikipedia.org/wiki/Conconi-Test#:~:text=Der%20Conconi%2DTest%20ist%20eine,an%20der%20anaeroben%20Schwelle%20festzustellen.){:target="_blank"}** zu finden.
 
 **WICHTIG: Wenn Sie sich körperlich nicht wohlfühlen, können Sie den Test jederzeit abbrechen. Denken Sie außerdem daran, genug Flüssigkeit zu sich zu nehmen, um Auswirkungen durch Dehydration zu vermeiden.**

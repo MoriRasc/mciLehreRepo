@@ -6,7 +6,7 @@ In diesem Teil des Praktikums werden Sie lernen bzw. vertiefen, wie sich die Her
 
 Die Berechnung der Herzfrequenz kann durch den Abstand zweier aufeinander folgender R-Zacken des QRS-Komplexes vorgenommen werden. Eine
 übliche Methode in Python ist die Verwendung der *scipy.signal* Bibliothek
-mit der **[find peaks Funktion](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.find_peaks.html)** . Diese funktioniert sehr gut in Kombination
+mit der **[find peaks Funktion](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.find_peaks.html){:target="_blank"}** . Diese funktioniert sehr gut in Kombination
 mit einem zusätzlichem Threshold, jedoch nur bei sehr sauberen Rohdaten. Auch wenn Sie alle zuvor beschriebenen Schritte befolgt haben, werden sie dennoch Rauschen und verschiedene Arten von Artefakten in Ihren
 
 Daten wiederfinden. Dadurch funktioniert eine einfache Kombination aus
@@ -23,7 +23,7 @@ import scipy.signal
 b, a = scipy.signal.butter(4, Wn, ’low’, analog=False)
 ecg_filtered = scipy.signal.filtfilt(b, a, ecg)
 ````
-Wenn wir uns nun über die digitalen Filtermöglichkeiten der des Butterworth Filters informieren, werden wir auf diese **[Website](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.butter.html)** gelangen. Dort
+Wenn wir uns nun über die digitalen Filtermöglichkeiten der des Butterworth Filters informieren, werden wir auf diese **[Website](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.butter.html){:target="_blank"}** gelangen. Dort
 wird für unsere kritische Frequenz folgende angegeben: *”For digital filters,if fs is not specified, Wn units are normalized from 0 to 1, where 1 is the Nyquist frequency (Wn is thus in half cycles / sample and defined as 2`*`critical frequencies / fs).“*
 
 Wenn wir eine Abtastrate von 1000 Hz wählen, liegt die Nyquist-Frequenz

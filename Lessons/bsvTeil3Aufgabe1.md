@@ -14,10 +14,10 @@ Elektrokardiografie an einem sehr knöchernen Körperteil mit wenig Muskelaktivi
 
   -  Schwarze Elektrode am Handgelenk, da der Abstand zum Messort gering gehalten werden soll
 
-  Beim Festkleben der Kabel auf der Haut soll dieses etwas lockerer festgeklebt werden, da somit mehr Spielraum bei der Muskelkontraktion und der dadurch entstehenden Bewegung entsteht. Dadurch können Bewegungsartefakte durch Kabelbewegungen reduziert werden. Bitte verwenden Sie die [**SENIAM**](http://www.seniam.org/)  Website, um dort über die Punkte *Recommendations →* *Sensor Locations* auf die Informationsseite für den Bizeps Brachii zu gelangen.
+  Beim Festkleben der Kabel auf der Haut soll dieses etwas lockerer festgeklebt werden, da somit mehr Spielraum bei der Muskelkontraktion und der dadurch entstehenden Bewegung entsteht. Dadurch können Bewegungsartefakte durch Kabelbewegungen reduziert werden. Bitte verwenden Sie die [**SENIAM**](http://www.seniam.org/){:target="_blank"}  Website, um dort über die Punkte *Recommendations →* *Sensor Locations* auf die Informationsseite für den Bizeps Brachii zu gelangen.
 Dort finden Sie die Vorschläge für eine optimale Platzierung auf dem Bizeps
 Brachii. Allgemeine Informationen für einen praxisnahen Einstieg in EMG
-Messungen können Sie in der **[EMG Fibel](http://www.velamed.com/wp-content/uploads/EMG-FIBEL-V1.1.pdf)** von Peter Konrad nachlesen [[2]](#2).
+Messungen können Sie in der **[EMG Fibel](http://www.velamed.com/wp-content/uploads/EMG-FIBEL-V1.1.pdf){:target="_blank"}** von Peter Konrad nachlesen [[2]](#2).
 
 ## 2. **Datenakquise mit dem EKG-Setup**
 Dieser Teil wird durchgeführt, um die Funktionalität des Setups zu prüfen.
@@ -80,8 +80,8 @@ werden. Die Messung für die MVC muss wiederholt werden, sobald
 die Elektroden neu angebracht wurden.
 
 In diesem Experiment werden sie eine isometrische Kraftübung für die
-Messung der MVC verwenden. Bei einer **[isometrische Muskelkon-](https://de.wikipedia.org/wiki/Isometrische_Kontraktion)**
-**[traktion](https://de.wikipedia.org/wiki/Isometrische_Kontraktion)** ändert sich die Länge des Muskels nicht, sondern nur die
+Messung der MVC verwenden. Bei einer **[isometrische Muskelkon-](https://de.wikipedia.org/wiki/Isometrische_Kontraktion){:target="_blank"}**
+**[traktion](https://de.wikipedia.org/wiki/Isometrische_Kontraktion){:target="_blank"}** ändert sich die Länge des Muskels nicht, sondern nur die
 Spannung im Muskel [[4]](#4).
 **Schlagen Sie nach, welche isometrischen Maximalkraft Übungen für Sie durchführbar sind. Halten Sie diese schriftlich und**
 **auch auf Bildern fest, um diese anschließend in Ihren Prak-**
@@ -138,12 +138,12 @@ Daten aus dem seriellen Monitor. Machen Sie eine Pause von mind. 60 Sekunden **u
 
 # **Literaturverzeichnis**
 <a id="2">[2]</a> 
-[P. Konrad, “Emg-fibel,” **Eine praxisorientierte Einführung in die kinesiologische Elektromyographie, 2011: http://www.velamed.com/wp-content/uploads/EMG-FIBEL-V1.1.pdf](http://www.velamed.com/wp-content/uploads/EMG-FIBEL-V1.1.pdf)
+[P. Konrad, “Emg-fibel,” **Eine praxisorientierte Einführung in die kinesiologische Elektromyographie, 2011: http://www.velamed.com/wp-content/uploads/EMG-FIBEL-V1.1.pdf](http://www.velamed.com/wp-content/uploads/EMG-FIBEL-V1.1.pdf){:target="_blank"}
 
 <a id="3">[3]</a> 
-[[3] Website, online erhältlich unter: https://www.sportbachelor.com/lexikon/](https://www.sportbachelor.com/lexikon/maximum-voluntary-contraction-mvc/)
-[maximum-voluntary-contraction-mvc/; abgerufen am 25. August 2022.](https://www.sportbachelor.com/lexikon/maximum-voluntary-contraction-mvc/)
+[Website, online erhältlich unter: https://www.sportbachelor.com/lexikon/](https://www.sportbachelor.com/lexikon/maximum-voluntary-contraction-mvc/){:target="_blank"}
+[maximum-voluntary-contraction-mvc/; abgerufen am 25. August 2022.](https://www.sportbachelor.com/lexikon/maximum-voluntary-contraction-mvc/){:target="_blank"}
 
 <a id="3">[4]</a> 
-[[4] Website, online erhältlich unter: https://de.wikipedia.org/wiki/Isometrische](https://de.wikipedia.org/wiki/Isometrische_Kontraktion)
-[Kontraktion; abgerufen am 25. August 2022.](https://de.wikipedia.org/wiki/Isometrische_Kontraktion)
+[Website, online erhältlich unter: https://de.wikipedia.org/wiki/Isometrische](https://de.wikipedia.org/wiki/Isometrische_Kontraktion){:target="_blank"}
+[Kontraktion; abgerufen am 25. August 2022.](https://de.wikipedia.org/wiki/Isometrische_Kontraktion){:target="_blank"}

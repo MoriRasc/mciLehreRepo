@@ -57,5 +57,5 @@ mit der Tastenkombination *Strg + A* (Alles auswählen) *→* *Strg + C* (Kopier
 seriellen Monitor/Plotter übereinstimmen, sonst werden keine Daten angezeigt.
 
   - Falls der Fehler *”NoSuchFileException“* beim Download der Bibliothek für
-den Beschleunigungssensor entsteht, gibt es in diesem **[Forum](https://forum.arduino.cc/t/library-manager-cant-install-update-libraries/465361)** mögliche Lösungsansätze.
+den Beschleunigungssensor entsteht, gibt es in diesem **[Forum](https://forum.arduino.cc/t/library-manager-cant-install-update-libraries/465361){:target="_blank"}** mögliche Lösungsansätze.
 
