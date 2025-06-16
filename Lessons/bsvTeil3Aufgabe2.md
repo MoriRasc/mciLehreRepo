@@ -39,16 +39,20 @@ weights, mvc, fatigue = lf3.import_data(’\t’)
 Erfüllen Sie nun die vier angegebenen Schritte. In Abbildung [1.1](../assets/img/offEMG.bmp) , [1.2](../assets/img/filtEMG.bmp) , [1.3](../assets/img/gleiEMG.bmp) und [1.4](../assets/img/einhuEMG.bmp) werden die vier Schritte an  Beispieldaten gezeigt und sollen Ihnen als Kontrolle dienen.
 
 ![Abbildung 1.1](../assets/img/offEMG.bmp)
+
 [Abbildung 1.1](../assets/img/offEMG.bmp): Offset-Korrektur der EMG-Daten.
 
 
 ![Abbildung 1.2](../assets/img/filtEMG.bmp)
+
 [Abbildung 1.2](../assets/img/filtEMG.bmp): Filtern der EMG-Daten.
 
 ![Abbildung 1.3](../assets/img/gleiEMG.bmp)
+
 [Abbildung 1.3](../assets/img/gleiEMG.bmp): Gleichrichten der EMG-Daten.
 
 ![Abbildung 1.4](../assets/img/einhuEMG.bmp)
+
 [Abbildung 1.4](../assets/img/einhuEMG.bmp): Einhüllende der EMG-Daten. Verwenden Sie eine Tiefpass Grenzfrequenz von 3 Hz, um eine Einhüllende zu erzeugen.
 Testen Sie auch andere Grenzfrequenzen bzw. setzen Sie eigene Algorithmen um.
 
@@ -99,15 +103,13 @@ sich bei einem Gewicht von 50 % des MVC eine gemessene Muskelaktivierung von XYZ
 Für die Analyse von EMG-Signalen wird oft die spektrale Leistungsdichte
 bzw. eine Frequenzanalyse herangezogen. Dies wird nochmals unter folgendem [Link](https://www.intechopen.com/chapters/40123){:target="_blank"} beschrieben und erklärt (Englisch). Die Frequenzanalyse beruht auf der Fast Fourier Transformation, welche Sie unter folgendem [Link_FT_1](https://www.youtube.com/watch?v=spUNpyF58BY){:target="_blank"} und [Link_FT_2](https://www.youtube.com/watch?v=3gjJDuCAEQQ){:target="_blank"} als YouTube Video zur Wiederholung ansehen können. Mit dieser Anleitung werden Sie eine Spektralanalyse an Ihren EMG-Daten durchführen können. Dafür müssen Sie Ihre gefilterten Daten (Offset eliminiert und gefiltert) verwendet und folgende Schritte durchführen:
 
-1. Isolieren Sie jeweils 0.5 Sekunden zu Beginn, in der Mitte und am Ende einer Aktivierung (Burst). Dadurch werden Sie drei neue Variablen
-erzeugen, welche jeweils einen Datensatz mit einer Länge von 0.5 Sekunden enthalten. Dies ist exemplarisch in Abbildung [1.6](../assets/img/aktEMG.bmp) dargestellt.
+1. Isolieren Sie jeweils 0.5 Sekunden zu Beginn, in der Mitte und am Ende einer Aktivierung (Burst). Dadurch werden Sie drei neue Variablen erzeugen, welche jeweils einen Datensatz mit einer Länge von 0.5 Sekunden enthalten. Dies ist exemplarisch in Abbildung [1.6](../assets/img/aktEMG.bmp) dargestellt.
 
 ![Abbildung 1.6](../assets/img/aktEMG.bmp)
 
 [Abbildung 1.6](../assets/img/aktEMG.bmp): Auswahl von drei 0.5 Sekunden langen Intervallen am Anfang, in der Mitte und zum Ende einer EMG-Aktivierung.
 
-2. Berechnen Sie nun für jeden der drei isolierten Teile die spektrale Leistungsdichte mit der *get power* Funktion aus dem **Lab3Functions**
-Code.
+2. Berechnen Sie nun für jeden der drei isolierten Teile die spektrale Leistungsdichte mit der *get power* Funktion aus dem **Lab3Functions** Code.
 
 ````python
 power, frequencies = l3f.get_power(EMGdata, samplingfreq)

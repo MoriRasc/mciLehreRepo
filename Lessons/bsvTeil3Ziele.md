@@ -13,7 +13,7 @@ zuckenden motorischen Einheiten mit der Muskelermüdung korreliert
 
 
 <a id="1">[1]</a> 
-[1] H. J. Hermens, B. Freriks, R. Merletti, D. Stegeman, J. Blok, G. Rau,
+H. J. Hermens, B. Freriks, R. Merletti, D. Stegeman, J. Blok, G. Rau,
 C. Disselhorst-Klug, and G. Hägg, “European recommendations for surface
 electromyography,” **Roessingh research and development**, vol. 8, no. 2,
 pp. 13–54, 1999.
