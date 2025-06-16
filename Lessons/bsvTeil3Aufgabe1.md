@@ -4,9 +4,7 @@ In dieser Aufgabe lernen Sie, das EMG-Messsystem aufzubauen und damit Rohdaten a
 Messungen mit dem EKG-System besprochen.
 
 ## 1. **Platzierung der Elektroden und Verbindungen**
-In diesem Praktikum wird die Muskelaktivität des Bizeps Brachii untersucht. Die beiden Messelektroden sollten einen Abstand von 2 cm von Elektrodenmitte zu Elektrodenmitte aufweisen und entlang des Muskels auf
-dem Muskelbauch platziert sein. Die Referenzelektrode sollte wie bei der
-Elektrokardiografie an einem sehr knöchernen Körperteil mit wenig Muskelaktivität angebracht werden.
+In diesem Praktikum wird die Muskelaktivität des Bizeps Brachii untersucht. Die beiden Messelektroden sollten einen Abstand von 2 cm von Elektrodenmitte zu Elektrodenmitte aufweisen und entlang des Muskels auf dem Muskelbauch platziert sein. Die Referenzelektrode sollte wie bei der Elektrokardiografie an einem sehr knöchernen Körperteil mit wenig Muskelaktivität angebracht werden.
 
   - Weiße Elektrode auf der Mitte des Muskels (Muskelbauch)
 
@@ -45,33 +43,30 @@ Mikrocontroller verbaute ADC ist nicht besonders genau, weshalb wir einen
 12 Bit ADC über die Qwiic Kabel anschließen werden, um so die Genauigkeit der Messwerte zu erhöhen. Die folgenden Schritte beschreiben, wie Sie
 den ADC in ihrem Messsystem integrieren:
 
-(a) Verbinden Sie das vierfache Kabel (schwarz/rot/weiß/gelb) mit dem
+1. Verbinden Sie das vierfache Kabel (schwarz/rot/weiß/gelb) mit dem
 EMG-Sensor
 
-(b) Anstelle der direkten Verbindung der Jumper-Kabel, werden diese nun
+2. Anstelle der direkten Verbindung der Jumper-Kabel, werden diese nun
 in den ADC über Schraubklemmen befestigt. Rot ist mit VCC, schwarz
 mit GND und gelb mit A0 zu verbinden und mit einem Schraubenzieher festzuziehen.
 
-(c) Den ADC über ein Qwiic Kabel mit dem Mikrocontroller verbinden
+3. Den ADC über ein Qwiic Kabel mit dem Mikrocontroller verbinden
 
-(d) Installieren Sie nun folgende Bibliothek in der Arduino IDE: *SparkFun*
+4. Installieren Sie nun folgende Bibliothek in der Arduino IDE: *SparkFun*
 *ADS1015 Arduino Library*
 
-(e) Öffnen Sie nun über *Datei →* *Beispiele →* *SparkFun ADS1015 Arduino Library →* *Example1 ReadBasic* den Code und laden Sie diesen auf den
+5. Öffnen Sie nun über *Datei →* *Beispiele →* *SparkFun ADS1015 Arduino Library →* *Example1 ReadBasic* den Code und laden Sie diesen auf den
 Mikrocontroller. **Ändern Sie den analogen Kanal im Code auf A0 - dort wird bisher A3 verwendet** .
 
-(f) Öffnen Sie den seriellen Plotter und sehen Sie sich die neuen Messdaten an.
+6. Öffnen Sie den seriellen Plotter und sehen Sie sich die neuen Messdaten an.
 
 Anstelle der bisherigen 80 Diskretisierungen werden nun bis zu 300 Schritte
 vorgenommen. Sie haben somit eine deutlich feinere Auflösung erreicht und
 können damit fortfahren. Für das folgende Experiment wird Ihnen der Code
-**Lab3Code1** auf Sakai bereitgestellt. Dieser Code ermöglicht eine Aufnahme der Rohsignale bei einer Abtastrate von 1000 Hz, wofür die Baud-Rate
-auf 500.000 eingestellt ist, um einen schnellen und sicheren Datentransfer
+**Lab3Code1** auf Sakai bereitgestellt. Dieser Code ermöglicht eine Aufnahme der Rohsignale bei einer Abtastrate von 1000 Hz, wofür die Baud-Rate auf 500.000 eingestellt ist, um einen schnellen und sicheren Datentransfer
 zu gewährleisten.
 
-## 4. **Experimente**
-
-### (a) **Experiment 1 - Maximum Voluntary Contraction (MVC)**
+## **Experiment 1: Maximum Voluntary Contraction (MVC)**
 
 Die MVC ist ein Parameter, welcher im Krafttraining verwendet wird
 und der führ das Gewicht steht, welches der oder die SportlerIn einfach maximal bewältigen kann [[3]](#3). Die MVC Messung wird sich für
@@ -80,12 +75,10 @@ werden. Die Messung für die MVC muss wiederholt werden, sobald
 die Elektroden neu angebracht wurden.
 
 In diesem Experiment werden sie eine isometrische Kraftübung für die
-Messung der MVC verwenden. Bei einer **[isometrische Muskelkon-](https://de.wikipedia.org/wiki/Isometrische_Kontraktion){:target="_blank"}**
-**[traktion](https://de.wikipedia.org/wiki/Isometrische_Kontraktion){:target="_blank"}** ändert sich die Länge des Muskels nicht, sondern nur die
+Messung der MVC verwenden. Bei einer **[isometrische Muskelkontraktion](https://de.wikipedia.org/wiki/Isometrische_Kontraktion){:target="_blank"}**
+ändert sich die Länge des Muskels nicht, sondern nur die
 Spannung im Muskel [[4]](#4).
-**Schlagen Sie nach, welche isometrischen Maximalkraft Übungen für Sie durchführbar sind. Halten Sie diese schriftlich und**
-**auch auf Bildern fest, um diese anschließend in Ihren Prak-**
-**tikumsbericht einzubinden.**
+**Schlagen Sie nach, welche isometrischen Maximalkraft Übungen für Sie durchführbar sind. Halten Sie diese schriftlich und auch auf Bildern fest, um diese anschließend in Ihren Praktikumsbericht einzubinden.**
 
 Für alle Experimente sollten Sie mindestens 1-2 Sekunden vor und
 nach der geplanten Muskelkontraktion eine Pause einlegen und den
@@ -93,46 +86,45 @@ Muskel nicht anspannen. Dadurch können Sie bei der Analyse Ihrer
 Daten besser die Zeitpunkte der Kontraktion identifizieren. Gehen Sie
 nun folgendermaßen vor:
 
-i. Nutzen Sie den **Lab3Code1** während Sie mit dem Computer verbunden sind. Passen Sie die Baud Rate im seriellen Monitor auf 500.000 an. Starten Sie den Mikrocontroller.
+1. Nutzen Sie den **Lab3Code1** während Sie mit dem Computer verbunden sind. Passen Sie die Baud Rate im seriellen Monitor auf 500.000 an. Starten Sie den Mikrocontroller.
 
-ii. Greifen Sie z.B. den Tisch mit Ihrer Hand, während der Oberarmvertikal und der Unterarm um 90° gebeugt ist. Versuchen Sie den Tisch hochzuheben, ohne dabei den Winkel von 90° zu verändern (Lassen Sie Ihre Kommilitonen auf dem Tisch sitzen, falls der Tisch sich dabei bewegen sollte). Führen Sie dieses Heben für etwa 5 Sekunden aus, wobei Sie mit maximaler Kraft heben möchten. Versuchen Sie dabei die Kabel so wenig wie möglich zu bewegen.
+2. Greifen Sie z.B. den Tisch mit Ihrer Hand, während der Oberarmvertikal und der Unterarm um 90° gebeugt ist. Versuchen Sie den Tisch hochzuheben, ohne dabei den Winkel von 90° zu verändern (Lassen Sie Ihre Kommilitonen auf dem Tisch sitzen, falls der Tisch sich dabei bewegen sollte). Führen Sie dieses Heben für etwa 5 Sekunden aus, wobei Sie mit maximaler Kraft heben möchten. Versuchen Sie dabei die Kabel so wenig wie möglich zu bewegen.
 
-iii. Trennen Sie den Mikrocontroller vom Laptop.
+3. Trennen Sie den Mikrocontroller vom Laptop.
 
-iv. Machen Sie eine Pause von mindestens 60 Sekunden und wieder
+4. Machen Sie eine Pause von mindestens 60 Sekunden und wieder
 holen Sie den Versuch weitere zwei Male, um drei Datensätze für
 die MVC zu erhalten. Kopieren Sie nach jedem Lauf die Daten aus
 dem seriellen Monitor in eine Text-Datei und benennen Sie diese
 ordentlich (MVC 1,...). **Nehmen Sie nicht alle drei Messungen in einem Durchgang auf, da es zu Komplikationen mit dem seriellen Monitor kommen kann. Sie können als Sicherheit eine vierte Messung aufnehmen.**
 
-### (b) **Experiment 2 - Relative Muskelaktivität**
+## **Experiment 2: Relative Muskelaktivität**
 
 In diesem Experiment werden Sie ähnlich zum Experiment 1 vorgehen, jedoch mit drei verschiedenen Gewichten, welche bei etwa 25 %,
 50 % und 75 % liegen des MVC liegen sollten. Suchen Sie sich also drei
 unterschiedliche Gewichte und dokumentieren Sie diese. Nutzen Sie
 folgende Vorgehensweise:
 
-i. Halten Sie das Gewicht in derselben Position wie in Experiment
+1. Halten Sie das Gewicht in derselben Position wie in Experiment
 1 (90° Winkel)
 
-ii. Schalten Sie den Mikrocontroller an mit dem **Lab3Code1** und
+2. Schalten Sie den Mikrocontroller an mit dem **Lab3Code1** und
 halten Sie das leichteste Gewicht für 10 Sekunden
 
-iii. Trennen Sie den Mikrocontroller und Laptop, speichern Sie die
+3. Trennen Sie den Mikrocontroller und Laptop, speichern Sie die
 Daten aus dem seriellen Monitor. Machen Sie eine Pause von mind. 40 Sekunden **und wiederholen Sie die Messung mit dem mittleren und schweren Gewicht**
 
-### (c) **Experiment 3 - Ermüdung** In diesem Experiment werden Sie eine
-Ermüdung des Muskels messen, indem Sie ein ähnliches Setup wie in
-Experiment 1 verwenden. Gehen Sie folgendermaßen vor:
+## **Experiment 3: Ermüdung** 
+In diesem Experiment werden Sie eine Ermüdung des Muskels messen, indem Sie ein ähnliches Setup wie in Experiment 1 verwenden. Gehen Sie folgendermaßen vor:
 
-i. Gehen Sie zurück zum Tisch, welchen Sie zum heben verwendet
+1. Gehen Sie zurück zum Tisch, welchen Sie zum heben verwendet
 haben
 
-ii. Nutzen Sie **Lab3Code1** und starten Sie die Messung. Messen Sie
+2. Nutzen Sie **Lab3Code1** und starten Sie die Messung. Messen Sie
 die maximale Kontraktion (so stark wie möglich!) über volle 10-15
 Sekunden
 
-iii. Trennen Sie den Mikrocontroller und Laptop, speichern Sie die
+3. Trennen Sie den Mikrocontroller und Laptop, speichern Sie die
 Daten aus dem seriellen Monitor. Machen Sie eine Pause von mind. 60 Sekunden **und wiederholen Sie die Messung zweimal, sodass Sie drei Datensätze der Ermüdung erhalten.**
 
 

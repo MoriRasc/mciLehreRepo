@@ -13,7 +13,7 @@ sie in diesem Experiment anders eingesetzt wurden. **(1 Darstellung, Absatz oder
 2. Zeigen Sie von einem Gruppenmitglied Screenshots des seriellen Plotters,
 nachdem Sie folgende 3 Konfigurationen durchgeführt haben.
 
-  - Analog Serial Read (Achsen wie in Aufgabe 1.3 ändern)
+  -  Analog Serial Read (Achsen wie in Aufgabe 1.3 ändern)
 
   - Analog Serial Read
 
@@ -33,10 +33,10 @@ für jeden Burst an und beschreiben Sie die Unterschiede, die Sie feststellen.
 
 3. Stellen Sie sich vor, Sie versuchen, Ihren Bizeps zu kontrahieren.
 
-(a) Wie kann ein einzelnes motorisches Neuron, ausgehend von der neuromuskulären Verbindung, ein Aktionspotenzial in einer Muskelfaser
+-  Wie kann ein einzelnes motorisches Neuron, ausgehend von der neuromuskulären Verbindung, ein Aktionspotenzial in einer Muskelfaser
 auslösen? **(1 Absatz; 1 Punkt)**
 
-(b) Wie führt ein Aktionspotenzial in einer Muskelfaser zu einer Muskelkontraktion? **(1 Absatz; 1 Punkt)**
+-  Wie führt ein Aktionspotenzial in einer Muskelfaser zu einer Muskelkontraktion? **(1 Absatz; 1 Punkt)**
 
 
 4. Erläutern Sie in einem Absatz, wie die Aktivität der einzelnen Muskelfasern zu dem von den EMG-Elektroden gemessenen zusammengesetzten
@@ -48,8 +48,7 @@ gering sind **(1 Absatz; 3 Punkte)**
 gleichrichten, Hüllkurve) und präsentieren Sie die Ergebnisse. Erläutern Sie, wie Sie die Daten vorverarbeitet haben und warum jeder Schritt notwendig ist **(1 Abbildung mit 3 Subplots; 1 Absatz, 3 Punkte)**
 
 6. Geben Sie in einer Tabelle die mittlere MVC-Muskelaktivität für jedes Mitglied Ihrer Gruppe an. Geben Sie unbedingt die Einheiten an. Wenn die Daten in irgendeiner Weise ungewöhnlich sind (z.B. die MVC eines Mitglieds
-ist viel höher oder niedriger als die aller anderen), beschreiben Sie bitte die
-Probleme und stellen Sie eine Hypothese auf, warum sie aufgetreten sein
+ist viel höher oder niedriger als die aller anderen), beschreiben Sie bitte die Probleme und stellen Sie eine Hypothese auf, warum sie aufgetreten sein
 könnten **(1 Tabelle mit kleiner Erklärung; 1 Punkt)**
 
 7. Beschreiben Sie kurz den Aufbau Ihres MVC-Experiments. Warum erlaubt
@@ -69,9 +68,7 @@ den Frequenzgehalt des gemessenen EMGs darstellt. Hinweis: Erläutern Sie
 die Fasertypen. **(Diagramm(e) und 1 Absatz; 3 Punkte)**
 
 11. Berechnen Sie die Medianfrequenz jedes Leistungsspektrums und stellen Sie die Veränderung der Medianfrequenz zu Beginn, in der Mitte und am Ende
-jedes Ermüdungstests für eines Ihrer Gruppenmitglieder dar (siehe [1.11](../assets/img/ermMedMes.bmp)). Die Abbildung sollte neun Datenpunkte enthalten, wobei die drei Datenpunkte jedes Versuchs durch Linien verbunden werden. Erläutern Sie in ein
-paar Sätzen, ob diese Muster Ihren Erwartungen entsprechen und warum,
-einschließlich der Frage, ob die Muster zwischen den drei wiederholten Versuchen konsistent sind. **(1 Abbildung, ein paar Sätze; 3 Punkte)**
+jedes Ermüdungstests für eines Ihrer Gruppenmitglieder dar (siehe [1.11](../assets/img/ermMedMes.bmp)). Die Abbildung sollte neun Datenpunkte enthalten, wobei die drei Datenpunkte jedes Versuchs durch Linien verbunden werden. Erläutern Sie in ein paar Sätzen, ob diese Muster Ihren Erwartungen entsprechen und warum, einschließlich der Frage, ob die Muster zwischen den drei wiederholten Versuchen konsistent sind. **(1 Abbildung, ein paar Sätze; 3 Punkte)**
 
 ![Abbildung 1.11](../assets/img/ermMedMes.bmp)
 

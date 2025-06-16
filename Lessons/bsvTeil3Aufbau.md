@@ -1,4 +1,21 @@
-# **Hardware Setup**
+**Benötigte Komponenten**
+
+1. Mikrocontroller mit USB-Kabel
+
+2. 12 Bit ADC Konverter mit Qwiic Kabel
+
+3. EMG /EKG Sensor mit Elektroden
+
+4. 3 Jumper Kabel
+
+**Benötigte Software**
+
+1. Python (Jupiter Notebook / VS Code)
+
+2. Arduino IDE
+
+
+## **Hardware Setup**
 
 Folgende Schritte sind durchzuführen, um den EKG-Sensor an den Mikrocontroller anzuschließen:
     
@@ -8,9 +25,9 @@ Folgende Schritte sind durchzuführen, um den EKG-Sensor an den Mikrocontroller 
 
     *schwarz* = *GND*
 
-    *rot* = *V CC*
+    *rot* = *V<sub>CC</sub>*
 
-    *gelb* = *V OUT*
+    *gelb* = *V<sub>OUT</sub>*
 
 3. Die rote Verbindung versorgt den Sensor mit Strom und muss mit dem 3.3 V Eingangs des Mikrocontrollers verbunden werden.
 

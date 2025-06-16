@@ -15,13 +15,13 @@ Schwingung gilt es zu eliminieren, indem die Absolutwerte zur Berechnung
 herangezogen werden. Abschließend werden die Daten nochmals Tiefpass
 gefiltert, um eine Einhüllende der absoluten Werte zu bilden. Die Verarbeitung wird nachfolgend in vier Schritte aufgeteilt.
 
-(a) Offset eliminieren
+1. Offset eliminieren
 
-(b) EMG Signal filtern (20 bis 450 Hz Butterworth)
+2. EMG Signal filtern (20 bis 450 Hz Butterworth)
 
-(c) Gleichrichten des Signals
+3. Gleichrichten des Signals
 
-(d) Einhüllende bilden
+4. Einhüllende bilden
 
 Für die folgenden Schritte werden Sie die Python Bibliotheken *matplot-*
 *lib.pyplot*, *numpy*, *scipy.signal* und die Ihnen auf Sakai zur Verfügung gestellte Bibliothek *Lab3Functions* benötigen. Ihnen werden gewisse Teile des Codes zur Verfügung gestellt, um die Struktur des Codes vorzugeben und
@@ -99,14 +99,14 @@ sich bei einem Gewicht von 50 % des MVC eine gemessene Muskelaktivierung von XYZ
 Für die Analyse von EMG-Signalen wird oft die spektrale Leistungsdichte
 bzw. eine Frequenzanalyse herangezogen. Dies wird nochmals unter folgendem [Link](https://www.intechopen.com/chapters/40123){:target="_blank"} beschrieben und erklärt (Englisch). Die Frequenzanalyse beruht auf der Fast Fourier Transformation, welche Sie unter folgendem [Link_FT_1](https://www.youtube.com/watch?v=spUNpyF58BY){:target="_blank"} und [Link_FT_2](https://www.youtube.com/watch?v=3gjJDuCAEQQ){:target="_blank"} als YouTube Video zur Wiederholung ansehen können. Mit dieser Anleitung werden Sie eine Spektralanalyse an Ihren EMG-Daten durchführen können. Dafür müssen Sie Ihre gefilterten Daten (Offset eliminiert und gefiltert) verwendet und folgende Schritte durchführen:
 
-(a) Isolieren Sie jeweils 0.5 Sekunden zu Beginn, in der Mitte und am Ende einer Aktivierung (Burst). Dadurch werden Sie drei neue Variablen
+1. Isolieren Sie jeweils 0.5 Sekunden zu Beginn, in der Mitte und am Ende einer Aktivierung (Burst). Dadurch werden Sie drei neue Variablen
 erzeugen, welche jeweils einen Datensatz mit einer Länge von 0.5 Sekunden enthalten. Dies ist exemplarisch in Abbildung [1.6](../assets/img/aktEMG.bmp) dargestellt.
 
 ![Abbildung 1.6](../assets/img/aktEMG.bmp)
 
 [Abbildung 1.6](../assets/img/aktEMG.bmp): Auswahl von drei 0.5 Sekunden langen Intervallen am Anfang, in der Mitte und zum Ende einer EMG-Aktivierung.
 
-(b) Berechnen Sie nun für jeden der drei isolierten Teile die spektrale Leistungsdichte mit der *get power* Funktion aus dem **Lab3Functions**
+2. Berechnen Sie nun für jeden der drei isolierten Teile die spektrale Leistungsdichte mit der *get power* Funktion aus dem **Lab3Functions**
 Code.
 
 ````python
@@ -118,7 +118,7 @@ Das Ergebnis der Funktion sollte ähnlich wie in Abbildung [1.7](../assets/img/a
 
 [Abbildung 1.7](../assets/img/ausEMG.bmp): Auswahl von eines 0.5 Sekunden langen Intervalls nach Anwendung der Filter.
 
-(c) Filtern Sie die spektrale Leistungsdichte mit dem gleichen *butterworth* Filter, mit dem Sie auch die Einhüllende der Muskelaktivität berechnet haben und einer cutoff-Frequenz von 40 Hz. Das gefilterte Spektrum wird in Abbildung [1.8](../assets/img/ausFilEMG.bmp) gezeigt.
+3. Filtern Sie die spektrale Leistungsdichte mit dem gleichen *butterworth* Filter, mit dem Sie auch die Einhüllende der Muskelaktivität berechnet haben und einer cutoff-Frequenz von 40 Hz. Das gefilterte Spektrum wird in Abbildung [1.8](../assets/img/ausFilEMG.bmp) gezeigt.
 
 ![Abbildung 1.8](../assets/img/ausFilEMG.bmp)
 
@@ -158,9 +158,6 @@ C. Disselhorst-Klug, and G. Hägg, “European recommendations for surface
 electromyography,” **Roessingh research and development**, vol. 8, no. 2,
 pp. 13–54, 1999.
 
-[[3] Website, online erhältlich unter: https://www.sportbachelor.com/lexikon/](https://www.sportbachelor.com/lexikon/maximum-voluntary-contraction-mvc/){:target="_blank"}
-[maximum-voluntary-contraction-mvc/; abgerufen am 25. August 2022.](https://www.sportbachelor.com/lexikon/maximum-voluntary-contraction-mvc/){:target="_blank"}
+[3] Website, online erhältlich unter: [https://www.sportbachelor.com/lexikon/](https://www.sportbachelor.com/lexikon/maximum-voluntary-contraction-mvc/){:target="_blank"}; abgerufen am 25. August 2022.
 
-[[4] Website, online erhältlich unter: https://de.wikipedia.org/wiki/Isometrische](https://de.wikipedia.org/wiki/Isometrische_Kontraktion){:target="_blank"}
-
-[Kontraktion; abgerufen am 25. August 2022.](https://de.wikipedia.org/wiki/Isometrische_Kontraktion){:target="_blank"}
+[4] Website, online erhältlich unter: [https://de.wikipedia.org/wiki/Isometrische](https://de.wikipedia.org/wiki/Isometrische_Kontraktion){:target="_blank"} ; abgerufen am 25. August 2022.

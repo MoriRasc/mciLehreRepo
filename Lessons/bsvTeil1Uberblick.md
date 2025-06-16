@@ -53,7 +53,7 @@ besprochen und einige Beispiele aufgezeigt. **Abgabe von Python**
 **für dieses Praktikum die Version 1.8.19, welche als Legacy**
 **Version geführt wird (Siehe [Abbildung 1.1](../assets/img/arduinoLegacy.bmp)).**
 
-  ![Abbildung 1.1](../assets/img/arduinoLegacy.bmp)
+![Abbildung 1.1](../assets/img/arduinoLegacy.bmp)
 [Abbildung 1.1](../assets/img/arduinoLegacy.bmp): Arduino IDE 1.8.19
 
 (b) **Teil 2 - Elektrokardiografie (EKG)**

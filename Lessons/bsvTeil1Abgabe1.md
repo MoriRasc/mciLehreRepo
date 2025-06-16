@@ -53,9 +53,9 @@ nach oben und unten zeigend) und messen Sie jeweils 10 Sekunden in jedem
 Zustand. Prüfen Sie damit, ob jeweils eine Beschleunigung von 1 g angezeigt
 wird.
 
-  (a) Stellen Sie die Daten in einem Plot dar. **(1 Darstellung, 2 Punkte)**
+    (a) Stellen Sie die Daten in einem Plot dar. **(1 Darstellung, 2 Punkte)**
 
-  (b) Sehen Sie sich die Daten an, wenn der Sensor mit einer Achse nach
+    (b) Sehen Sie sich die Daten an, wenn der Sensor mit einer Achse nach
 unten oder oben zeigt. Ergeben die Daten Sinn? **(1 Paragraph, 2**
 **Punkte)**
 
@@ -67,15 +67,15 @@ unten oder oben zeigt. Ergeben die Daten Sinn? **(1 Paragraph, 2**
 Arduino Code **Lab1Code1** ): Nehmen Sie den Beschleunigungssensor in
 Ihre geschlossene Hand und bewegen Sie ihn sehr schnell pro Sekunde einmal
 hoch und runter (ohne Rotation). Führen Sie dies für 10 Sekunden aus und
-speichern Sie die Daten.
+speichern Sie die Daten. [//]: # (Ich würde hier nur Lab1Code1 als beispiel geben mit SCALE_1G und ODR_6 und sie müssen selber die Richtige parameter finden.)
 
-(a) Plotten Sie 4 Sekunden der Daten **(1 Darstellung, 1.5 Punkte)**
+    (a) Plotten Sie 4 Sekunden der Daten **(1 Darstellung, 1.5 Punkte)**
 
-(b) Diskutieren Sie die Plateaus der Peaks. Warum sind diese alle beim
-gleichen Wert? Wie könnte man dieses Problem l¨osen? **(1 Paragraph,**
+    (b) Diskutieren Sie die Plateaus der Peaks. Warum sind diese alle beim
+gleichen Wert? Wie könnte man dieses Problem lösen? **(1 Paragraph,**
 **1.5 Punkte)**
 
-9. Nutzen Sie den Ihnen zur Verfügung stehenden **Lab1Code2**, der eine Messung von bis zu 8 *g* ermöglicht und wiederholen Sie das Experiment. Plotten Sie wieder 4 Sekunden der Daten und vergleichen Sie den Plot mit dem aus der vorhergegangenen Aufgabe. Was sing Gemeinsamkeiten und welche Unterschiede gibt es und warum gibt es sie? **(1 Darstellung, 1 Paragraph, 2 Punkte)**
+9. Nutzen Sie den Ihnen zur Verfügung stehenden **Lab1Code2**, der eine Messung von bis zu 8 *g* ermöglicht und wiederholen Sie das Experiment. Plotten Sie wieder 4 Sekunden der Daten und vergleichen Sie den Plot mit dem aus der vorhergegangenen Aufgabe. Welche Gemeinsamkeiten und Unterschiede gibt es, und warum bestehen sie? **(1 Darstellung, 1 Paragraph, 2 Punkte)**
 
 10. Nutzen Sie die gesammelten Daten, um die Messfrequenz zu bestimmen
 **(Code, 1 Punkt)**

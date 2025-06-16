@@ -20,7 +20,7 @@
 
 2. Arduino IDE
 
-# **Hardware Setup**
+## **Hardware Setup**
 
 Folgende Schritte sind durchzuführen, um den EKG-Sensor an den Mikrocontroller anzuschließen:
     
@@ -30,9 +30,9 @@ Folgende Schritte sind durchzuführen, um den EKG-Sensor an den Mikrocontroller 
 
     *schwarz* = *GND*
 
-    *rot* = *V CC*
+    *rot* = *V<sub>CC</sub>*
 
-    *gelb* = *V OUT*
+    *gelb* = *V<sub>OUT</sub>*
 
 3. Die rote Verbindung versorgt den Sensor mit Strom und muss mit dem 3.3 V Eingangs des Mikrocontrollers verbunden werden.
 

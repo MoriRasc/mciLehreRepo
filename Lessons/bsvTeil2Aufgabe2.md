@@ -39,7 +39,7 @@ und plotten Sie original gegen gefiltert in einem Graphen.
 Um nun aus dem gefilterten Signal eine die R-Zacken zu identifizieren,
 müssen folgende drei Schritte befolgt werden:
 
-(a) **Hochpunkte der Ableitung des EKG-Signals identifizieren**
+1. **Hochpunkte der Ableitung des EKG-Signals identifizieren**
 Hierfür werden Sie die Ihnen zur Verfügung gestellte Datei
 **Lab2Functions.py** verwenden, welche Sie auf Sakai finden können.
 Dafür müssen Sie die Bibliothek in ihren Code einbinden, indem sie
@@ -52,7 +52,7 @@ identifizieren. Diese treten beim QRS-Komplex beim Ansteigen zur RZacke auf. Die
 d_ECG, peaks_d_ecg = ekg.decg_peaks(ECG, time)
 ````
 
-(b) **Entfernen der ”falschen“ Hochpunkte**
+2. **Entfernen der ”falschen“ Hochpunkte**
 
 In diesem Schritt werden Sie die Funktion *d_ecg_peaks()* verwenden,
 um automatisiert die Peaks der R-Zacken zu finden. Dies geschieht
@@ -68,7 +68,7 @@ könnte folgendermaßen aussehen:
 Rwave_peaks_d_ecg = ekg.d_ecg_peaks(d_ECG, peaks_d_ecg, time, 0.4, 0.5)
 ````
 
-(c) **Maximaler Signalwert zwischen zwei abgeleiteten Hochpunkten finden**
+3. **Maximaler Signalwert zwischen zwei abgeleiteten Hochpunkten finden**
 
 Die Hochpunkte aus den vergangenen Berechnungen spiegeln nur die
 höchsten Steigungen wider, aber nicht die eigentlichen Signal-Maxima.

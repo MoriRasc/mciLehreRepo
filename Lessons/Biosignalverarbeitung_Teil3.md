@@ -43,7 +43,7 @@ A & B frei überlassen. Die Aufteilung wird im Rahmen der ersten Vorlesung durch
 änderungen von Gruppen werden nur unter besonderen Umständen und in
 Absprache mit dem Lehrenden vorgenommen.
 
-3. **Aufteilung der Ubungen** **[¨]**
+3. **Aufteilung der Übungen**
 
 (a) **Teil 1 - Aufbau der Hardware und erste Aufnahmen + Schrei-**
 **ben eines Praktikumsberichtes**
@@ -220,14 +220,11 @@ mit GND und gelb mit A0 zu verbinden und mit einem Schraubenzieher festzuziehen.
 (d) Installieren Sie nun folgende Bibliothek in der Arduino IDE: *SparkFun*
 *ADS1015 Arduino Library*
 
-(e) Offnen Sie nun über [¨] *Datei →* *Beispiele →* *SparkFun ADS1015 Arduino*
+(e) Öffnen Sie nun über *Datei →* *Beispiele →* *SparkFun ADS1015 Arduino*
 *Library →* *Example1 ReadBasic* den Code und laden Sie diesen auf den
-Mikrocontroller. **Andern Sie den analogen Kanal im Code auf** **[¨]**
-**A0 - dort wird bisher A3 verwendet** .
+Mikrocontroller. **Ändern Sie den analogen Kanal im Code auf A0 - dort wird bisher A3 verwendet** .
 
-(f) Offnen Sie den seriellen Plotter und sehen Sie sich die neuen Messdaten [¨]
-
-an.
+(f) Öffnen Sie den seriellen Plotter und sehen Sie sich die neuen Messdaten an.
 
 Anstelle der bisherigen 80 Diskretisierungen werden nun bis zu 300 Schritte
 vorgenommen. Sie haben somit eine deutlich feinere Auflösung erreicht und
@@ -252,10 +249,7 @@ In diesem Experiment werden sie eine isometrische Kraftübung für die
 Messung der MVC verwenden. Bei einer **[isometrische Muskelkon-](https://de.wikipedia.org/wiki/Isometrische_Kontraktion)**
 **[traktion](https://de.wikipedia.org/wiki/Isometrische_Kontraktion)** ändert sich die Länge des Muskels nicht, sondern nur die
 Spannung im Muskel [4].
-**Schlagen Sie nach, welche isometrischen Maximalkraft Ubun-** **[¨]**
-**gen für Sie durchführbar sind. Halten Sie diese schriftlich und**
-**auch auf Bildern fest, um diese anschließend in Ihren Prak-**
-**tikumsbericht einzubinden.**
+**Schlagen Sie nach, welche isometrischen Maximalkraft Übungen für Sie durchführbar sind. Halten Sie diese schriftlich und auch auf Bildern fest, um diese anschließend in Ihren Praktikumsbericht einzubinden.**
 
 Für alle Experimente sollten Sie mindestens 1-2 Sekunden vor und
 nach der geplanten Muskelkontraktion eine Pause einlegen und den
@@ -336,8 +330,7 @@ Sie dafür den Python Code der letzten Vorlesung heran.
 Die Verarbeitung von EMG Rohdaten ist etwas komplizierter als beim EKG.
 Dies liegt an den viele Störquellen und Artefakten, die sich mit dem Signal überlagern. Als Erstes wird das Offset von der Nulllinie sichtbar, welches entfernt werden muss. Bewegungen der Kabel während den Messungen
 können außerdem tiefe Störfrequenzen verursachen, elektrisches Rauschen
-hingegen verursacht hochfrequent Uberlagerungen. Um das Signal der Mus- [¨]
-keln zu erhalten, müssen wir also die Rohdaten Tief- und Hochpassfiltern.
+hingegen verursacht hochfrequent Überlagerungen. Um das Signal der Muskeln zu erhalten, müssen wir also die Rohdaten Tief- und Hochpassfiltern.
 Das EMG Signal tendiert zu einer Schwingung um den Nullpunkt. Diese
 Schwingung gilt es zu eliminieren, indem die Absolutwerte zur Berechnung
 herangezogen werden. Abschließend werden die Daten nochmals Tiefpass

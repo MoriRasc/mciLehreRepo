@@ -34,7 +34,7 @@ A & B frei überlassen. Die Aufteilung wird im Rahmen der ersten Vorlesung durch
 änderungen von Gruppen werden nur unter besonderen Umständen und in
 Absprache mit dem Lehrenden vorgenommen.
 
-3. **Aufteilung der Ubungen** **[¨]**
+3. **Aufteilung der Übungen**
 
 (a) **Teil 1 - Aufbau der Hardware und erste Aufnahmen + Schrei-**
 **ben eines Praktikumsberichtes**
@@ -204,7 +204,7 @@ geschieht über den von Ihnen ausgewählten Pin (A0). Die Arduino IDE
 stell dafür ein Beispiel Code bereit, welchen Sie über *Datei →* *Beispiele*
 *→* *01.Basics →* *AnalogReadSerial* aufrufen können. Stellen Sie sicher, dass
 Ihr verwendeter analoger Pin dem Pin im Arduino Code gleicht und laden
-Sie den Code auf den Mikrocontroller. Offnen Sie den seriellen Plotter und [¨]
+Sie den Code auf den Mikrocontroller. Öffnen Sie den seriellen Plotter und 
 passen Sie die Baud Rate an, um die Rohdaten zu erhalten. Nach kurzer
 Zeit sollte ein Ihnen bekanntes Bild entstehen (elektrische Aktivität des
 Herzens). Falls Sie kein solches Bild wie in Abbildung 1.2 erkennen, überprüfen Sie erneut Ihr Hardware Setup und die Befestigung der Elektroden
@@ -212,8 +212,7 @@ und Kabel.
 
 Abbildung 1.2: EKG Rohdaten.
 
-Trennen Sie Ihren Laptop vom Ladegerät und somit vom Stromnetz. Off- [¨]
-nen Sie Ihren seriellen Plotter und achten Sie auf Ihre Daten. Schließen Sie
+Trennen Sie Ihren Laptop vom Ladegerät und somit vom Stromnetz. Öffnen Sie Ihren seriellen Plotter und achten Sie auf Ihre Daten. Schließen Sie
 
 nun ihr Ladegerät wieder an und schauen Sie sich erneut die Daten an.
 Was können Sie für Unterschiede zwischen diesen Szenarien feststellen und
@@ -491,11 +490,11 @@ ersten 3 Minuten. Markieren Sie im Plot, wann das Treten und somit
 die Steigerung der Leistung beginnt. **(1 Darstellung, 1 Punkt)**
 
 (b) Beschreiben Sie die Dynamik des Anstiegs der Herzfrequenz. Warm
-sind Start der Ubung und Anstieg der Herzfrequenz nicht zum selben [¨]
+sind Start der Übung und Anstieg der Herzfrequenz nicht zum selben
 Zeitpunkt? **(1 Punkt)**
 
 (c) Beschreiben Sie, was unter dem Begriff *Cardiac Output* verstanden
-wird (2-4 Sätze). Warum bewirkt eine plötzliche Aktivierung der Muskulatur keine direkte Anderung des Cardiac Outputs? [¨] **(1 Punkt)**
+wird (2-4 Sätze). Warum bewirkt eine plötzliche Aktivierung der Muskulatur keine direkte Änderung des Cardiac Outputs? **(1 Punkt)**
 
 10. Betrachten Sie nun den Zeitabschnitt, in dem der Proband mit der Aktivität
 stoppt und die folgenden drei Minuten nach dem Stoppen, während der
@@ -519,8 +518,7 @@ Herzfrequenz und Energieverbrauch entwickelt haben. Was ist der Unterschied zwis
 **Punkte)**
 
 12. Berechnen Sie den metabolischen Energieverbrauch über die Zeit mit der
-Gleichung, welche Sie ausgewählt haben. Ergibt die relative Anderung des [¨]
-metabolischen Energieverbrauchs Sinn für das, was Sie für das Experiment
+Gleichung, welche Sie ausgewählt haben. Ergibt die relative Änderung des metabolischen Energieverbrauchs Sinn für das, was Sie für das Experiment
 erwarten? Begründen Sie Ihre Aussage. **(1 Darstellung, wenige Sätze,**
 **2 Punkte)**
 
