@@ -103,13 +103,13 @@ sich bei einem Gewicht von 50 % des MVC eine gemessene Muskelaktivierung von XYZ
 Für die Analyse von EMG-Signalen wird oft die spektrale Leistungsdichte
 bzw. eine Frequenzanalyse herangezogen. Dies wird nochmals unter folgendem [Link](https://www.intechopen.com/chapters/40123){:target="_blank"} beschrieben und erklärt (Englisch). Die Frequenzanalyse beruht auf der Fast Fourier Transformation, welche Sie unter folgendem [Link_FT_1](https://www.youtube.com/watch?v=spUNpyF58BY){:target="_blank"} und [Link_FT_2](https://www.youtube.com/watch?v=3gjJDuCAEQQ){:target="_blank"} als YouTube Video zur Wiederholung ansehen können. Mit dieser Anleitung werden Sie eine Spektralanalyse an Ihren EMG-Daten durchführen können. Dafür müssen Sie Ihre gefilterten Daten (Offset eliminiert und gefiltert) verwendet und folgende Schritte durchführen:
 
-1. Isolieren Sie jeweils 0.5 Sekunden zu Beginn, in der Mitte und am Ende einer Aktivierung (Burst). Dadurch werden Sie drei neue Variablen erzeugen, welche jeweils einen Datensatz mit einer Länge von 0.5 Sekunden enthalten. Dies ist exemplarisch in Abbildung [1.6](../assets/img/aktEMG.bmp) dargestellt.
+(a) Isolieren Sie jeweils 0.5 Sekunden zu Beginn, in der Mitte und am Ende einer Aktivierung (Burst). Dadurch werden Sie drei neue Variablen erzeugen, welche jeweils einen Datensatz mit einer Länge von 0.5 Sekunden enthalten. Dies ist exemplarisch in Abbildung [1.6](../assets/img/aktEMG.bmp) dargestellt.
 
 ![Abbildung 1.6](../assets/img/aktEMG.bmp)
 
 [Abbildung 1.6](../assets/img/aktEMG.bmp): Auswahl von drei 0.5 Sekunden langen Intervallen am Anfang, in der Mitte und zum Ende einer EMG-Aktivierung.
 
-2. Berechnen Sie nun für jeden der drei isolierten Teile die spektrale Leistungsdichte mit der *get power* Funktion aus dem **Lab3Functions** Code.
+(b) Berechnen Sie nun für jeden der drei isolierten Teile die spektrale Leistungsdichte mit der *get power* Funktion aus dem **Lab3Functions** Code.
 
 ````python
 power, frequencies = l3f.get_power(EMGdata, samplingfreq)
@@ -120,7 +120,7 @@ Das Ergebnis der Funktion sollte ähnlich wie in Abbildung [1.7](../assets/img/a
 
 [Abbildung 1.7](../assets/img/ausEMG.bmp): Auswahl von eines 0.5 Sekunden langen Intervalls nach Anwendung der Filter.
 
-3. Filtern Sie die spektrale Leistungsdichte mit dem gleichen *butterworth* Filter, mit dem Sie auch die Einhüllende der Muskelaktivität berechnet haben und einer cutoff-Frequenz von 40 Hz. Das gefilterte Spektrum wird in Abbildung [1.8](../assets/img/ausFilEMG.bmp) gezeigt.
+(c) Filtern Sie die spektrale Leistungsdichte mit dem gleichen *butterworth* Filter, mit dem Sie auch die Einhüllende der Muskelaktivität berechnet haben und einer cutoff-Frequenz von 40 Hz. Das gefilterte Spektrum wird in Abbildung [1.8](../assets/img/ausFilEMG.bmp) gezeigt.
 
 ![Abbildung 1.8](../assets/img/ausFilEMG.bmp)
 
