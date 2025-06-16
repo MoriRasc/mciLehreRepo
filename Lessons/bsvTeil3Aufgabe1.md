@@ -128,7 +128,7 @@ Sekunden
 Daten aus dem seriellen Monitor. Machen Sie eine Pause von mind. 60 Sekunden **und wiederholen Sie die Messung zweimal, sodass Sie drei Datensätze der Ermüdung erhalten.**
 
 
-# **Literaturverzeichnis**
+## **Literaturverzeichnis**
 <a id="2">[2]</a> 
 [P. Konrad, “Emg-fibel,” **Eine praxisorientierte Einführung in die kinesiologische Elektromyographie, 2011: http://www.velamed.com/wp-content/uploads/EMG-FIBEL-V1.1.pdf](http://www.velamed.com/wp-content/uploads/EMG-FIBEL-V1.1.pdf){:target="_blank"}
 

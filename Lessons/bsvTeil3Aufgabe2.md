@@ -127,7 +127,7 @@ Das Ergebnis der Funktion sollte ähnlich wie in Abbildung [1.7](../assets/img/a
 [Abbildung 1.8](../assets/img/ausFilEMG.bmp): Auswahl von eines 0.5 Sekunden langen Intervalls nach Anwendung der Filter.
 
 
-4. **Kontraktionsgeschwindigkeiten der Muskelfasern**
+## 4. **Kontraktionsgeschwindigkeiten der Muskelfasern**
 Um die Veränderung der Kontraktionsgeschwinkeiten über die Zeit zu berechnen, müssen das Frequenzspektrum und die darin dominanten Frequenzen für die drei Zeitpunkte während der Messung berechnet werden. Der
 Median der spektralen Leistungsdichte ist dafür ein passender Parameter.
 Um die Median-Frequenz zu berechnen, muss erst die Fläche unter der Kurve berechnet werden, welche die gesamte Leistung darstellt. Danach wird
@@ -151,7 +151,7 @@ Median-Frequenzen mit dem Zeitpunkt in der Messung plotten (siehe Abbildung [1.1
 
 [Abbildung 1.10](../assets/img/ermMed.bmp): Median-Frequenzen bei Ermüdungen drei unterschiedlichen Zeitpunkte.
 
-# **Literaturverzeichnis**
+## **Literaturverzeichnis**
 
 [1] P. Konrad, “Emg-fibel,” **Eine praxisorientierte Einführung in die kinesiologische Elektromyographie**, 2011.
 
