@@ -36,21 +36,17 @@ seriellen Monitor transferiert werden können. Daten werden nur angezeigt,
  [Abbildung 1.2](../assets/img/captureCom8.bmp): Vorzunehmende Einstellungen des seriellen Monitors der Arduino IDE. Zeitstempel soll deaktiviert sein. Baud Rate
 muss der im Code gleichen.
 
-Probieren Sie auch den seriellen Plotter aus, dieser ermöglicht eine grafische Repräsentation der Daten. **Achtung: Es kann immer nur der serielle**
-**Plotter ODER Monitor angezeigt werden!**
+Probieren Sie auch den seriellen Plotter aus, dieser ermöglicht eine grafische Repräsentation der Daten. **Achtung: Es kann immer nur der serielle Plotter ODER Monitor angezeigt werden!**
 
 ### 5. **Aufgabe: Koordinatensystem**
 
-Auf dem Beschleunigungssensor ist ein Koordinatensystem gegeben, welches die x-, y- und z-Achse angibt. Welcher Wert der drei angezeigten Beschleunigungen gehört zu welcher Achse? Wie kann man dies testen und in
-welcher Einheit werden die Daten ausgegeben?
+Auf dem Beschleunigungssensor ist ein Koordinatensystem gegeben, welches die x-, y- und z-Achse angibt. Welcher Wert der drei angezeigten Beschleunigungen gehört zu welcher Achse? Wie kann man dies testen und in welcher Einheit werden die Daten ausgegeben?
 
 ### 6. **Speichern der Daten**
 
-Das Speichern der Daten in eine *.txt* Datei wird über einfaches Copy&Paste
-durchgeführt. Dafür muss ein neues .txt-Dokument erstellt und geöffnet
-werden. Trennen Sie nun die Verbindung zwischen Mikrocontroller und Computer, dadurch stoppt die im seriellen Monitor angezeigte Datenübertragung. Wählen Sie das Feld mit den Daten aus und kopieren Sie alle Daten mit der Tastenkombination *Strg + A* (Alles auswählen) *→* *Strg + C* (Kopieren) & *Strg + V* (Einfügen) in Ihr Text-Datei.
+Das Speichern der Daten in eine *.txt* Datei wird über einfaches Copy&Paste durchgeführt. Dafür muss ein neues .txt-Dokument erstellt und geöffnet werden. Trennen Sie nun die Verbindung zwischen Mikrocontroller und Computer, dadurch stoppt die im seriellen Monitor angezeigte Datenübertragung. Wählen Sie das Feld mit den Daten aus und kopieren Sie alle Daten mit der Tastenkombination *Strg + A* (Alles auswählen) *→* *Strg + C* (Kopieren) & *Strg + V* (Einfügen) in Ihr Text-Datei.
 
-**ACHTUNG: Fehlerbehebung**
+  **ACHTUNG: Fehlerbehebung**
 
   - Mit jedem Hochladen eines Programmes muss die Baud-Rate mit der im
 seriellen Monitor/Plotter übereinstimmen, sonst werden keine Daten angezeigt.
