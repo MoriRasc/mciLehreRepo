@@ -48,8 +48,7 @@ welcher Einheit werden die Daten ausgegeben?
 
 Das Speichern der Daten in eine *.txt* Datei wird über einfaches Copy&Paste
 durchgeführt. Dafür muss ein neues .txt-Dokument erstellt und geöffnet
-werden. Trennen Sie nun die Verbindung zwischen Mikrocontroller und Computer - dadurch stoppt die im seriellen Monitor angezeigte Datenübertragung. Wählen Sie das Feld mit den Daten aus und kopieren Sie alle Daten
-mit der Tastenkombination *Strg + A* (Alles auswählen) *→* *Strg + C* (Kopieren) & *Strg + V* (Einfügen) in Ihr Text-Datei.
+werden. Trennen Sie nun die Verbindung zwischen Mikrocontroller und Computer, dadurch stoppt die im seriellen Monitor angezeigte Datenübertragung. Wählen Sie das Feld mit den Daten aus und kopieren Sie alle Daten mit der Tastenkombination *Strg + A* (Alles auswählen) *→* *Strg + C* (Kopieren) & *Strg + V* (Einfügen) in Ihr Text-Datei.
 
 **ACHTUNG: Fehlerbehebung**
 
