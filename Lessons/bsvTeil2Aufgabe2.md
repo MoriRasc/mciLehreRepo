@@ -1,18 +1,12 @@
 # **Aufgabe 2: Analyse der Rohdaten**
 
-In diesem Teil des Praktikums werden Sie lernen bzw. vertiefen, wie sich die Herzfrequenz, Herzfrequenzvariabilität und der Energieverbrauch durch die Analyseder Rohdaten berechnen lassen.
+In diesem Teil des Praktikums werden Sie lernen bzw. vertiefen, wie sich die Herzfrequenz, Herzfrequenzvariabilität und der Energieverbrauch durch die Analyse der Rohdaten berechnen lassen.
 
 ## **Detektion der R-Zacke und Berechnung der Herzfrequenz**
 
 Die Berechnung der Herzfrequenz kann durch den Abstand zweier aufeinander folgender R-Zacken des QRS-Komplexes vorgenommen werden. Eine
 übliche Methode in Python ist die Verwendung der *scipy.signal* Bibliothek
-mit der **[find peaks Funktion](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.find_peaks.html){:target="_blank"}** . Diese funktioniert sehr gut in Kombination
-mit einem zusätzlichem Threshold, jedoch nur bei sehr sauberen Rohdaten. Auch wenn Sie alle zuvor beschriebenen Schritte befolgt haben, werden sie dennoch Rauschen und verschiedene Arten von Artefakten in Ihren
-
-Daten wiederfinden. Dadurch funktioniert eine einfache Kombination aus
-*find peaks* und einem Threshold nicht mehr. Für eine bessere Verarbeitung
-der Daten wird ihnen der Code **Lab2Functions** zur Verfügung gestellt.
-Dieser ist kommentiert und sollte für Sie einfach verständlich sein.
+mit der **[find peaks Funktion](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.find_peaks.html){:target="_blank"}** . Diese funktioniert sehr gut in Kombination mit einem zusätzlichem Threshold, jedoch nur bei sehr sauberen Rohdaten. Auch wenn Sie alle zuvor beschriebenen Schritte befolgt haben, werden sie dennoch Rauschen und verschiedene Arten von Artefakten in Ihren Daten wiederfinden. Dadurch funktioniert eine einfache Kombination aus *find peaks* und einem Threshold nicht mehr. Für eine bessere Verarbeitung der Daten wird ihnen der Code **Lab2Functions** zur Verfügung gestellt. Dieser ist kommentiert und sollte für Sie einfach verständlich sein.
 
 Bevor Sie jedoch direkt zum Verwenden dieses Programmes springen, sollten Sie sich zuerst die Rohdaten ansehen und ob diese ein hochfrequentes
 Rauschen (ca.50 Hz) beinhalten. Sollte dies der Fall sein, glätten Sie zuerst

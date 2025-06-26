@@ -51,6 +51,5 @@ Das Speichern der Daten in eine *.txt* Datei wird über einfaches Copy&Paste dur
   - Mit jedem Hochladen eines Programmes muss die Baud-Rate mit der im
 seriellen Monitor/Plotter übereinstimmen, sonst werden keine Daten angezeigt.
 
-  - Falls der Fehler *”NoSuchFileException“* beim Download der Bibliothek für
-den Beschleunigungssensor entsteht, gibt es in diesem **[Forum](https://forum.arduino.cc/t/library-manager-cant-install-update-libraries/465361){:target="_blank"}** mögliche Lösungsansätze.
+  - Falls der Fehler *”NoSuchFileException“* beim Download der Bibliothek für den Beschleunigungssensor entsteht, gibt es in diesem **[Forum](https://forum.arduino.cc/t/library-manager-cant-install-update-libraries/465361){:target="_blank"}** mögliche Lösungsansätze.
 

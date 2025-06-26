@@ -23,22 +23,22 @@ Letztes Update: 05. Juni 2025
 In diesem Praktikum werden Sie lernen, mit frei verfügbarer Hardware Biosignale am Menschen aufzunehmen und die Daten über Programmierung zu filtern, verarbeiten und analysieren. Dabei werden Sie Biosignale vom Muskel-, Nerven und Herz-Kreislauf-System kennenlernen und für sich erforschen.
 ## **1.1 Organisatorisches**
 
-1. **Bewertung**
+**1. Bewertung**
+
 Die Bewertung dieses Moduls erfolgt über die Abgabe von Laborberichten
 und der Abgabe eines Abschlussprojektes. Das Praktikum wird in 3-4er
 Gruppen durchgeführt und bewertet.
 
-2. **Gruppenbildung**
+**2. Gruppenbildung**
+
 Die Gruppenbildung ist Ihnen innerhalb der bereits aufgeteilten Gruppen
-A & B frei überlassen. Die Aufteilung wird im Rahmen der ersten Vorlesung durchgeführt und gilt fortlaufend für das Semester. Nachträgliche
-Änderungen von Gruppen werden nur unter besonderen Umständen und in
-Absprache mit dem Lehrenden vorgenommen.
+A & B frei überlassen. Die Aufteilung wird im Rahmen der ersten Vorlesung durchgeführt und gilt fortlaufend für das Semester. Nachträgliche Änderungen von Gruppen werden nur unter besonderen Umständen und in Absprache mit dem Lehrenden vorgenommen.
 
-3. **Aufteilung der Übungen**
+**3. Aufteilung der Übungen**
 
-    (a) **Teil 1 - Aufbau der Hardware und erste Aufnahmen + Schreiben eines Praktikumsberichtes**
+(a) **Teil 1 - Aufbau der Hardware und erste Aufnahmen + Schreiben eines Praktikumsberichtes**
 
-    In dieser Sektion wird das Hardware Setup aufgebaut. Es werden
+In dieser Sektion wird das Hardware Setup aufgebaut. Es werden
 erste Messungen vorgenommen sowie Daten gefiltert und analysiert.
 Zum Schluss wird gemeinsam das Schreiben von Praktikumsberichten
 besprochen und einige Beispiele aufgezeigt. **Abgabe von Python**
@@ -54,6 +54,7 @@ besprochen und einige Beispiele aufgezeigt. **Abgabe von Python**
 **Version geführt wird (Siehe [Abbildung 1.1](../assets/img/arduinoLegacy.bmp)).**
 
 ![Abbildung 1.1](../assets/img/arduinoLegacy.bmp)
+
 [Abbildung 1.1](../assets/img/arduinoLegacy.bmp): Arduino IDE 1.8.19
 
 (b) **Teil 2 - Elektrokardiografie (EKG)**
@@ -66,7 +67,7 @@ Das EMG Praktikum umfasst die Messung und Analyse der vom Skelettmuskel erzeugte
 Muskelaktivierung, das Frequenzspektrum des aktiven Muskels und
 die Ermüdung zu bestimmen. **Abschluss mit Laborbericht**
 
-4. **Hardware**
+**4. Hardware**
 
 Jeder Projektgruppe wird zu Beginn des Praktikums ein Hardware-Kit
 ausgehändigt, welches mit Vorsicht zu behandeln und nach Projektende
