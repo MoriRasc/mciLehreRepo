@@ -4,7 +4,7 @@
 
 2. 12 Bit ADC Konverter mit Qwiic Kabel
 
-3. EMG /EKG Sensor mit Elektroden
+3. EMG/EKG Sensor mit Elektroden
 
 4. 3 Jumper Kabel
 
@@ -17,9 +17,9 @@
 
 ## **Hardware Setup**
 
-Folgende Schritte sind durchzuführen, um den EKG-Sensor an den Mikrocontroller anzuschließen:
+Folgende Schritte sind durchzuführen, um den EMG/EKG-Sensor an den Mikrocontroller anzuschließen:
     
-1. Verbinden Sie das mitgelieferte 4er-Kabel (schwarz/rot/weiß/gelb) mit dem blauen EKG-Sensor
+1. Verbinden Sie das mitgelieferte 4er-Kabel (schwarz/rot/weiß/gelb) mit dem blauen EMG/EKG-Sensor
 
 2. Nutzen Sie die drei Jumper Kabel, um diese in die andere Seite des 4er-Kabels zu stecken.
 

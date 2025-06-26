@@ -1,6 +1,6 @@
 # **Elektromyografie (EMG)**
 
-**ACHTUNG: Sollte ein Studierender bereits EKG Elektroden verwendet und damit Hautreizungen verursacht haben, soll diese Person im Rahmen dieses Praktikums keine Messungen mit Elektroden durchführen.Sprechen Sie dies gegebenenfalls mit der Praktikumsleitung ab.**
+**ACHTUNG: Sollte ein Studierender bereits EMG/EKG Elektroden verwendet und damit Hautreizungen verursacht haben, soll diese Person im Rahmen dieses Praktikums keine Messungen mit Elektroden durchführen.Sprechen Sie dies gegebenenfalls mit der Praktikumsleitung ab.**
 
 1. Aufbau und Testen der Hardware und Software für EMG-Messungen
 

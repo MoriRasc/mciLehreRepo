@@ -34,26 +34,26 @@ Variablen zu komprimieren. Dies könnte folgendermaßen aussehen, wobei
 auf den richten Separator zu achten ist:
 
 ````python
-weights, mvc, fatigue = lf3.import_data(’\t’)
+weights, mvc, fatigue = lf3.import_data('\t')
 ````
-Erfüllen Sie nun die vier angegebenen Schritte. In Abbildung [1.1](../assets/img/offEMG.bmp) , [1.2](../assets/img/filtEMG.bmp) , [1.3](../assets/img/gleiEMG.bmp) und [1.4](../assets/img/einhuEMG.bmp) werden die vier Schritte an  Beispieldaten gezeigt und sollen Ihnen als Kontrolle dienen.
+Erfüllen Sie nun die vier angegebenen Schritte. In Abbildung [1.3](../assets/img/offEMG.bmp) , [1.4](../assets/img/filtEMG.bmp) , [1.5](../assets/img/gleiEMG.bmp) und [1.6](../assets/img/einhuEMG.bmp) werden die vier Schritte an  Beispieldaten gezeigt und sollen Ihnen als Kontrolle dienen.
 
-![Abbildung 1.1](../assets/img/offEMG.bmp)
+![Abbildung 1.3](../assets/img/offEMG.bmp)
 
-[Abbildung 1.1](../assets/img/offEMG.bmp): Offset-Korrektur der EMG-Daten.
+[Abbildung 1.3](../assets/img/offEMG.bmp): Offset-Korrektur der EMG-Daten.
 
 
-![Abbildung 1.2](../assets/img/filtEMG.bmp)
+![Abbildung 1.4](../assets/img/filtEMG.bmp)
 
-[Abbildung 1.2](../assets/img/filtEMG.bmp): Filtern der EMG-Daten.
+[Abbildung 1.4](../assets/img/filtEMG.bmp): Filtern der EMG-Daten.
 
-![Abbildung 1.3](../assets/img/gleiEMG.bmp)
+![Abbildung 1.5](../assets/img/gleiEMG.bmp)
 
-[Abbildung 1.3](../assets/img/gleiEMG.bmp): Gleichrichten der EMG-Daten.
+[Abbildung 1.5](../assets/img/gleiEMG.bmp): Gleichrichten der EMG-Daten.
 
-![Abbildung 1.4](../assets/img/einhuEMG.bmp)
+![Abbildung 1.6](../assets/img/einhuEMG.bmp)
 
-[Abbildung 1.4](../assets/img/einhuEMG.bmp): Einhüllende der EMG-Daten. Verwenden Sie eine Tiefpass Grenzfrequenz von 3 Hz, um eine Einhüllende zu erzeugen.
+[Abbildung 1.6](../assets/img/einhuEMG.bmp): Einhüllende der EMG-Daten. Verwenden Sie eine Tiefpass Grenzfrequenz von 3 Hz, um eine Einhüllende zu erzeugen.
 Testen Sie auch andere Grenzfrequenzen bzw. setzen Sie eigene Algorithmen um.
 
 
@@ -66,11 +66,11 @@ Schauen Sie sich dafür die Plots der MVC an und finden Sie die Zeitpunkte,
 wo die Aktivierungen beginnen und enden. Wählen Sie zur Sicherheit ein
 paar Zeitpunkte nach Aktivierung und vor Ende der Aktivierung. Gehen
 Sie sicher, dass in der Zeit der Muskel maximal aktiviert war (Amplitude).
-Diese Zeitpunkte könnten zum Beispiel wie in Abbildung [1.5](../assets/img/aktMVC.bmp) aussehen.
+Diese Zeitpunkte könnten zum Beispiel wie in Abbildung [1.7](../assets/img/aktMVC.bmp) aussehen.
 
-![Abbildung 1.5](../assets/img/aktMVC.bmp)
+![Abbildung 1.7](../assets/img/aktMVC.bmp)
 
-[Abbildung 1.5](../assets/img/aktMVC.bmp): Grafische Darstellung der Aktivierungsdauer von drei MVC Datensätzen.
+[Abbildung 1.7](../assets/img/aktMVC.bmp): Grafische Darstellung der Aktivierungsdauer von drei MVC Datensätzen.
 
 Da dieser Prozess sehr zeitintensiv ist, wird Ihnen ein Code bereitgestellt,
 der die Auswahl der Zeitpunkte vereinfacht. Nehmen Sie dafür den Code
@@ -103,35 +103,35 @@ sich bei einem Gewicht von 50 % des MVC eine gemessene Muskelaktivierung von XYZ
 Für die Analyse von EMG-Signalen wird oft die spektrale Leistungsdichte
 bzw. eine Frequenzanalyse herangezogen. Dies wird nochmals unter folgendem [Link](https://www.intechopen.com/chapters/40123){:target="_blank"} beschrieben und erklärt (Englisch). Die Frequenzanalyse beruht auf der Fast Fourier Transformation, welche Sie unter folgendem [Link_FT_1](https://www.youtube.com/watch?v=spUNpyF58BY){:target="_blank"} und [Link_FT_2](https://www.youtube.com/watch?v=3gjJDuCAEQQ){:target="_blank"} als YouTube Video zur Wiederholung ansehen können. Mit dieser Anleitung werden Sie eine Spektralanalyse an Ihren EMG-Daten durchführen können. Dafür müssen Sie Ihre gefilterten Daten (Offset eliminiert und gefiltert) verwendet und folgende Schritte durchführen:
 
-(a) Isolieren Sie jeweils 0.5 Sekunden zu Beginn, in der Mitte und am Ende einer Aktivierung (Burst). Dadurch werden Sie drei neue Variablen erzeugen, welche jeweils einen Datensatz mit einer Länge von 0.5 Sekunden enthalten. Dies ist exemplarisch in Abbildung [1.6](../assets/img/aktEMG.bmp) dargestellt.
+(a) Isolieren Sie jeweils 0.5 Sekunden zu Beginn, in der Mitte und am Ende einer Aktivierung (Burst). Dadurch werden Sie drei neue Variablen erzeugen, welche jeweils einen Datensatz mit einer Länge von 0.5 Sekunden enthalten. Dies ist exemplarisch in Abbildung [1.8](../assets/img/aktEMG.bmp) dargestellt.
 
-![Abbildung 1.6](../assets/img/aktEMG.bmp)
+![Abbildung 1.8](../assets/img/aktEMG.bmp)
 
-[Abbildung 1.6](../assets/img/aktEMG.bmp): Auswahl von drei 0.5 Sekunden langen Intervallen am Anfang, in der Mitte und zum Ende einer EMG-Aktivierung.
+[Abbildung 1.8](../assets/img/aktEMG.bmp): Auswahl von drei 0.5 Sekunden langen Intervallen am Anfang, in der Mitte und zum Ende einer EMG-Aktivierung.
 
 (b) Berechnen Sie nun für jeden der drei isolierten Teile die spektrale Leistungsdichte mit der *get power* Funktion aus dem **Lab3Functions** Code.
 
 ````python
 power, frequencies = l3f.get_power(EMGdata, samplingfreq)
 ````
-Das Ergebnis der Funktion sollte ähnlich wie in Abbildung [1.7](../assets/img/ausEMG.bmp) aussehen.
+Das Ergebnis der Funktion sollte ähnlich wie in Abbildung [1.9](../assets/img/ausEMG.bmp) aussehen.
 
-![Abbildung 1.7](../assets/img/ausEMG.bmp)
+![Abbildung 1.9](../assets/img/ausEMG.bmp)
 
-[Abbildung 1.7](../assets/img/ausEMG.bmp): Auswahl von eines 0.5 Sekunden langen Intervalls nach Anwendung der Filter.
+[Abbildung 1.9](../assets/img/ausEMG.bmp): Auswahl von eines 0.5 Sekunden langen Intervalls nach Anwendung der Filter.
 
-(c) Filtern Sie die spektrale Leistungsdichte mit dem gleichen *butterworth* Filter, mit dem Sie auch die Einhüllende der Muskelaktivität berechnet haben und einer cutoff-Frequenz von 40 Hz. Das gefilterte Spektrum wird in Abbildung [1.8](../assets/img/ausFilEMG.bmp) gezeigt.
+(c) Filtern Sie die spektrale Leistungsdichte mit dem gleichen *butterworth* Filter, mit dem Sie auch die Einhüllende der Muskelaktivität berechnet haben und einer cutoff-Frequenz von 40 Hz. Das gefilterte Spektrum wird in Abbildung [1.10](../assets/img/ausFilEMG.bmp) gezeigt.
 
-![Abbildung 1.8](../assets/img/ausFilEMG.bmp)
+![Abbildung 1.10](../assets/img/ausFilEMG.bmp)
 
-[Abbildung 1.8](../assets/img/ausFilEMG.bmp): Auswahl von eines 0.5 Sekunden langen Intervalls nach Anwendung der Filter.
+[Abbildung 1.10](../assets/img/ausFilEMG.bmp): Auswahl von eines 0.5 Sekunden langen Intervalls nach Anwendung der Filter.
 
 
 ## 4. **Kontraktionsgeschwindigkeiten der Muskelfasern**
 Um die Veränderung der Kontraktionsgeschwinkeiten über die Zeit zu berechnen, müssen das Frequenzspektrum und die darin dominanten Frequenzen für die drei Zeitpunkte während der Messung berechnet werden. Der
 Median der spektralen Leistungsdichte ist dafür ein passender Parameter.
 Um die Median-Frequenz zu berechnen, muss erst die Fläche unter der Kurve berechnet werden, welche die gesamte Leistung darstellt. Danach wird
-der Punkt gesucht, welche die Fläche gleichmäßig in zwei Hälften teilt (Abb. [1.9](../assets/img/filtSpekLeis.bmp)). Dafür kann der folgende Code verwendet werden:
+der Punkt gesucht, welche die Fläche gleichmäßig in zwei Hälften teilt (Abb. [1.11](../assets/img/filtSpekLeis.bmp)). Dafür kann der folgende Code verwendet werden:
 
 ````python
 area_freq = scipy.integrate.cumtrapz(power, frequencies, initial = 0)
@@ -139,17 +139,17 @@ total_power = area_freq[−1]
 median_freq = frequencies[np.where(area_freq >= total_power / 2 )[0][0]]
 ````
 
-![Abbildung 1.9](../assets/img/filtSpekLeis.bmp)
+![Abbildung 1.11](../assets/img/filtSpekLeis.bmp)
 
-[Abbildung 1.9](../assets/img/filtSpekLeis.bmp): Gefilterte Spektrale Leistungsdichte mit berechnetem Median.
+[Abbildung 1.11](../assets/img/filtSpekLeis.bmp): Gefilterte Spektrale Leistungsdichte mit berechnetem Median.
 
 Wiederholen Sie die Schritte für die drei Messungen für das Experiment
 3, um die Ermüdung zu analysieren. Danach können Sie die ermittelten
-Median-Frequenzen mit dem Zeitpunkt in der Messung plotten (siehe Abbildung [1.10](../assets/img/ermMed.bmp))
+Median-Frequenzen mit dem Zeitpunkt in der Messung plotten (siehe Abbildung [1.12](../assets/img/ermMed.bmp))
 
-![Abbildung 1.10](../assets/img/ermMed.bmp)
+![Abbildung 1.12](../assets/img/ermMed.bmp)
 
-[Abbildung 1.10](../assets/img/ermMed.bmp): Median-Frequenzen bei Ermüdungen drei unterschiedlichen Zeitpunkte.
+[Abbildung 1.12](../assets/img/ermMed.bmp): Median-Frequenzen bei Ermüdungen drei unterschiedlichen Zeitpunkte.
 
 ## **Literaturverzeichnis**
 

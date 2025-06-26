@@ -1,54 +1,48 @@
 # **Wie nehme ich EMG Rohdaten auf?**
 
 In dieser Aufgabe lernen Sie, das EMG-Messsystem aufzubauen und damit Rohdaten aufzunehmen. Außerdem werden die Rahmenbedingungen für kommende
-Messungen mit dem EKG-System besprochen.
+Messungen mit dem EMG/EKG-System besprochen.
 
 ## 1. **Platzierung der Elektroden und Verbindungen**
 In diesem Praktikum wird die Muskelaktivität des Bizeps Brachii untersucht. Die beiden Messelektroden sollten einen Abstand von 2 cm von Elektrodenmitte zu Elektrodenmitte aufweisen und entlang des Muskels auf dem Muskelbauch platziert sein. Die Referenzelektrode sollte wie bei der Elektrokardiografie an einem sehr knöchernen Körperteil mit wenig Muskelaktivität angebracht werden.
 
-  - Weiße Elektrode auf der Mitte des Muskels (Muskelbauch)
+  - Weiße Elektrode auf der Mitte des Muskels (Muskelbauch), siehe Abbildung 1.1.
 
-  - Rote Elektrode in Richtung der Sehne
+  - Rote Elektrode in Richtung der Sehne, siehe Abbildung 1.1.
 
-  -  Schwarze Elektrode am Handgelenk, da der Abstand zum Messort gering gehalten werden soll
+  - Elektrode 3 (schwarz) ist die Referenzelektrode. Dies sollte möglichst wenig bewegt werden, um Störsignale zu vermeiden. Daher wird eine Platzierung auf der **[Halswirbelsäule (C7)](https://de.wikipedia.org/wiki/Halswirbel){:target="_blank"}** empfohlen. Als Hilfestellung wird folgender **[Link](https://de.wikipedia.org/wiki/Halswirbel){:target="_blank"}** bereitgestellt, in dem das Ermitteln des C7 erläutert wird.
 
-  Beim Festkleben der Kabel auf der Haut soll dieses etwas lockerer festgeklebt werden, da somit mehr Spielraum bei der Muskelkontraktion und der dadurch entstehenden Bewegung entsteht. Dadurch können Bewegungsartefakte durch Kabelbewegungen reduziert werden. Bitte verwenden Sie die [**SENIAM**](http://www.seniam.org/){:target="_blank"}  Website, um dort über die Punkte *Recommendations →* *Sensor Locations* auf die Informationsseite für den Bizeps Brachii zu gelangen.
-Dort finden Sie die Vorschläge für eine optimale Platzierung auf dem Bizeps
-Brachii. Allgemeine Informationen für einen praxisnahen Einstieg in EMG
-Messungen können Sie in der **[EMG Fibel](http://www.velamed.com/wp-content/uploads/EMG-FIBEL-V1.1.pdf){:target="_blank"}** von Peter Konrad nachlesen [[2]](#2).
+![Abbildung 1.1](../assets/img/emgElekt.jpg)
 
-## 2. **Datenakquise mit dem EKG-Setup**
-Dieser Teil wird durchgeführt, um die Funktionalität des Setups zu prüfen.
-Dafür wird der gleiche Code wie im Praktikumsteil des EKGs verwendet,
-um mit dem Code *AnalogReadSerial* und dem seriellen Plotter Daten aufzunehmen. Testen Sie, ob Ihre Muskelaktivität gemessen und dargestellt
-werden kann, indem Sie den Bizeps immer wieder anspannen und danach
-entspannen. Sie sollten beim Anspannen eine Veränderung der Amplitude
-und Frequenz erkennen. Falls das y-Achsen Setting den Graphen unlesbar
-macht, entfernen Sie das *Serial.println(sensorValue);* und ersetzen Sie es
-mit folgendem Code:
+[Abbildung 1.1](../assets/img/emgElekt.jpg): Elektrode Platzierung auf der Muskel.
+
+Beim Festkleben der Kabel auf der Haut soll dieses etwas lockerer festgeklebt werden, da somit mehr Spielraum bei der Muskelkontraktion und der dadurch entstehenden Bewegung entsteht. Dadurch können Bewegungsartefakte durch Kabelbewegungen reduziert werden. Bitte verwenden Sie die [**SENIAM**](http://www.seniam.org/){:target="_blank"}  Website, um dort über die Punkte *Recommendations →* *Sensor Locations* auf die Informationsseite für den Bizeps Brachii zu gelangen.
+Dort finden Sie die Vorschläge für eine optimale Platzierung auf dem Bizeps Brachii. Allgemeine Informationen für einen praxisnahen Einstieg in EMG Messungen können Sie in der **[EMG Fibel](http://www.velamed.com/wp-content/uploads/EMG-FIBEL-V1.1.pdf){:target="_blank"}** von Peter Konrad nachlesen [[2]](#2).
+
+## 2. **Datenakquise mit dem EMG/EKG-Setup**
+Dieser Teil wird durchgeführt, um die Funktionalität des Setups zu prüfen. Dafür wird der gleiche Code wie im Praktikumsteil des EKGs verwendet, um mit dem Code *AnalogReadSerial* und dem seriellen Plotter Daten aufzunehmen. Testen Sie, ob Ihre Muskelaktivität gemessen und dargestellt werden kann, indem Sie den Bizeps immer wieder anspannen und danach entspannen. Sie sollten beim Anspannen eine Veränderung der Amplitude und Frequenz erkennen. Falls das y-Achsen Setting den Graphen unlesbar macht, entfernen Sie das *Serial.println(sensorValue);* und ersetzen Sie es mit folgendem Code:
 ````c
 Serial.print(sensorValue) ;
-Serial.print(”,250,400 ”) ;
+Serial.print(',250,400') ;
 Serial.println( );
 ````
 Die Werte 250 und 400 stehen für den y-Achsenabschnitt und ändern sich
-nicht mehr im seriellen Plotter. Falls Ihre Muskelaktivität eine niedrigere
-oder höhere Amplitude aufweist, können Sie die Werte händisch anpassen.
+nicht mehr im seriellen Plotter. Falls Ihre Muskelaktivität eine niedrigere oder höhere Amplitude aufweist, können Sie die Werte händisch anpassen.
 
 ## 3. **Bessere Auflösung mit einem ADC**
-Wenn Sie auf ihren Plotter sehen, können Sie diskretisierte Werte erkennen.
-Diese Diskretisierung findet durch den Analog-Digital-Konverter (ADC)
-statt und ist in der Genauigkeit auch durch diesen begrenzt. Der auf dem
-Mikrocontroller verbaute ADC ist nicht besonders genau, weshalb wir einen
-12 Bit ADC über die Qwiic Kabel anschließen werden, um so die Genauigkeit der Messwerte zu erhöhen. Die folgenden Schritte beschreiben, wie Sie
+Wenn Sie auf ihren Plotter sehen, können Sie diskretisierte Werte erkennen. Diese Diskretisierung findet durch den Analog-Digital-Konverter (ADC) statt und ist in der Genauigkeit auch durch diesen begrenzt. Der auf dem Mikrocontroller verbaute ADC ist nicht besonders genau, weshalb wir einen 12 Bit ADC über die Qwiic Kabel anschließen werden, um so die Genauigkeit der Messwerte zu erhöhen. Die folgenden Schritte beschreiben, wie Sie
 den ADC in ihrem Messsystem integrieren:
 
 1. Verbinden Sie das vierfache Kabel (schwarz/rot/weiß/gelb) mit dem
-EMG-Sensor
+EMG/EKG-Sensor
 
 2. Anstelle der direkten Verbindung der Jumper-Kabel, werden diese nun
 in den ADC über Schraubklemmen befestigt. Rot ist mit VCC, schwarz
-mit GND und gelb mit A0 zu verbinden und mit einem Schraubenzieher festzuziehen.
+mit GND und gelb mit A0 zu verbinden und mit einem Schraubenzieher festzuziehen (siehe Abbildung 1.2).
+
+![Abbildung 1.2](../assets/img/Channels_Sparkfun_AD12.JPG)
+
+[Abbildung 1.2](../assets/img/Channels_Sparkfun_AD12.JPG ): ADC Board.
 
 3. Den ADC über ein Qwiic Kabel mit dem Mikrocontroller verbinden
 
@@ -60,17 +54,12 @@ Mikrocontroller. **Ändern Sie den analogen Kanal im Code auf A0 - dort wird bis
 
 6. Öffnen Sie den seriellen Plotter und sehen Sie sich die neuen Messdaten an.
 
-Anstelle der bisherigen 80 Diskretisierungen werden nun bis zu 300 Schritte
-vorgenommen. Sie haben somit eine deutlich feinere Auflösung erreicht und
-können damit fortfahren. Für das folgende Experiment wird Ihnen der Code
-**Lab3Code1** auf Sakai bereitgestellt. Dieser Code ermöglicht eine Aufnahme der Rohsignale bei einer Abtastrate von 1000 Hz, wofür die Baud-Rate auf 500.000 eingestellt ist, um einen schnellen und sicheren Datentransfer
-zu gewährleisten.
+Anstelle der bisherigen 80 Diskretisierungen werden nun bis zu 300 Schritte vorgenommen. Sie haben somit eine deutlich feinere Auflösung erreicht und können damit fortfahren. Für das folgende Experiment wird Ihnen der Code **Lab3Code1** auf Sakai bereitgestellt. Dieser Code ermöglicht eine Aufnahme der Rohsignale bei einer Abtastrate von 500 Hz, wofür die Baud-Rate auf 500.000 eingestellt ist, um einen schnellen und sicheren Datentransfer zu gewährleisten.
 
 ## **Experiment 1: Maximum Voluntary Contraction (MVC)**
 
 Die MVC ist ein Parameter, welcher im Krafttraining verwendet wird
-und der führ das Gewicht steht, welches der oder die SportlerIn einfach maximal bewältigen kann [[3]](#3). Die MVC Messung wird sich für
-jede Person und auch unterschiedliche Anbringung der Elektroden unterscheiden. Bei der Messung soll der Muskel zu 100 % angespannt
+und der führ das Gewicht steht, welches der oder die SportlerIn einfach maximal bewältigen kann [[3]](#3). Die MVC Messung wird sich für jede Person und auch unterschiedliche Anbringung der Elektroden unterscheiden. Bei der Messung soll der Muskel zu 100 % angespannt
 werden. Die Messung für die MVC muss wiederholt werden, sobald
 die Elektroden neu angebracht wurden.
 

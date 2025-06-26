@@ -1,5 +1,5 @@
 
-  - Pflicht: Abgabe der Python Dateien in .zip-File
+  - Pflicht: Abgabe der Python Dateien (Jupiter Notebook Format) in .zip-File
 
   - Freiwillig: Praktikumsbericht zu übrigen Fragen
 
@@ -14,14 +14,14 @@ Für Teil 1 des Praktikums werden Sie **keinen** Laborbericht einreichen müssen
   - 8 (a)
 
   - 9
+  - 10
 
-  - 11
+  - 12
+  - 13
 
 Es wird empfohlen das Python Scripts als **.ipynb** aufzubauen und die genannten Aufgaben untereinander abzuarbeiten.
 
-1. Erstellen Sie ein Diagramm, in dem das kabellose Messsystem dargestellt
-wird. Beschriften Sie dabei jede Komponente und beschreiben Sie diese kurz
-(1-2 Sätze pro Komponente). **(3 Punkte)**
+1. Erstellen Sie Diagramme, in denen das kabellose Messsystem dargestellt ist. Beschriften Sie jede Komponente, jeden Bus (einschließlich Bustyp und -geschwindigkeit) sowie jeden Signalpfad, und beschreiben Sie diese jeweils kurz. (1-2 Sätze pro Komponente). **(3 Punkte)**
 
 2. Arbeiten Sie folgende Fragen aus **(2 Punkte)** :
 
@@ -29,13 +29,9 @@ wird. Beschriften Sie dabei jede Komponente und beschreiben Sie diese kurz
 
     (b) Wie würden Sie den Beschleunigungssensor kalibrieren, um valide Daten aufzunehmen?
 
-    (c) Beschreiben Sie die Messdaten Ihres Beschleunigungssensors, wenn
-dieser, in einem ausgedachten Szenario, auf einem Auto liegen würden
-und dieses sich mit einer konstanten Geschwindigkeit mit 9,81 m/s in die Richtung der x-Achse bewegt (z-Achse zeigt nach oben).
+    (c) Beschreiben Sie die Messdaten Ihres Beschleunigungssensors, wenn dieser, in einem ausgedachten Szenario, auf einem Auto liegen würden und dieses sich mit einer konstanten Geschwindigkeit mit 9,81 m/s in die Richtung der x-Achse bewegt (z-Achse zeigt nach oben).
 
-
-    (d) Wie würde das Signal aussehen, wenn der Sensor im freien Fall ist
-(y-Achse zeigt nach unten in Richtung Erde)?
+    (d) Wie würde das Signal aussehen, wenn der Sensor im freien Fall ist(y-Achse zeigt nach unten in Richtung Erde)?
 
 3. Angenommen Sie bestimmte Ihre Körpertemperatur mit einem Sensor, der
 Spannungen von 0 − 3.3 V messen kann und einen Messbereich von 0 − 40°C
@@ -65,31 +61,25 @@ unten oder oben zeigt. Ergeben die Daten Sinn? **(1 Paragraph, 2**
 
 8. Führen Sie folgendes Experiment aus (Nehmen Sie dafür den gegebenen
 Arduino Code **Lab1Code1** ): Nehmen Sie den Beschleunigungssensor in
-Ihre geschlossene Hand und bewegen Sie ihn sehr schnell pro Sekunde einmal
-hoch und runter (ohne Rotation). Führen Sie dies für 10 Sekunden aus und
-speichern Sie die Daten. [//]: # (Ich würde hier nur Lab1Code1 als beispiel geben mit SCALE_1G und ODR_6 und sie müssen selber die Richtige parameter finden.)
+Ihre geschlossene Hand und bewegen Sie ihn sehr schnell pro Sekunde einmal hoch und runter (ohne Rotation). Führen Sie dies für 10 Sekunden aus und speichern Sie die Daten.
 
     (a) Plotten Sie 4 Sekunden der Daten **(1 Darstellung, 1.5 Punkte)**
 
-    (b) Diskutieren Sie die Plateaus der Peaks. Warum sind diese alle beim
-gleichen Wert? Wie könnte man dieses Problem lösen? **(1 Paragraph,**
-**1.5 Punkte)**
+    (b) Warum stellen die Daten nicht exakt die durchgeführten Bewegungen dar?
 
-9. Nutzen Sie den Ihnen zur Verfügung stehenden **Lab1Code2**, der eine Messung von bis zu 8 *g* ermöglicht und wiederholen Sie das Experiment. Plotten Sie wieder 4 Sekunden der Daten und vergleichen Sie den Plot mit dem aus der vorhergegangenen Aufgabe. Welche Gemeinsamkeiten und Unterschiede gibt es, und warum bestehen sie? **(1 Darstellung, 1 Paragraph, 2 Punkte)**
+9. Ändern Sie den vorherigen Code so, dass die Aufzeichnungen mit den Bewegungen übereinstimmen, indem Sie das Datenblatt des Sensors konsultieren. Dokumentieren Sie die Seite, auf der Sie die Information über das betreffende Register gefunden haben, sowie den Parameter und alle möglichen Werte, die dieser Parameter annehmen kann. Begründen Sie die Auswahl des verwendeten Wertes. Wiederholen Sie das Experiment. Plotten Sie wieder 4 Sekunden der Daten und vergleichen Sie den Plot mit dem aus der vorhergegangenen Aufgabe. Welche Gemeinsamkeiten und Unterschiede gibt es, und warum bestehen sie? **(1 Darstellung, 1 Paragraph, 2 Punkte)**
 
 10. Nutzen Sie die gesammelten Daten, um die Messfrequenz zu bestimmen
 **(Code, 1 Punkt)**
 
-11. Wiederholen Sie das Experiment aus Aufgabe 8. mit **Lab1Code3**. Warum
-stellen die Daten nicht exakt die durchgeführten Bewegungen dar? **(2-3 Sätze, 1 Punkt)**
+11. Diskutieren Sie die Plateaus der Peaks. Warum sind diese alle beim gleichen Wert? Wie könnte man dieses Problem lösen? **(1 Paragraph,**
+**1.5 Punkte)**
 
-12. Verwenden Sie das kabellose Messsystem und mit dem DataLogger und der
-Batterie. Nehmen Sie mit dem Code **Lab1Code4** etwa 10 Sekunden auf
-(Bewegung ist egal) und vergleichen Sie die Messfrequenz zum **Lab1Code2** .
-Warum sind diese unterschiedlich? **(1 Paragraph, 2 Punkte)**
+12. Ändern Sie den vorherigen Code, um die Plateaus zu beseitigen, indem Sie das Datenblatt des Sensors konsultieren. Dokumentieren Sie die Seite, auf der Sie die Information über das betreffende Register gefunden haben, sowie den Parameter und alle möglichen Werte, die dieser Parameter annehmen kann. Begründen Sie die Auswahl des verwendeten Wertes. Wiederholen Sie das Experiment. Plotten Sie wieder 4 Sekunden der Daten und vergleichen Sie den Plot mit dem aus der vorhergegangenen Aufgabe. Welche Gemeinsamkeiten und Unterschiede gibt es, und warum bestehen sie? **(1 Darstellung, 1 Paragraph, 2 Punkte)**
 
-13. Ihr abgegebener Code funktioniert und erzeugt die richtigen Plots, welche
-für diesen Bericht gefordert waren. **(1 Punkt)**
+13. Verwenden Sie das kabellose Messsystem und mit dem DataLogger und der Batterie. Nehmen Sie mit dem Code **Lab1Code2** etwa 10 Sekunden auf (Bewegung ist egal) und vergleichen Sie die Messfrequenz mit dem früheren Wert. Warum sind diese unterschiedlich? **(1 Paragraph, 2 Punkte)**
+
+14. Ihr abgegebener Code funktioniert und erzeugt die richtigen Plots, welche für diesen Bericht gefordert waren. **(1 Punkt)**
 
 **Gesamte Punkte: 24**
 

@@ -4,31 +4,20 @@ In diesem Teil des Praktikums werden Sie lernen bzw. vertiefen, wie sich die Her
 
 ## **Detektion der R-Zacke und Berechnung der Herzfrequenz**
 
-Die Berechnung der Herzfrequenz kann durch den Abstand zweier aufeinander folgender R-Zacken des QRS-Komplexes vorgenommen werden. Eine
-übliche Methode in Python ist die Verwendung der *scipy.signal* Bibliothek
-mit der **[find peaks Funktion](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.find_peaks.html){:target="_blank"}** . Diese funktioniert sehr gut in Kombination mit einem zusätzlichem Threshold, jedoch nur bei sehr sauberen Rohdaten. Auch wenn Sie alle zuvor beschriebenen Schritte befolgt haben, werden sie dennoch Rauschen und verschiedene Arten von Artefakten in Ihren Daten wiederfinden. Dadurch funktioniert eine einfache Kombination aus *find peaks* und einem Threshold nicht mehr. Für eine bessere Verarbeitung der Daten wird ihnen der Code **Lab2Functions** zur Verfügung gestellt. Dieser ist kommentiert und sollte für Sie einfach verständlich sein.
+Die Berechnung der Herzfrequenz kann durch den Abstand zweier aufeinander folgender R-Zacken des QRS-Komplexes vorgenommen werden. Eine übliche Methode in Python ist die Verwendung der *scipy.signal* Bibliothek mit der **[find peaks Funktion](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.find_peaks.html){:target="_blank"}** . Diese funktioniert sehr gut in Kombination mit einem zusätzlichem Threshold, jedoch nur bei sehr sauberen Rohdaten. Auch wenn Sie alle zuvor beschriebenen Schritte befolgt haben, werden sie dennoch Rauschen und verschiedene Arten von Artefakten in Ihren Daten wiederfinden. Dadurch funktioniert eine einfache Kombination aus *find peaks* und einem Threshold nicht mehr. Für eine bessere Verarbeitung der Daten wird ihnen der Code **Lab2Functions** zur Verfügung gestellt. Dieser ist kommentiert und sollte für Sie einfach verständlich sein.
 
-Bevor Sie jedoch direkt zum Verwenden dieses Programmes springen, sollten Sie sich zuerst die Rohdaten ansehen und ob diese ein hochfrequentes
-Rauschen (ca.50 Hz) beinhalten. Sollte dies der Fall sein, glätten Sie zuerst
-die Daten, indem Sie folgenden Code anwenden:
+Bevor Sie jedoch direkt zum Verwenden dieses Programmes springen, sollten Sie sich zuerst die Rohdaten ansehen und ob diese ein  Rauschen (ca.50 Hz) beinhalten. Sollte dies der Fall sein, glätten Sie zuerst die Daten, indem Sie folgenden Code anwenden:
 
 ````python
 import scipy.signal
-b, a = scipy.signal.butter(4, Wn, ’low’, analog=False)
+b, a = scipy.signal.butter(4, Wn, 'low', analog=False)
 ecg_filtered = scipy.signal.filtfilt(b, a, ecg)
 ````
 Wenn wir uns nun über die digitalen Filtermöglichkeiten der des Butterworth Filters informieren, werden wir auf diese **[Website](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.butter.html){:target="_blank"}** gelangen. Dort
 wird für unsere kritische Frequenz folgende angegeben: *”For digital filters,if fs is not specified, Wn units are normalized from 0 to 1, where 1 is the Nyquist frequency (Wn is thus in half cycles / sample and defined as 2`*`critical frequencies / fs).“*
 
-Wenn wir eine Abtastrate von 1000 Hz wählen, liegt die Nyquist-Frequenz
-bei 500 Hz. In diesem Fall ist *Wn = 1*, das Filtern wäre somit bei 500 Hz.
-Bei einem *Wn = 0.5* wäre die cutoff-Frequenz 250 Hz. Da wir das Rauschen
-ab etwa 50 Hz unterdrücken möchten, wäre somit eine cutoff-Frequenz ab
-40 Hz sinnvoll. Dafür müssen wir *Wn = 0.08-0.1* wählen. Versuchen Sie
-
-verschiedene Werte für *Wn* und nehmen Sie jenes *Wn* bei dem so viel
-hochfrequentes Rauschen gefiltert wird, aber so viele Informationen der eigentlichen EKG-Welle erhalten bleiben. Dokumentieren Sie ihre Auswahl
-und plotten Sie original gegen gefiltert in einem Graphen.
+Wenn wir eine Abtastrate von 500 Hz wählen, liegt die Nyquist-Frequenz
+bei 250 Hz. In diesem Fall ist *Wn = 1*, das Filtern wäre somit bei 250 Hz. Bei einem *Wn = 0.5* wäre die cutoff-Frequenz 125 Hz. Da wir das Rauschen ab etwa 50 Hz unterdrücken möchten, wäre somit eine cutoff-Frequenz ab 40 Hz sinnvoll. Dafür müssen wir *Wn = 0.16-0.2* wählen. Versuchen Sie verschiedene Werte für *Wn* und nehmen Sie jenes *Wn* bei dem so viel hochfrequentes Rauschen gefiltert wird, aber so viele Informationen der eigentlichen EKG-Welle erhalten bleiben. Dokumentieren Sie ihre Auswahl und plotten Sie original gegen gefiltert in einem Graphen.
 
 Um nun aus dem gefilterten Signal eine die R-Zacken zu identifizieren,
 müssen folgende drei Schritte befolgt werden:
@@ -78,27 +67,17 @@ Rwave_t = ekg.Rwave_peaks(ECG, d_ECG, Rwave_peaks_d_ecg, time)
 **Sie sollten nun die Zeitpunkte der R-Zacken erhalten haben!**
 
 ## **Berechnung der Herzfrequenz und Herzfrequenzvariabilität (HRV)**
-Berechnen Sie nun die Herzfrequenz über den Abstand der erhaltenen RZacken. In den Daten werden Sie eventuell Ausreißer haben, welche durch
-Messfehler oder den vorherigen Algorithmus verursacht werden. Um diese
-einzelnen Ausreißer zu glätten, wird mittels folgendem Code ein weiterer
-Butterworth Filter angewendet:
+Berechnen Sie nun die Herzfrequenz über den Abstand der erhaltenen RZacken. In den Daten werden Sie eventuell Ausreißer haben, welche durch Messfehler oder den vorherigen Algorithmus verursacht werden. Um diese einzelnen Ausreißer zu glätten, wird mittels folgendem Code ein weiterer Butterworth Filter angewendet:
 
 ````python
-b2, a2 = sp.signal.butter(4, Wn, btype=’lowpass’) #find a good value for Wn
+b2, a2 = sp.signal.butter(4, Wn, btype='lowpass') #find a good value for Wn
 exercise_hr_filt = sp.signal.filtfilt(b2, a2, exercise_hr)
 ````
 Sie können nun die HRV berechnen, indem Sie die ungefilterten Daten verwenden und die numpy Funktion *std()* nutzen.
 
 ## **Schätzung des Energieverbrauches**
 Um den Energieverbrauch bei leichten bis schweren Aktivitäten schätzen
-zu können, geben Hiilloskorpie et al. verschiedene Gleichungen an, welche
-sie unter dem Paper *“Use of heart rate to predict energy expenditure from*
-*low to high activity levels”* veröffentlichten [[1]](#1). Lesen Sie das auf Sakai zur
-Verfügung gestellte Paper und wenden Sie mindestens eine der Formeln an,
-um einen Graphen des vorhergesagten Energieverbrauchs über die Zeit zu
-erhalten. Danach können Sie die genaue Anzahl der Kalorien berechnen,
-welche nach der Formel für diese Aktivität verbraucht wurden (Ergebnis in
-kcal).
+zu können, geben Hiilloskorpie et al. verschiedene Gleichungen an, welche sie unter dem Paper *“Use of heart rate to predict energy expenditure from low to high activity levels”* veröffentlichten [[1]](#1). Lesen Sie das auf Sakai zur Verfügung gestellte Paper und wenden Sie mindestens eine der Formeln an, um einen Graphen des vorhergesagten Energieverbrauchs über die Zeit zu erhalten. Danach können Sie die genaue Anzahl der Kalorien berechnen, welche nach der Formel für diese Aktivität verbraucht wurden (Ergebnis in kcal).
 
 
 ## Literaturverzeichnis

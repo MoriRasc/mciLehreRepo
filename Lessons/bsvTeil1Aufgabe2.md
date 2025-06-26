@@ -31,8 +31,8 @@ seriellen Monitor transferiert werden können. Daten werden nur angezeigt,
 **wenn die Baud Rate im seriellen Monitor gleich der im Code**
 **angegeben Rate bei** ***Serial.begin(9600)*** **ist.** Die in [Abbildung 1.2](../assets/img/captureCom8.bmp) rot markierte Box *Zeitstempel anzeigen* soll **nicht** angekreuzt sein, da dies beim Vorverarbeiten der Daten zu Komplikationen führen kann.
 
+![Abbildung_12](../assets/img/captureCom8.bmp)
 
-  ![Abbildung_12](../assets/img/captureCom8.bmp)
  [Abbildung 1.2](../assets/img/captureCom8.bmp): Vorzunehmende Einstellungen des seriellen Monitors der Arduino IDE. Zeitstempel soll deaktiviert sein. Baud Rate
 muss der im Code gleichen.
 

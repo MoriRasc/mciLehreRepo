@@ -9,6 +9,5 @@ mit ”Arduino API“. Downloaden Sie für dieses Praktikum die Version 1.8.19, 
 
 **ACHTUNG: Fehlerbehebung**
 
-  - Die Auswahl *Arduino / Genuino Uno* gibt es im Tutorial nicht. Dabei
-einfach das Board *Arduino Uno* auswählen und damit fortfahren
+  - Die Auswahl *Arduino / Genuino Uno* gibt es im Tutorial nicht. Dabei einfach das Board *Arduino Uno* auswählen und damit fortfahren
 
