@@ -27,6 +27,7 @@ Folgende Schritte sind durchzuführen, um den EMG/EKG-Sensor an den Mikrocontrol
     *gelb* = *V<sub>OUT</sub>*
 
 3. Verbinden Sie das andere Ende der Jumper-Kabel mit dem Arduino-Board, wie auf dem Bild gezeigt.
+
 ![Abbildung 1.1](../assets/img/conArduEkg.jpg)
 
 [Abbildung 1.1](../assets/img/conArduEkg.jpg): Jumper-Kabel Verbindung mit Arduino-Board .

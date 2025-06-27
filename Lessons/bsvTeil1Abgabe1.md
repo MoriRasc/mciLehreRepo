@@ -1,5 +1,5 @@
 
-  - Pflicht: Abgabe der Python Dateien (Jupiter Notebook Format) in .zip-File
+  - Pflicht: Abgabe der Python Dateien in .zip-File (**Main Skript der Python Auswertung als *MainCode1.ipynb***)
 
   - Freiwillig: Praktikumsbericht zu übrigen Fragen
 
@@ -39,15 +39,9 @@ hat. Ihr Mikrocontroller kann bis zu 5 V und mit einer Auflösung von 10
 Bit messen. Welche Temperatur misst der Sensor, wenn der Mikrocontroller
 einen Wert von 520 ausgibt? Zeigen Sie Ihre Rechnung! **(1 Punkt)**
 
-4. Wenn Sie den Reset Button betätigen, startet ihr Mikrocontroller den Code
-neu. Geschieht dies aus der Setup- oder aus der Loop-Funktion? Wenn Sie
-die elektrische Aktivität Ihres Bizeps messen möchten, in welcher der beiden
-genannten Funktionen würden Sie Ihren Code hineinschreiben? **(1 Punkt)**
+4. Wenn Sie den Reset Button betätigen, startet ihr Mikrocontroller den Code neu. Geschieht dies aus der Setup- oder aus der Loop-Funktion? Wenn Sie die elektrische Aktivität Ihres Bizeps messen möchten, in welcher der beiden genannten Funktionen würden Sie Ihren Code hineinschreiben? **(1 Punkt)**
 
-5. Drehen Sie den Beschleunigungssensor in alle 6 Richtungen (jede Achse
-nach oben und unten zeigend) und messen Sie jeweils 10 Sekunden in jedem
-Zustand. Prüfen Sie damit, ob jeweils eine Beschleunigung von 1 g angezeigt
-wird.
+5. Drehen Sie den Beschleunigungssensor in alle 6 Richtungen (jede Achse nach oben und unten zeigend) und messen Sie jeweils 10 Sekunden in jedem Zustand. Prüfen Sie damit, ob jeweils eine Beschleunigung von 1 g angezeigt wird.
 
     (a) Stellen Sie die Daten in einem Plot dar. **(1 Darstellung, 2 Punkte)**
 
@@ -88,12 +82,11 @@ Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweis
 
  -  (optional) Laborbericht als PDF als *Bericht_1_Gruppe_Gruppennummer*
 
-  - **Main Skript der Python Auswertung als** ***MainCode1.ipynb***
+  - **Main Skript der Python Auswertung als *MainCode1.ipynb***
 
   - Alle Datensätze um *MainCode1* ausführen zu können (z.B. Lab1Frage4)
 
-  - Selbstgeschrieben Python Bibliotheken, welche für *MainCode1* benötigt
-werden
+  - Selbstgeschrieben Python Bibliotheken, welche für *MainCode1* benötigt werden
 
   - **Bitte alles in eine *.zip* -Datei speichern!!!**
 

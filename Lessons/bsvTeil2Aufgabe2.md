@@ -16,13 +16,13 @@ ecg_filtered = scipy.signal.filtfilt(b, a, ecg)
 Wenn wir uns nun über die digitalen Filtermöglichkeiten der des Butterworth Filters informieren, werden wir auf diese **[Website](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.butter.html){:target="_blank"}** gelangen. Dort
 wird für unsere kritische Frequenz folgende angegeben: *”For digital filters,if fs is not specified, Wn units are normalized from 0 to 1, where 1 is the Nyquist frequency (Wn is thus in half cycles / sample and defined as 2`*`critical frequencies / fs).“*
 
-Wenn wir eine Abtastrate von 500 Hz wählen, liegt die Nyquist-Frequenz
-bei 250 Hz. In diesem Fall ist *Wn = 1*, das Filtern wäre somit bei 250 Hz. Bei einem *Wn = 0.5* wäre die cutoff-Frequenz 125 Hz. Da wir das Rauschen ab etwa 50 Hz unterdrücken möchten, wäre somit eine cutoff-Frequenz ab 40 Hz sinnvoll. Dafür müssen wir *Wn = 0.16-0.2* wählen. Versuchen Sie verschiedene Werte für *Wn* und nehmen Sie jenes *Wn* bei dem so viel hochfrequentes Rauschen gefiltert wird, aber so viele Informationen der eigentlichen EKG-Welle erhalten bleiben. Dokumentieren Sie ihre Auswahl und plotten Sie original gegen gefiltert in einem Graphen.
+Wenn wir eine Abtastrate von 1000 Hz wählen, liegt die Nyquist-Frequenz
+bei 500 Hz. In diesem Fall ist *Wn = 1*, das Filtern wäre somit bei 500 Hz. Bei einem *Wn = 0.5* wäre die cutoff-Frequenz 250 Hz. Da wir das Rauschen ab etwa 50 Hz unterdrücken möchten, wäre somit eine cutoff-Frequenz ab 40 Hz sinnvoll. Dafür müssen wir *Wn = 0.08-0.1* wählen. Versuchen Sie verschiedene Werte für *Wn* und nehmen Sie jenes *Wn* bei dem so viel hochfrequentes Rauschen gefiltert wird, aber so viele Informationen der eigentlichen EKG-Welle erhalten bleiben. Dokumentieren Sie ihre Auswahl und plotten Sie original gegen gefiltert in einem Graphen.
 
 Um nun aus dem gefilterten Signal eine die R-Zacken zu identifizieren,
 müssen folgende drei Schritte befolgt werden:
 
-1. **Hochpunkte der Ableitung des EKG-Signals identifizieren**
+**1. Hochpunkte der Ableitung des EKG-Signals identifizieren**
 Hierfür werden Sie die Ihnen zur Verfügung gestellte Datei
 **Lab2Functions.py** verwenden, welche Sie auf Sakai finden können.
 Dafür müssen Sie die Bibliothek in ihren Code einbinden, indem sie
@@ -35,7 +35,7 @@ identifizieren. Diese treten beim QRS-Komplex beim Ansteigen zur RZacke auf. Die
 d_ECG, peaks_d_ecg = ekg.decg_peaks(ECG, time)
 ````
 
-2. **Entfernen der ”falschen“ Hochpunkte**
+**2. Entfernen der ”falschen“ Hochpunkte**
 
 In diesem Schritt werden Sie die Funktion *d_ecg_peaks()* verwenden,
 um automatisiert die Peaks der R-Zacken zu finden. Dies geschieht
@@ -51,7 +51,7 @@ könnte folgendermaßen aussehen:
 Rwave_peaks_d_ecg = ekg.d_ecg_peaks(d_ECG, peaks_d_ecg, time, 0.4, 0.5)
 ````
 
-3. **Maximaler Signalwert zwischen zwei abgeleiteten Hochpunkten finden**
+**3. Maximaler Signalwert zwischen zwei abgeleiteten Hochpunkten finden**
 
 Die Hochpunkte aus den vergangenen Berechnungen spiegeln nur die
 höchsten Steigungen wider, aber nicht die eigentlichen Signal-Maxima.

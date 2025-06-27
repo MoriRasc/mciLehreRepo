@@ -1,11 +1,10 @@
-  - Pflicht: Abgabe der Python Dateien (Jupiter Notebook Format) in .zip-File
+  - Pflicht: Abgabe der Python Dateien in .zip-File (**Main Skript der Python Auswertung als *MainCode3.ipynb***)
 
   - Pflicht: Praktikumsbericht zu übrigen Fragen
 
-Für Teil 3 des Praktikums werden Sie einen Laborbericht einreichen müssen, in dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Der Bericht soll in LATEX geschrieben werden.
-Die dafür benötigte Vorlage können Sie auf Sakai finden.
+Für Teil 3 des Praktikums werden Sie einen Laborbericht einreichen müssen, in dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Der Bericht soll in LATEX geschrieben werden. Die dafür benötigte Vorlage können Sie auf Sakai finden.
 
-1.- Erstellen Sie Diagramme, in denen das Messsystem dargestellt ist.Fügen Sie den Muskel und die Elektrodenplatzierung in dieses Diagramm ein.  Beschriften Sie jede Komponente, jeden Bus (einschließlich Bustyp und -geschwindigkeit) sowie jeden Signalpfad, und beschreiben Sie diese jeweils kurz. Beschriften Sie diese Komponenten und erläutern Sie die Funktion der einzelnen Komponenten. Wenn die Komponenten bereits in früheren Arbeiten verwendet wurden, geben Sie an, wie sie in diesem Experiment anders eingesetzt wurden. **(1 Darstellung, Absatz oder Notizen, 3 Punkte)**
+1.- Erstellen Sie Diagramme, in denen das Messsystem dargestellt ist. Fügen Sie den Muskel und die Elektrodenplatzierung in dieses Diagramm ein.  Beschriften Sie jede Komponente, jeden Bus (einschließlich Bustyp und -geschwindigkeit) sowie jeden Signalpfad, und beschreiben Sie diese jeweils kurz. Beschriften Sie diese Komponenten und erläutern Sie die Funktion der einzelnen Komponenten. Wenn die Komponenten bereits in früheren Arbeiten verwendet wurden, geben Sie an, wie sie in diesem Experiment anders eingesetzt wurden. **(1 Darstellung, Absatz oder Notizen, 3 Punkte)**
 
 2.- Stellen Sie sich vor, Sie versuchen, Ihren Bizeps zu kontrahieren.
 
@@ -67,7 +66,7 @@ Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweis
 
   - Laborbericht als PDF als *Bericht_3_Gruppe_Gruppennummer*
 
-  - Main Skript der Python Auswertung als *MainCode3*
+  - (**Main Skript der Python Auswertung als *MainCode3.ipynb***)
 
   - Alle Datensätze um *MainCode3* ausführen zu können
 

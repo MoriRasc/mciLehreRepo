@@ -1,4 +1,4 @@
-  - Pflicht: Abgabe der Python Dateien (Jupiter Notebook Format) in .zip-File
+  - Pflicht: Abgabe der Python Dateien in .zip-File (**Main Skript der Python Auswertung als *MainCode2.ipynb***)
 
   - Pflicht: Praktikumsbericht zu übrigen Fragen
 
@@ -12,25 +12,20 @@ Für Teil 2 des Praktikums werden Sie einen Laborbericht einreichen müssen, in 
 Markieren Sie für einen Teilnehmer die P-Welle, den QRS-Komplex und
 die T-Welle im Plot. Beschreiben Sie das physiologische Phänomen, welches für die jeweiligen elektrischen Signale des EKGs verantwortlich ist. **(1 Darstellung mit allen Teilnehmern + Markierung der Wellen für eine Person, 1 Paragraph, 3 Punkte)**
 
-4. Geben Sie den Code an, welcher für die Aufnahme der Rohdaten des EKGSignals verantwortlich ist. **(1 Punkt)**
+4. Beschreiben Sie den Code an (Arduino und Python), welcher für die Aufnahme der Rohdaten des EKGSignals verantwortlich ist. **(kurze Erklärung,1 Punkt)**
 
 5. Plotten Sie etwa 5 Sekunden des EKG-Signals vom *Experiment in Ruhe*
 von einem der Teilnehmer (gefiltert). Nutzen Sie die Ergebnisse der PeakSuche-Funktion, um die R-Zacken im Plot zu labeln. **(1 Darstellung, 1 Punkt)**
 
 6. Verwenden Sie Python, um die mittlere Herzfrequenz und HRV (mit der
-Standardabweichung) für jeden der drei Teilnehmer zu bestimmen. Vergleichen Sie die Ergebnisse in einer Tabelle (eine Zeile pro Teilnehmer). Denken
-Sie daran, alle Datensätze zu den jeweiligen Teilnehmern mit abzugeben.
-Die Berechnung soll im Code *MainCode2* stattfinden. **(1 Tabelle, wenige Sätze, 2 Punkte)**
+Standardabweichung) für jeden der drei Teilnehmer zu bestimmen. Vergleichen Sie die Ergebnisse in einer Tabelle (eine Zeile pro Teilnehmer). Denken Sie daran, alle Datensätze zu den jeweiligen Teilnehmern mit abzugeben. Die Berechnung soll im Code *MainCode2* stattfinden. **(1 Tabelle, wenige Sätze, 2 Punkte)**
 
 7. Tragen Sie in dem auf Sakai verfügbaren Dokument *HeartRateData* die
-mittlere Herzfrequenz und Herzfrequenzvariabilität für alle Teilnehmer ein. Sobald alle Gruppen ihre Messungen und Ergebnisse eingetragen haben,
-werden Sie durch den Praktikumsleiter informiert und können mit den folgenden Schritten fortfahren:
+mittlere Herzfrequenz und Herzfrequenzvariabilität für alle Teilnehmer ein. Sobald alle Gruppen ihre Messungen und Ergebnisse eingetragen haben, werden Sie durch den Praktikumsleiter informiert und können mit den folgenden Schritten fortfahren:
 
     (a) Downloaden Sie das Dokument im Tabellenformat und verwenden Sie
 Python, um zwei Histogramme zu erstellen. Eines soll die Verteilung
-der mittleren Herzfrequenz der Klasse zeigen, das andere die Herzfrequenzvariabilität. Der Plot soll als Beschriftung Ihren Gruppennamen enthalten. Die Daten im jeweiligen Plot sollen nach Geschlecht farblich markiert werden. Dies erlaubt einen Vergleich der Herzfrequenz
-zwischen den Geschlechtern. Was können Sie beobachten? Falls Sie
-keine Unterschiede erkennen - was kann die Ursache dafür sein? **(2 Darstellungen, 3-5 Sätze, 3 Punkte)**
+der mittleren Herzfrequenz der Klasse zeigen, das andere die Herzfrequenzvariabilität. Der Plot soll als Beschriftung Ihren Gruppennamen enthalten. Die Daten im jeweiligen Plot sollen nach Geschlecht farblich markiert werden. Dies erlaubt einen Vergleich der Herzfrequenz zwischen den Geschlechtern. Was können Sie beobachten? Falls Sie keine Unterschiede erkennen - was kann die Ursache dafür sein? **(2 Darstellungen, 3-5 Sätze, 3 Punkte)**
 
     (b) Interpretieren Sie Ihre persönlichen Daten in Bezug auf die Gesamtverteilung in der Klasse. **(1 Punkt)**
 
@@ -76,7 +71,7 @@ folgenden Dateien in dieser *.zip* -Datei:
 
   - Laborbericht als PDF als *Bericht_2_Gruppe_Gruppennummer*
 
-  - Main Skript der Python Auswertung als *MainCode2*
+  - **Main Skript der Python Auswertung als *MainCode2.ipynb***
 
   - Alle Datensätze um *MainCode2* ausführen zu können (z.B. Lab1Frage4)
 

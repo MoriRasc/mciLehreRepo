@@ -29,10 +29,16 @@ Folgende Schritte sind durchzuführen, um den EMG/EKG-Sensor an den Mikrocontrol
 
     *gelb* = *V<sub>OUT</sub>*
 
-3. Die rote Verbindung versorgt den Sensor mit Strom und muss mit dem 3.3 V Eingangs des Mikrocontrollers verbunden werden.
+3. Verbinden Sie das andere Ende der Jumper-Kabel mit dem Arduino-Board, wie auf dem Bild gezeigt.
 
-4. Die gelbe Verbindung dient als Ausgang des Sensors und gibt das gemessene Potential als analogen Wert weiter. Dafür muss es mit dem analogen Input am Mikrocontroller verbunden sein. Schließen Sie demnach as gelbe Kabel an den analogen Eingang *A0* an.
+![Abbildung 1.1](../assets/img/conArduEkg.jpg)
 
-5. Das schwarze Kabel ist die Erdung bzw. Referenz. Verbinden Sie das schwarze Kabel mit einem der *GND* Pins am Mikrocontroller.
+[Abbildung 1.1](../assets/img/conArduEkg.jpg): Jumper-Kabel Verbindung mit Arduino-Board .
 
-6. **Stellen Sie sicher, dass alle Kabel korrekt angeschlossen sind, bevor Sie mit Teil 3 fortfahren.**
+4. Die rote Verbindung versorgt den Sensor mit Strom und muss mit dem 3.3 V Eingangs des Mikrocontrollers verbunden werden.
+
+5. Die gelbe Verbindung dient als Ausgang des Sensors und gibt das gemessene Potential als analogen Wert weiter. Dafür muss es mit dem analogen Input am Mikrocontroller verbunden sein. Schließen Sie demnach as gelbe Kabel an den analogen Eingang *A0* an.
+
+6. Das schwarze Kabel ist die Erdung bzw. Referenz. Verbinden Sie das schwarze Kabel mit einem der *GND* Pins am Mikrocontroller.
+
+7. **Stellen Sie sicher, dass alle Kabel korrekt angeschlossen sind, bevor Sie mit Teil 3 fortfahren.**

@@ -47,18 +47,20 @@ Serial.println( ) ; // neue Zeile
 ````
 Um eine höhere Sample Rate zu erhalten, ändern Sie die *Serial.begin(9600);*zu *Serial.begin(500000);* . Dadurch wird die Geschwindigkeit der Datenübertragung zwischen Computer und Mikrocontroller erhöht. Sie müssen für eine weitere Darstellung der Daten im seriellen Plotter die Baud Rate im seriellen Plotter oder Monitor ändern.
 
-Speichern Sie die neue Datei auf ihrem Laptop und laden Sie den Code auf
-den Mikrocontroller. Sie können nun Rohdaten für die folgenden Experimente aufnehmen und die Daten aus dem seriellen Monitor in eine separate
-Textdatei hineinkopieren, um ihre Messwerte zu speichern.
+Speichern Sie die neue Datei auf ihrem Laptop und laden Sie den Code auf den Mikrocontroller. Sie können nun Rohdaten für die folgenden Experimente aufnehmen und die Daten aus dem seriellen Monitor in eine separate Textdatei hineinkopieren, um ihre Messwerte zu speichern.
 
 ## **Experiment in Ruhe**
 
 In diesem Experiment werden Sie ein 10-minütiges Ruhe-EKG aufnehmen.
-Nutzen Sie den Ihnen auf Sakai zur Verfügung gestellten Code **Lab2Code1**, bei dem mit einer Frequenz von 500 Hz und einer Baud Rate von 500000 aufgenommen wird. **Achtung: Der serielle Monitor kann nur 10 Minuten (300.000 Zeilen) Daten bei 500 Hz aufnehmen. Deaktivieren Sie die Option "Zeitstempel anzeigen" und drücken Sie bei Beginn den Button *Ausgabe löschen*, um Fehler zu vermeiden (Siehe Abbildung 1.3)** .
+Nutzen Sie den Ihnen auf Sakai zur Verfügung gestellten Code **Lab2Code1**, bei dem mit einer Frequenz von 1000 Hz und einer Baud Rate von 500000 aufgenommen wird. 
 
-![Abbildung 1.3](../assets/img/comDelAu.bmp)
+**Achtung**
 
-[Abbildung 1.3](./assets/img/comDelAu.bmp): Löschen der Daten im seriellen 
+Der Serial Monitor der Arduino-IDE ist ein praktisches Tool zum Anzeigen von seriellen Daten, aber nicht für Hochgeschwindigkeits-Datenübertragungen wie 1000 Hz ausgelegt. Der Serial Monitor versucht, alle empfangenen Zeichen grafisch darzustellen (scrollen, puffern, rendern). Diese GUI-Darstellung ist deutlich langsamer als das reine Empfangen von Daten. Dadurch entstehen Verzögerungen und Datenverlust bei hohen Frequenzen.
+
+Da der serielle Monitor der Arduino-IDE nicht schnell genug ist, um Daten mit einer Abtastrate von 1000 Hz zuverlässig darzustellen, verwenden Sie in diesem Fall ein Python-Skript (**serialRead.ipynb**), das direkt mit dem Arduino über die serielle Schnittstelle (USB) kommuniziert.
+
+Das Skript liest die ankommenden Messwerte ein und speichert sie direkt in eine CSV-Datei auf dem Computer. Dabei wird jeder Messwert mit einem Zeitstempel in Millisekunden versehen, der vom Python-Programm erzeugt wird. 
 
 1. Bauen Sie die gesamte Hardware auf und laden Sie den Code auf Ihren Mikrocontroller
 
@@ -70,11 +72,8 @@ Sensoren an
 4. Gehen Sie sicher, dass Ihr Laptop nicht während den 10 Minuten in
 den Ruhemodus wechselt oder sich ausschaltet
 
-5. Stellen Sie einen Timer auf 10 Minuten. In dieser Zeit soll sich der/die ProbandIn nicht mehr bewegen. Die Referenzelektrode sollte möglicherweise auf den lateral Malleolus geklebt werden, da durch den Kontakt zwischen Wirbel und Boden Artefakte entstehen können
+5. Starten Sie das Python-Skript **serialRead.ipynb**. Das Skript stoppt automatisch nach 10 Minuten
 
-6. Wenn der Timer durchgelaufen ist, können Sie den Mikrocontroller
-vom Laptop trennen und ihre Daten aus dem seriellen Monitor in eine
-Text-Datei hineinkopieren
 
 
 ## **Experiment in Bewegung**
@@ -82,7 +81,6 @@ Für diese Versuchsserie soll die Referenzelektrode wieder am C7 im
 Nacken des Probanden angebracht werden. Stellen Sie außerdem sicher, dass die Verkabelung gut am Körper angebracht ist. Dies soll Bewegungsartefakte vermeiden und hilft bei der späteren Weiterverarbeitung der Daten. Für die Messung in Bewegung soll das Fahrradergometer und das auf der Tacx montierte Mountainbike verwendet werden.
 **Achtung: Der Tacx muss über ein Netzteil an das Stromnetz angeschlossen werden. Dadurch kann Störrauschen in das aufgezeichnete Signal eingekoppelt werden.**
 
-Es werden zwei Experimente durchgeführt:
 
 **Ramp and Rest (10 min)**
 
