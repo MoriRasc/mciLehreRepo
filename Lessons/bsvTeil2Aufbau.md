@@ -6,14 +6,6 @@
 
 3. 3 Jumper Kabel
 
-**Benötigte Komponenten für mobiles System**
-
-1. 9 V Batterie und Batterie Verbindung
-
-2. Data Logger mit microSD Karte
-
-3. Verbindungskabel (Qwiic)
-
 **Benötigte Software**
 
 1. Python (Jupiter Notebook / VS Code)
@@ -35,9 +27,9 @@ Folgende Schritte sind durchzuführen, um den EMG/EKG-Sensor an den Mikrocontrol
     *gelb* = *V<sub>OUT</sub>*
 
 3. Verbinden Sie das andere Ende der Jumper-Kabel mit dem Arduino-Board, wie auf dem Bild gezeigt.
-![Abbildung 1.1](../assets/img/conArduEkg.jpg )
+![Abbildung 1.1](../assets/img/conArduEkg.jpg){width=250}
 
-[Abbildung 1.1](../assets/img/ekgRoh.bmp): Jumper-Kabel Verbindung mit Arduino-Board .
+[Abbildung 1.1](../assets/img/conArduEkg.jpg): Jumper-Kabel Verbindung mit Arduino-Board .
 
 4. Die rote Verbindung versorgt den Sensor mit Strom und muss mit dem 3.3 V Eingangs des Mikrocontrollers verbunden werden.
 
