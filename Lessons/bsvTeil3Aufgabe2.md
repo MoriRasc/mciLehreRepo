@@ -65,14 +65,8 @@ Diese Zeitpunkte könnten zum Beispiel wie in Abbildung [1.8](../assets/img/aktM
 
 [Abbildung 1.8](../assets/img/aktMVC.bmp): Grafische Darstellung der Aktivierungsdauer von drei MVC Datensätzen.
 
-Da dieser Prozess sehr zeitintensiv ist, wird Ihnen ein Code bereitgestellt,
-der die Auswahl der Zeitpunkte vereinfacht. Nehmen Sie dafür den Code
-**Lab3Functions** und die dort implementierte *get bursts* Funktion. Diese
-nimmt drei Input Argumente, welche die gefilterten Daten der drei Experimente sind. Sie werden gebeten, in den Plot hineinzuzoomen, um ein
-Zeitintervall auszuwählen. Dafür müssen Sie die *Enter* -Taste drücken. Dies
+Da dieser Prozess sehr zeitintensiv ist, wird Ihnen ein Code bereitgestellt, der die Auswahl der Zeitpunkte vereinfacht. Nehmen Sie dafür den Code **Lab3Functions** und die dort implementierte *get_bursts* Funktion. Diese nimmt drei Input Argumente, welche die gefilterten Daten der drei Experimente sind. Sie werden gebeten, in den Plot hineinzuzoomen, um ein Zeitintervall auszuwählen (**Achtung: Schließen Sie das Plot-Fenster manuell, nachdem Sie das Ende eines Intervalls ausgewählt haben. Ein neues Fenster wird automatisch geöffnet, um die Abgrenzung des nächsten Bursts zu starten.**). Dafür müssen Sie die *Enter* -Taste drücken. Dies erlaubt Ihnen, einen Start und Endpunkt festzulegen. Führen Sie dies für alle drei Bursts und für die drei verschiedenen Experimente aus. Die Anwendung der Funktion könnte folgendermaßen aussehen:
 
-erlaubt Ihnen, einen Start und Endpunkt festzulegen. Führen Sie dies für
-alle drei Bursts und für die drei verschiedenen Experimente aus. Die Anwendung der Funktion könnte folgendermaßen aussehen:
 ````python
 mvc_s, mvc_e, weights_s, weights_e, fatigue_s, fatigue_e = l3f.get_bursts(mvc_emg_filtered, weights_emg_filtered, fatigue_emg_filtered)
 ````
@@ -123,17 +117,17 @@ Das Ergebnis der Funktion sollte ähnlich wie in Abbildung [1.10](../assets/img/
 Um die Veränderung der Kontraktionsgeschwinkeiten über die Zeit zu berechnen, müssen das Frequenzspektrum und die darin dominanten Frequenzen für die drei Zeitpunkte während der Messung berechnet werden. Der
 Median der spektralen Leistungsdichte ist dafür ein passender Parameter.
 Um die Median-Frequenz zu berechnen, muss erst die Fläche unter der Kurve berechnet werden, welche die gesamte Leistung darstellt. Danach wird
-der Punkt gesucht, welche die Fläche gleichmäßig in zwei Hälften teilt (Abb. [1.12](../assets/img/filtSpekLeis.bmp)). Dafür kann der folgende Code verwendet werden:
+der Punkt gesucht, welche die Fläche gleichmäßig in zwei Hälften teilt (Abb. [1.12](../assets/img/Filtered_frequencySpectrum_corrected_Abb1_12.png)). Dafür kann der folgende Code verwendet werden:
 
 ````python
-area_freq = scipy.integrate.cumtrapz(power, frequencies, initial = 0)
-total_power = area_freq[−1]
+area_freq = scipy.integrate.cumulative_trapezoid(power, frequencies, initial = 0)
+total_power = area_freq[-1]
 median_freq = frequencies[np.where(area_freq >= total_power / 2 )[0][0]]
 ````
 
-![Abbildung 1.12](../assets/img/filtSpekLeis.bmp)
+![Abbildung 1.12](../assets/img/Filtered_frequencySpectrum_corrected_Abb1_12.png)
 
-[Abbildung 1.12](../assets/img/filtSpekLeis.bmp): Gefilterte Spektrale Leistungsdichte mit berechnetem Median.
+[Abbildung 1.12](../assets/img/Filtered_frequencySpectrum_corrected_Abb1_12.png): Gefilterte Spektrale Leistungsdichte mit berechnetem Median.
 
 Wiederholen Sie die Schritte für die drei Messungen für das Experiment
 3, um die Ermüdung zu analysieren. Danach können Sie die ermittelten

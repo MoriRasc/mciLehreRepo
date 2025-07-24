@@ -52,16 +52,14 @@ lange? **(1 Punkt)**
   
     (c) Denken Sie, dass die Zeit bis zur Erholung der Herzfrequenz bei Athleten kürzer ist, als bei untrainierten Personen? Warum? **(1 Punkt)**
 
-11. Lesen Sie das Paper, welches unter Sakai-Ressourcen-Praktikum2-Paper zu finden ist [[1]](#1), und erklären Sie, wie die Autoren die Verbindung zwischen Herzfrequenz und Energieverbrauch entwickelt haben. Was ist der Unterschied zwischen den drei beschriebene Gleichungen? Welche der Gleichungen würden Sie für die Berechnung Ihres Energieverbrauchs in diesem Experiment verwenden? Begründen Sie Ihre Auswahl. **(2 Paragraphen, 3 Punkte)**
+11. Berechnen Sie den metabolischen Energieverbrauch über die Zeit mit der Gleichung, welche Sie ausgewählt haben. Ergibt die relative Änderung des metabolischen Energieverbrauchs Sinn für das, was Sie für das Experiment erwarten? Begründen Sie Ihre Aussage. **(1 Darstellung, wenige Sätze, 2 Punkte)**
 
-12. Berechnen Sie den metabolischen Energieverbrauch über die Zeit mit der Gleichung, welche Sie ausgewählt haben. Ergibt die relative Änderung des metabolischen Energieverbrauchs Sinn für das, was Sie für das Experiment erwarten? Begründen Sie Ihre Aussage. **(1 Darstellung, wenige Sätze, 2 Punkte)**
-
-13. Berechnen Sie den gesamten Energieverbrauch für das Experiment. Drücken Sie das Ergebnis in Einheiten von Joule, Kalorien, Rittersport Tafeln, Bier und als Anteil des Kalorienbedarfs für Ihre Person. Formeln zu Berechnung Ihres täglichen Kalorienbedarfs finden Sie im Internet. Implementieren Sie Ihre Berechnungen in Python und geben Sie die Ergebnisse im Bericht an.
+12. Berechnen Sie den gesamten Energieverbrauch für das Experiment. Drücken Sie das Ergebnis in Einheiten von Joule, Kalorien, Rittersport Tafeln, Bier und als Anteil des Kalorienbedarfs für Ihre Person. Formeln zu Berechnung Ihres täglichen Kalorienbedarfs finden Sie im Internet. Implementieren Sie Ihre Berechnungen in Python und geben Sie die Ergebnisse im Bericht an.
 **(2 Punkte)**
 
-14. Ihr abgegebener Code funktioniert und erzeugt die richtigen Plots, welche für diesen Bericht gefordert waren. **(1 Punkt)**
+13. Ihr abgegebener Code funktioniert und erzeugt die richtigen Plots, welche für diesen Bericht gefordert waren. **(1 Punkt)**
 
-15. Erläutern Sie, wie die Herzfrequenzvariabilität Aufschluss über die Steuerung der Herzfrequenz durch das autonome Nervensystem gibt und warum dies wichtig ist. Wie könnten sich HRV und HR bei einem Spitzensportler und einer chronisch kranken Person unterscheiden? Verwenden Sie in Ihrer Antwort Beispiele und verweisen Sie auf die Literatur. **(1 langer Paragraph (unter einer Seite), 6 Punkte)**
+
 
 **Gesamte Punkte: 37**
 
@@ -80,10 +78,5 @@ werden
 
   - **Bitte alles in eine *.zip* -Datei speichern!!!**
 
-## **Literaturverzeichnis**
-<a id="1">[1]</a> 
-H. Hiilloskorpi, M. Pasanen, M. Fogelholm, R. M. Laukkanen, and
-A. Mänttäri, “Use of heart rate to predict energy expenditure from low to
-high activity levels,” **International journal of sports medicine**, vol. 24,
-no. 05, pp. 332–336, 2003.
+
 
