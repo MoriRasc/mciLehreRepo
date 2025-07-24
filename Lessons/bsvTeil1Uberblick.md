@@ -1,5 +1,5 @@
 # Praktikumsunterlagen
-## **Biosignalverarbeitung - Teil 1**
+## **Biosignalverarbeitung - Teil 1 Anleitung**
 ### WS 2025
 
 Bachelorstudiengang
