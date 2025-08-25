@@ -7,7 +7,7 @@ Bachelorstudiengang
 ### Medizin-, Gesundheits- und Sporttechnologie
 
 Autoren:
-#### *Yannic Heyer / Niklas Brown* *Adaptiert von: Gerda Strutzenberger, PhD / Lukas Neururer / Aitor Morillo*
+#### *Yannic Heyer / Niklas Brown* *Adaptiert von: Gerda Strutzenberger, PhD / Aitor Morillo*
 
 Letztes Update: 05. Juni 2025
 

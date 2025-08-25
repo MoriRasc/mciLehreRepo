@@ -1,27 +1,8 @@
-# Praktikumsunterlagen
-## **Biosignalverarbeitung - Teil 1 Anleitung**
-### WS 2025
+# **Praktikumsunterlagen**
 
-Bachelorstudiengang
-### Medizin-, Gesundheits- und Sporttechnologie
-
-Autoren:
-#### *Yannic Heyer / Niklas Brown* *Adaptiert von: Gerda Strutzenberger, PhD / Lukas Neururer / Aitor Morillo*
-
-Letztes Update: 05. Juni 2025
-
-# **Inhaltsverzeichnis**
-
-**1** **Praktikum** 
-
-1.1 Organisatorisches
-
-1.2 Teil 1 - Aufbau der Hardware & Datenakquise
-
-# **Praktikum**
 
 In diesem Praktikum werden Sie lernen, mit frei verfügbarer Hardware Biosignale am Menschen aufzunehmen und die Daten über Programmierung zu filtern, verarbeiten und analysieren. Dabei werden Sie Biosignale vom Muskel-, Nerven und Herz-Kreislauf-System kennenlernen und für sich erforschen.
-## **1.1 Organisatorisches**
+## **Organisatorisches**
 
 **1. Bewertung**
 
@@ -69,8 +50,7 @@ die Ermüdung zu bestimmen. **Abschluss mit Laborbericht**
 
 **4. Hardware**
 
-Jeder Projektgruppe wird zu Beginn des Praktikums ein Hardware-Kit
-ausgehändigt, welches mit Vorsicht zu behandeln und nach Projektende
+Jeder Projektgruppe wird zu Beginn des Praktikums ein Hardware-Kit ausgehändigt, welches mit Vorsicht zu behandeln und nach Projektende
 **vollständig** zurückzugeben ist. Dieses Kit umfasst die in Tabelle 1.1 dargestellten Komponenten.
 
 
