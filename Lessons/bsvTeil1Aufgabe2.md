@@ -23,7 +23,7 @@ Kabels achten - Wenn es nicht einfach zu stecken ist, um 180 Grad drehen
 und nochmal versuchen ... bitte vorsichtig!). Uber den Hochladen-Button
 den Code nun auf den Mikrocontroller laden.
 
- ### 4. **Serieller Monitor & Plotter**
+### 4. **Serieller Monitor & Plotter**
 
 über *Werkzeug →* *serieller Monitor* lassen sich Daten durch die *print()*
 Funktion darstellen. Dabei ist zu Beginn eines C-Programmes die *Baud*   Rate angegeben, welche angibt, wie schnell Daten vom Mikrocontroller zum
