@@ -30,8 +30,7 @@ besprochen und einige Beispiele aufgezeigt. **Abgabe von Python**
 
 **Bitte machen Sie sich mit den Grundlagen der Arduino IDE**
 **unter folgendem [Link](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino##arduino-software-tools-1){:target="_blank"} bekannt. Fokussieren Sie sich auf die**
-**Sektionen beginnend mit ”Arduino API“. Downloaden Sie**
-**für dieses Praktikum die Version 1.8.19, welche als Legacy**
+**Sektionen beginnend mit ”Arduino API“. Downloaden Sie für dieses Praktikum die Version 1.8.19 [Download-Link](https://downloads.arduino.cc/arduino-1.8.19-windows.exe){:target="_blank"}, welche als Legacy**
 **Version geführt wird (Siehe [Abbildung 1.1](../assets/img/arduinoLegacy.bmp)).**
 
 ![Abbildung 1.1](../assets/img/arduinoLegacy.bmp)
