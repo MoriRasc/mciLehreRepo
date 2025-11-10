@@ -12,8 +12,7 @@ auf möglichst haarfreie und saubere Stellen geklebt werden. Reinigen Sie dafür
 - Elektrode 2 (rot) an den **[linken V6 Ableitpunkt](https://en.wikipedia.org/wiki/Electrocardiography#/media/File:Precordial_leads_in_ECG.png){:target="_blank"}** . Als Hilfestellung wird folgender **[Link](https://en.wikipedia.org/wiki/Electrocardiography#/media/File:Precordial_leads_in_ECG.png){:target="_blank"}** bereitgestellt, in dem das Ermitteln des V6
 erläutert wird.
 
-- Elektrode 3 (schwarz) ist die Referenzelektrode. Dies sollte möglichst wenig bewegt werden, um Störsignale zu vermeiden. Daher wird eine Platzierung auf der **[Halswirbelsäule (C7)](https://de.wikipedia.org/wiki/Halswirbel){:target="_blank"}** empfohlen. Als Hilfestellung wird folgender **[Link](https://de.wikipedia.org/wiki/Halswirbel){:target="_blank"}** bereitgestellt, in dem das Ermitteln des C7
-erläutert wird.
+- Elektrode 3 (schwarz) ist die Referenzelektrode. Dies sollte möglichst wenig bewegt werden, um Störsignale zu vermeiden. Daher wird eine Platzierung auf der **[Halswirbelsäule (C7)](https://de.wikipedia.org/wiki/Halswirbel){:target="_blank"}** empfohlen. Als Hilfestellung wird folgender **[Link](https://de.wikipedia.org/wiki/Halswirbel){:target="_blank"}** bereitgestellt, in dem das Ermitteln des C7 erläutert wird.
 
 Stecken Sie anschließend die Kabel auf die Druckknöpfe der Elektroden
 (Farben beachten!!!) und befestigen Sie die Kabel mit Hilfe von haut-neutralem Klebeband etwa 2-3 cm entfernt von der Elektrode. Dadurch können Artefakte durch Kabelbewegungen reduziert werden.
@@ -52,7 +51,7 @@ Speichern Sie die neue Datei auf ihrem Laptop und laden Sie den Code auf den Mik
 ## **Experiment in Ruhe**
 
 In diesem Experiment werden Sie ein 10-minütiges Ruhe-EKG aufnehmen.
-Nutzen Sie den Ihnen auf Sakai zur Verfügung gestellten Code **Lab2Code1**, bei dem mit einer Frequenz von 1000 Hz und einer Baud Rate von 500000 aufgenommen wird. 
+Nutzen Sie den Ihnen auf Sakai zur Verfügung gestellten Code **Lab2Code1** und **serialRead.ipynb**, bei dem mit einer Frequenz von 1000 Hz und einer Baud Rate von 500000 aufgenommen wird. 
 
 **Achtung**
 
@@ -77,8 +76,7 @@ den Ruhemodus wechselt oder sich ausschaltet
 
 
 ## **Experiment in Bewegung**
-Für diese Versuchsserie soll die Referenzelektrode wieder am C7 im
-Nacken des Probanden angebracht werden. Stellen Sie außerdem sicher, dass die Verkabelung gut am Körper angebracht ist. Dies soll Bewegungsartefakte vermeiden und hilft bei der späteren Weiterverarbeitung der Daten. Für die Messung in Bewegung soll das Fahrradergometer und das auf der Tacx montierte Mountainbike verwendet werden.
+Stellen Sie sicher, dass die Verkabelung gut am Körper angebracht ist. Dies soll Bewegungsartefakte vermeiden und hilft bei der späteren Weiterverarbeitung der Daten. Für die Messung in Bewegung soll das Fahrradergometer und das auf der Tacx montierte Mountainbike verwendet werden.
 **Achtung: Der Tacx muss über ein Netzteil an das Stromnetz angeschlossen werden. Dadurch kann Störrauschen in das aufgezeichnete Signal eingekoppelt werden.**
 
 

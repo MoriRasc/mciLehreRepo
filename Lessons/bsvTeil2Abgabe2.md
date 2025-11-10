@@ -20,7 +20,7 @@ von einem der Teilnehmer (gefiltert). Nutzen Sie die Ergebnisse der PeakSuche-Fu
 6. Verwenden Sie Python, um die mittlere Herzfrequenz und HRV (mit der
 Standardabweichung) für jeden der drei Teilnehmer zu bestimmen. Vergleichen Sie die Ergebnisse in einer Tabelle (eine Zeile pro Teilnehmer). Denken Sie daran, alle Datensätze zu den jeweiligen Teilnehmern mit abzugeben. Die Berechnung soll im Code *MainCode2* stattfinden. **(1 Tabelle, wenige Sätze, 2 Punkte)**
 
-7. Tragen Sie in dem auf Sakai verfügbaren Dokument *HeartRateData* die
+7. Tragen Sie in dem auf OneDrive verfügbaren Dokument [*HeartRateData*](https://mci0-my.sharepoint.com/:x:/g/personal/aitor_morillo-rascon_mci_edu/EU5XYejWgHVBlxG4dPJpG88BXxMaTxVRTfnSsdVePCoF7A?e=4OBbSD) die
 mittlere Herzfrequenz und Herzfrequenzvariabilität für alle Teilnehmer ein. Sobald alle Gruppen ihre Messungen und Ergebnisse eingetragen haben, werden Sie durch den Praktikumsleiter informiert und können mit den folgenden Schritten fortfahren:
 
     (a) Downloaden Sie das Dokument im Tabellenformat und verwenden Sie
