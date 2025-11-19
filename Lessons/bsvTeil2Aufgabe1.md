@@ -59,7 +59,7 @@ Der Serial Monitor der Arduino-IDE ist ein praktisches Tool zum Anzeigen von ser
 
 Da der serielle Monitor der Arduino-IDE nicht schnell genug ist, um Daten mit einer Abtastrate von 1000 Hz zuverlässig darzustellen, verwenden Sie in diesem Fall ein Python-Skript (**serialRead.ipynb**), das direkt mit dem Arduino über die serielle Schnittstelle (USB) kommuniziert.
 
-Das Skript liest die ankommenden Messwerte ein und speichert sie direkt in eine CSV-Datei auf dem Computer. Dabei wird jeder Messwert mit einem Zeitstempel in Millisekunden versehen, der vom Python-Programm erzeugt wird. 
+Das Skript liest die ankommenden Messwerte ein und speichert sie direkt in eine CSV-Datei auf dem Computer.
 
 1. Bauen Sie die gesamte Hardware auf und laden Sie den Code auf Ihren Mikrocontroller
 
