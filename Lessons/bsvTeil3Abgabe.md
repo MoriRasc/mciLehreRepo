@@ -43,7 +43,7 @@ die Fasertypen. **(Diagramm(e) und 1 Absatz; 3 Punkte)**
 
 9.- Ihr abgegebener Code funktioniert und erzeugt mit den abgegebenen Daten die richtigen Plots, welche für diesen Bericht gefordert waren. **(1 Punkt)**
 
-**Gesamte Punkte: 34**
+**Gesamte Punkte: 20**
 
 ## **Abgabe auf Sakai:**
 Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweise (Lab3_*Gruppe_Gruppennummer* ) für die Gruppeneinreichung und speichern Sie die folgenden Dateien in dieser *.zip* -Datei:

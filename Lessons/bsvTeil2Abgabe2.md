@@ -61,7 +61,7 @@ lange? **(1 Punkt)**
 
 
 
-**Gesamte Punkte: 37**
+**Gesamte Punkte: 28**
 
 ## **Abgabe auf Sakai:**
 Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweise (Lab2_*Gruppe_Gruppennummer*) für die Gruppeneinreichung und speichern Sie die
