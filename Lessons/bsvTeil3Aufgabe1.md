@@ -58,7 +58,7 @@ Anstelle der bisherigen 80 Diskretisierungen werden nun bis zu 300 Schritte vorg
 
 Der Serial Monitor der Arduino-IDE ist ein praktisches Tool zum Anzeigen von seriellen Daten, aber nicht für Hochgeschwindigkeits-Datenübertragungen wie 1000 Hz ausgelegt. Der Serial Monitor versucht, alle empfangenen Zeichen grafisch darzustellen (scrollen, puffern, rendern). Diese GUI-Darstellung ist deutlich langsamer als das reine Empfangen von Daten. Dadurch entstehen Verzögerungen und Datenverlust bei hohen Frequenzen.
 
-Da der serielle Monitor der Arduino-IDE nicht schnell genug ist, um Daten mit einer Abtastrate von 1000 Hz zuverlässig darzustellen, verwenden Sie in diesem Fall ein Python-Skript (**serialRead.ipynb**), das direkt mit dem Arduino über die serielle Schnittstelle (USB) kommuniziert.
+Da der serielle Monitor der Arduino-IDE nicht schnell genug ist, um Daten mit einer Abtastrate von mindestens 1000 Hz zuverlässig darzustellen, verwenden Sie in diesem Fall ein Python-Skript (**serialReadEMG.ipynb**), das direkt mit dem Arduino über die serielle Schnittstelle (USB) kommuniziert.
 
 Das Skript liest die ankommenden Messwerte ein und speichert sie direkt in eine CSV-Datei auf dem Computer. 
 
@@ -80,15 +80,13 @@ Spannung im Muskel [[4]](#4).
 
 Gehen Sie nun folgendermaßen vor:
 
-1. Bauen Sie die gesamte Hardware auf und laden Sie den Code auf Ihren Mikrocontroller
+1. Bauen Sie die gesamte Hardware auf und laden Sie den Code **Lab3Code1** auf Ihren Mikrocontroller
 
-2. Starten Sie das Python-Skript **serialRead.ipynb**
+2. Starten Sie das Python-Skript **serialReadEMG.ipynb**
 
 3. Greifen Sie z.B. den Tisch mit Ihrer Hand, während der Oberarmvertikal und der Unterarm um 90° gebeugt ist. Versuchen Sie den Tisch hochzuheben, ohne dabei den Winkel von 90° zu verändern (Lassen Sie Ihre Kommilitonen auf dem Tisch sitzen, falls der Tisch sich dabei bewegen sollte). Führen Sie dieses Heben für etwa 5 Sekunden aus, wobei Sie mit maximaler Kraft heben möchten. Versuchen Sie dabei die Kabel so wenig wie möglich zu bewegen.
 
-4. Stoppen Sie das Python-Skript **serialRead.ipynb**
-
-5. Machen Sie eine Pause von mindestens 60 Sekunden und wieder
+4. Machen Sie eine Pause von mindestens 60 Sekunden und wieder
 holen Sie den Versuch weitere zwei Male, um drei Datensätze für
 die MVC zu erhalten. Benennen Sie diese ordentlich (MVC1,...).
 
@@ -99,13 +97,11 @@ In diesem Experiment werden Sie ähnlich zum Experiment 1 vorgehen, jedoch mit d
 unterschiedliche Gewichte und dokumentieren Sie diese. Nutzen Sie
 folgende Vorgehensweise:
 
-1. Starten Sie das Python-Skript **serialRead.ipynb**
+1. Starten Sie das Python-Skript **serialReadEMG.ipynb**
 
 2. Halten Sie das leichteste Gewicht in derselben Position wie in Experiment 1 (90° Winkel)für 10 Sekunden
 
-4. Stoppen Sie das Python-Skript **serialRead.ipynb**
-
-5. Machen Sie eine Pause von mind. 40 Sekunden **und wiederholen Sie die Messung mit dem mittleren und schweren Gewicht.** Benennen Sie diese ordentlich (Weight1,...).
+3. Machen Sie eine Pause von mind. 40 Sekunden **und wiederholen Sie die Messung mit dem mittleren und schweren Gewicht.** Benennen Sie diese ordentlich (Weight1,...).
 
 ## **Experiment 3: Ermüdung** 
 In diesem Experiment werden Sie eine Ermüdung des Muskels messen, indem Sie ein ähnliches Setup wie in Experiment 1 verwenden. Gehen Sie folgendermaßen vor:
@@ -113,13 +109,11 @@ In diesem Experiment werden Sie eine Ermüdung des Muskels messen, indem Sie ein
 1. Gehen Sie zurück zum Tisch, welchen Sie zum heben verwendet
 haben
 
-2. Starten Sie das Python-Skript **serialRead.ipynb**.
+2. Starten Sie das Python-Skript **serialReadEMG.ipynb**.
 
 3. Messen Sie die maximale Kontraktion (so stark wie möglich!) über volle 10-15 Sekunden.
 
-4. Stoppen Sie das Python-Skript **serialRead.ipynb**
-
-5. Machen Sie eine Pause von mind. 60 Sekunden **und wiederholen Sie die Messung zweimal, sodass Sie drei Datensätze der Ermüdung erhalten**. Benennen Sie diese ordentlich (Fatigue1,...).
+4. Machen Sie eine Pause von mind. 60 Sekunden **und wiederholen Sie die Messung zweimal, sodass Sie drei Datensätze der Ermüdung erhalten**. Benennen Sie diese ordentlich (Fatigue1,...).
 
 
 ## **Literaturverzeichnis**
