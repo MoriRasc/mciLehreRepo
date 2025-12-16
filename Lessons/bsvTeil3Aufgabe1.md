@@ -29,8 +29,7 @@ Die Werte 250 und 400 stehen für den y-Achsenabschnitt und ändern sich
 nicht mehr im seriellen Plotter. Falls Ihre Muskelaktivität eine niedrigere oder höhere Amplitude aufweist, können Sie die Werte händisch anpassen.
 
 ## 3. **Bessere Auflösung mit einem ADC**
-Wenn Sie auf ihren Plotter sehen, können Sie diskretisierte Werte erkennen. Diese Diskretisierung findet durch den Analog-Digital-Konverter (ADC) statt und ist in der Genauigkeit auch durch diesen begrenzt. Der auf dem Mikrocontroller verbaute ADC ist nicht besonders genau, weshalb wir einen 12 Bit ADC über die Qwiic Kabel anschließen werden, um so die Genauigkeit der Messwerte zu erhöhen. Die folgenden Schritte beschreiben, wie Sie
-den ADC in ihrem Messsystem integrieren:
+Wenn Sie auf ihren Plotter sehen, können Sie diskretisierte Werte erkennen. Diese Diskretisierung findet durch den Analog-Digital-Konverter (ADC) statt und ist in der Genauigkeit auch durch diesen begrenzt. Der auf dem Mikrocontroller verbaute ADC ist nicht besonders genau, weshalb wird einen 12 Bit ADC über die Qwiic Kabel anschließen werden, um so die Genauigkeit der Messwerte zu erhöhen. Die folgenden Schritte beschreiben, wie Sieden ADC in ihrem Messsystem integrieren:
 
 1.- Verbinden Sie das vierfache Kabel (schwarz/rot/weiß/gelb) mit dem
 EMG/EKG-Sensor
