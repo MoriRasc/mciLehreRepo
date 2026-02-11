@@ -64,7 +64,7 @@ Ihre geschlossene Hand und bewegen Sie ihn sehr schnell pro Sekunde einmal hoch 
 
 10. Nutzen Sie die gesammelten Daten, um die Messfrequenz zu bestimmen
 **(Code, 1 Punkt)**
-
+ 
 11. Diskutieren Sie die Plateaus der Peaks. Warum sind diese alle beim gleichen Wert? Wie könnte man dieses Problem lösen? 
 
 12. Ändern Sie den vorherigen Code, um die Plateaus zu beseitigen, indem Sie das Datenblatt des Sensors konsultieren. Dokumentieren Sie die Seite, auf der Sie die Information über das betreffende Register gefunden haben, sowie den Parameter und alle möglichen Werte, die dieser Parameter annehmen kann. Begründen Sie die Auswahl des verwendeten Wertes. Wiederholen Sie das Experiment. Plotten Sie wieder 4 Sekunden der Daten und vergleichen Sie den Plot mit dem aus der vorhergegangenen Aufgabe. Welche Gemeinsamkeiten und Unterschiede gibt es, und warum bestehen sie? **(1 Darstellung, 1 Paragraph, 2 Punkte)**
