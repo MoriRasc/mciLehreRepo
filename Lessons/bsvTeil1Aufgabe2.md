@@ -25,7 +25,7 @@ den Code nun auf den Mikrocontroller laden.
 
 ### 4. **Serieller Monitor & Plotter**
 
-über *Werkzeug →* *serieller Monitor* lassen sich Daten durch die *print()*
+Über *Werkzeug →* *serieller Monitor* lassen sich Daten durch die *print()*
 Funktion darstellen. Dabei ist zu Beginn eines C-Programmes die *Baud*   Rate angegeben, welche angibt, wie schnell Daten vom Mikrocontroller zum
 seriellen Monitor transferiert werden können. Daten werden nur angezeigt,
 **wenn die Baud Rate im seriellen Monitor gleich der im Code**

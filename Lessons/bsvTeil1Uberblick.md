@@ -23,19 +23,12 @@ In dieser Sektion wird das Hardware Setup aufgebaut. Es werden
 erste Messungen vorgenommen sowie Daten gefiltert und analysiert.
 Zum Schluss wird gemeinsam das Schreiben von Praktikumsberichten
 besprochen und einige Beispiele aufgezeigt. **Abgabe von Python**
-**Programmen + freiwillige Abgabe vom Praktikumsbericht /**
+**Programmen + freiwillige Abgabe vom Praktikumsbericht /Feedback formale Kriterien**
 
-
-**Feedback formale Kriterien**
 
 **Bitte machen Sie sich mit den Grundlagen der Arduino IDE**
-**unter folgendem [Link](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino##arduino-software-tools-1){:target="_blank"} bekannt. Fokussieren Sie sich auf die**
-**Sektionen beginnend mit ”Arduino API“. Downloaden Sie für dieses Praktikum die Version 1.8.19 [Download-Link](https://downloads.arduino.cc/arduino-1.8.19-windows.exe){:target="_blank"}, welche als Legacy**
-**Version geführt wird (Siehe [Abbildung 1.1](../assets/img/arduinoLegacy.bmp)).**
+**unter folgendem [Link](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino##arduino-software-tools-1){:target="_blank"} bekannt. Fokussieren Sie sich auf die Sektionen beginnend mit ”Arduino API“. Laden Sie für dieses Praktikum die letzte stabile Version herunter. [Download-Link](https://www.arduino.cc/en/software/){:target="_blank"}**
 
-![Abbildung 1.1](../assets/img/arduinoLegacy.bmp)
-
-[Abbildung 1.1](../assets/img/arduinoLegacy.bmp): Arduino IDE 1.8.19
 
 (b) **Teil 2 - Elektrokardiografie (EKG)**
 Diese Sektion beinhaltet die Messung und Analyse der elektrischen
@@ -68,6 +61,7 @@ Kit.
 |  9 V Batterieanschluss | 1 |
 |  9 V Batterie | 1 |
 |  Micro-USB-Kabel | 1 |
+|  SD kartenleser USB |  1  |
 |  Qwiic Kabel | 3 |
 |  Jumper Kabel | 4 |
 
