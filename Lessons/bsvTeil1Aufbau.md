@@ -4,7 +4,7 @@
 
 2. Beschleunigungssensor (MMA8452Q) und Verbindungskabel (Qwiic)
 
-**Benötigte Komponenten fr mobiles System**
+**Benötigte Komponenten für mobiles System**
 
 1. 9 V Batterie und Batterie Verbindung
 

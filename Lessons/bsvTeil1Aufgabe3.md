@@ -8,7 +8,7 @@ losgelöste Aufnahme von Daten. Dadurch ergeben sich neue Einsatzgebiete wie
 Aufnahmen beim Gehen, Fahrradfahren oder anderen Sportaktivitäten, die zuvor
 durch einen stationären Computer limitiert wurden.
 
-### 1. **OpenLog mit Computer**
+### 1. **OpenLog mit Computer Testen**
 
 (a) Zuerst werden Sie prüfen, ob ihr OpenLog Chip mit der dazugehörigen SD-Karte ordnungsgemäß funktioniert. Dafür wird eine Verbindung mit dem Computer hergestellt und gleichzeitig die Daten auf die SD-Karte geschrieben. Zuerst muss die passende Bibliothek für das
 OpenLog Modul installiert werden. Dies findet ähnlich wie in Aufgabe
@@ -46,10 +46,10 @@ ausgeführt wird, wird auch eine neue Datei erzeugt. Führen Sie anschließend d
 Versuchen Sie nach dem Anschließen den Reset-Button auf dem Mikrocontroller zu drücken und schauen Sie sich erneut die Text Dateien an.
 
 ### 2. **OpenLog mit Batterie**
-Schließen Sie anstelle des Computers jetzt eine Batterie als Stromquelle an
-**(Bitte vorher vom USB Kabel trennen!!!)** . Versuchen Sie erneut das
-*Example1 und Example2* aus Teil 1 durchzuführen.
-**ACHTUNG: Kommentieren Sie davor alle Zeilen aus, welche Daten über den seriellen Anschluss an den Computer senden wie z.B. Serial.begin(9600)(Kommentar = //).**
+(a) Schließen Sie anstelle des Computers jetzt eine Batterie als Stromquelle an
+**(Bitte vorher vom USB Kabel trennen!!!)** . 
+
+(b) Verwenden Sie das mobile Messsystem und mit dem DataLogger und der Batterie. Nehmen Sie mit dem Code **Lab1Code2** etwa 10 Sekunden auf (Bewegung ist egal) und vergleichen Sie die Messfrequenz mit dem früheren Wert.
 
 **ACHTUNG: Fehlerbehebung**
 
