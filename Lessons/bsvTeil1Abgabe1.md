@@ -8,11 +8,8 @@ Für Teil 1 des Praktikums werden Sie **keinen** Laborbericht einreichen müssen
 **Die Abgabe des Python Codes umfasst das Bearbeiten der Aufgaben:**
 
   - 4 (a)
-
   - 5
-
   - 6 (a)
-
   - 7
   - 8
   - 9
@@ -37,7 +34,7 @@ Ihre geschlossene Hand und bewegen Sie ihn sehr schnell pro Sekunde einmal hoch 
 
     (c) Warum stellen die Daten nicht exakt die durchgeführten Bewegungen dar?
 
-**(1 Darstellung, 2 Paragraph, 2 Punkte)**
+  **(1 Darstellung, 2 Paragraph, 2 Punkte)**
 
 5. (Aufgabe 2, Sektion 5) Ändern Sie den vorherigen Arduino Code so, dass die Aufzeichnungen mit den Bewegungen übereinstimmen, indem Sie das Datenblatt des Sensors konsultieren. Dokumentieren Sie die Seite, auf der Sie die Information über das betreffende Register gefunden haben, sowie den Parameter und alle möglichen Werte, die dieser Parameter annehmen kann. Begründen Sie die Auswahl des verwendeten Wertes. Wiederholen Sie das Experiment. Plotten Sie wieder 4 Sekunden der Daten und vergleichen Sie den Plot mit dem aus der vorhergegangenen Aufgabe. Welche Gemeinsamkeiten und Unterschiede gibt es, und warum bestehen sie? **(Code, 1 Punkt)****(1 Darstellung, 1 Paragraph, 2 Punkte)**
 
