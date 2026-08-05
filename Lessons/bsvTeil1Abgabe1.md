@@ -28,11 +28,11 @@ einen Wert von 520 ausgibt? Zeigen Sie Ihre Rechnung! **(1 Darstellung, 2 Punkte
 4. Führen Sie folgendes Experiment aus (Nehmen Sie dafür den gegebenen Arduino Code **Lab1Code1**): Nehmen Sie den Beschleunigungssensor in
 Ihre geschlossene Hand und bewegen Sie ihn sehr schnell pro Sekunde einmal hoch und runter (ohne Rotation). Führen Sie dies für 10 Sekunden aus und speichern Sie die Daten. Das Speichern der Daten in eine *.txt* Datei für die Verarbeitung wird über einfaches Copy&Paste durchgeführt. Dafür muss ein neues .txt-Dokument erstellt und geöffnet werden. Trennen Sie nun die Verbindung zwischen Mikrocontroller und Computer, dadurch stoppt die im seriellen Monitor angezeigte Datenübertragung. Wählen Sie das Feld mit den Daten aus und kopieren Sie alle Daten mit der Tastenkombination *Strg + A* (Alles auswählen) *→* *Strg + C* (Kopieren) & *Strg + V* (Einfügen) in Ihr Text-Datei.  
 
-  (a) Plotten Sie 4 Sekunden der Daten. **(1 Darstellung, 1 Punkte)**
-
-  (b) Diskutieren Sie die Plateaus der Peaks. Warum sind diese alle beim gleichen Wert? Wie könnte man dieses Problem lösen? **(1 Paragraph, 1 Punkte)**
-
-  (c) Warum stellen die Daten nicht exakt die durchgeführten Bewegungen dar? **(1 Paragraph, 1 Punkte)**
+    (a) Plotten Sie 4 Sekunden der Daten. **(1 Darstellung, 1 Punkte)**
+    
+    (b) Diskutieren Sie die Plateaus der Peaks. Warum sind diese alle beim    gleichen Wert? Wie könnte man dieses Problem lösen? **(1 Paragraph, 1   Punkte)**
+    
+    (c) Warum stellen die Daten nicht exakt die durchgeführten Bewegungen dar?    **(1 Paragraph, 1 Punkte)**
 
 5. Ändern Sie den vorherigen Arduino Code so, dass die Aufzeichnungen mit den Bewegungen übereinstimmen, indem Sie das Datenblatt des Sensors konsultieren. Dokumentieren Sie die Seite, auf der Sie die Information über das betreffende Register gefunden haben, sowie den Parameter und alle möglichen Werte, die dieser Parameter annehmen kann. Begründen Sie die Auswahl des verwendeten Wertes. Wiederholen Sie das Experiment. Plotten Sie wieder 4 Sekunden der Daten und vergleichen Sie den Plot mit dem aus der vorhergegangenen Aufgabe. Welche Gemeinsamkeiten und Unterschiede gibt es, und warum bestehen sie? **(Code, 1 Punkt)****(1 Darstellung, 1 Paragraph, 2 Punkte)**
 
