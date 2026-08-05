@@ -23,7 +23,7 @@ In dieser Sektion wird das Hardware Setup aufgebaut. Es werden
 erste Messungen vorgenommen sowie Daten gefiltert und analysiert.
 Zum Schluss wird gemeinsam das Schreiben von Praktikumsberichten
 besprochen und einige Beispiele aufgezeigt. **Abgabe von Python**
-**Programmen + freiwillige Abgabe vom Praktikumsbericht /Feedback formale Kriterien**
+**Programmen + Abgabe vom Praktikumsbericht /Feedback formale Kriterien**
 
 
 **Bitte machen Sie sich mit den Grundlagen der Arduino IDE**

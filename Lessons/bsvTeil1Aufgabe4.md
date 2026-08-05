@@ -34,14 +34,3 @@ b,a = scipy.signal.butter(4, Grenzfrequenz, ' low ')
 filtered_data = scipy.signal.filtfilt(b, a, data)
 ````
 
-**ACHTUNG: Fehlerbehebung**
-
-  - Wenn Sie eine Testmessung vornehmen und dabei den Reset-Button
-drücken, führt dies zu einem erneuten Start des Zeit-Counters. Sie
-können die Zeit bis zum Neustart danach händisch in der Textdatei löschen.
-
-
-
-  - **Bitte alles in eine** ***.zip*** **-Datei speichern!!!**
-
-

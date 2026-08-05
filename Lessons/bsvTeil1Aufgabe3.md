@@ -45,14 +45,8 @@ von *”myLog.append “* ändern. Jedes mal, wenn diese Zeile aufgerufen
 ausgeführt wird, wird auch eine neue Datei erzeugt. Führen Sie anschließend die Punkte (c)-(e) erneut aus.
 Versuchen Sie nach dem Anschließen den Reset-Button auf dem Mikrocontroller zu drücken und schauen Sie sich erneut die Text Dateien an.
 
-### 2. **OpenLog mit Batterie**
-(a) Schließen Sie anstelle des Computers jetzt eine Batterie als Stromquelle an
-**(Bitte vorher vom USB Kabel trennen!!!)** . 
 
-(b) Verwenden Sie das mobile Messsystem und mit dem DataLogger und der Batterie. Nehmen Sie mit dem Code **Lab1Code2** etwa 10 Sekunden auf (Bewegung ist egal) und vergleichen Sie die Messfrequenz mit dem früheren Wert.
 
 **ACHTUNG: Fehlerbehebung**
 
-  - Die Variante mit Batterie als Stromquelle funktioniert nicht immer
-fehlerfrei. Um Fehler zu minimieren soll der Reset-Button nach der Verbindung mit der 9 V Batterie einmal gedrückt werden. Dies startet
-das hochgeladene C-Programm neu.
+  - Diese Variante funktioniert nicht immer fehlerfrei. Um Fehler zu minimieren soll der Reset-Button nach der Verbindung mit der 9 V Batterie einmal gedrückt werden. Dies startet das hochgeladene C-Programm neu.
