@@ -4,6 +4,7 @@
 
 Für Teil 2 des Praktikums werden Sie einen Laborbericht einreichen müssen, in dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Der Bericht soll in LATEX geschrieben werden. Die dafür benötigte Vorlage können Sie auf Sakai finden.
 
+
 1. Erstellen Sie Diagramme, in denen das Messsystem dargestellt ist. Beschriften Sie jede Komponente, jeden Bus (einschließlich Bustyp und -geschwindigkeit) sowie jeden Signalpfad, und beschreiben Sie diese jeweils kurz. (1-2 Sätze pro Komponente). **(2 Punkte)**
 
 2. Beschreiben Sie was im seriellen Plotter zu erkennen ist, wenn Sie Ihre Messdaten aufnehmen und der Laptop dabei nicht am Stromnetz angeschlossen ist. Was passiert, wenn Sie mit beiden Händen an das Gehäuse des Laptops greifen und der Laptop am Stromnetz angeschlossen ist? **(kurze Erklärung, 1 Punkte)**
