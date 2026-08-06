@@ -18,8 +18,7 @@ Stecken Sie anschließend die Kabel auf die Druckknöpfe der Elektroden
 (Farben beachten!!!) und befestigen Sie die Kabel mit Hilfe von haut-neutralem Klebeband etwa 2-3 cm entfernt von der Elektrode. Dadurch können Artefakte durch Kabelbewegungen reduziert werden.
 
 ## **Erfassung der Rohdaten**
-Für die Erfassung von Rohdaten werden analoge Messwerte eingelesen. Dies geschieht über den von Ihnen ausgewählten Pin (A0). Die Arduino IDE stell dafür ein Beispiel Code bereit, welchen Sie über *Datei → Beispiele → 01.Basics → AnalogReadSerial* aufrufen können. Stellen Sie sicher, dass Ihr verwendeter analoger Pin dem Pin im Arduino Code gleicht und laden Sie den Code auf den Mikrocontroller. Öffnen Sie den seriellen Plotter und passen Sie die Baud Rate an, um die Rohdaten zu erhalten. Nach kurzer Zeit sollte ein Ihnen bekanntes Bild entstehen (elektrische Aktivität des Herzens). Falls Sie kein solches Bild wie in Abbildung 1.2 erkennen, überprüfen Sie erneut Ihr Hardware Setup und die Befestigung der Elektroden
-und Kabel.
+Für die Erfassung von Rohdaten werden analoge Messwerte eingelesen. Dies geschieht über den von Ihnen ausgewählten Pin (A0). Die Arduino IDE stell dafür ein Beispiel Code bereit, welchen Sie über *Datei → Beispiele → 01.Basics → AnalogReadSerial* aufrufen können. Stellen Sie sicher, dass Ihr verwendeter analoger Pin dem Pin im Arduino Code gleicht und laden Sie den Code auf den Mikrocontroller. Öffnen Sie den seriellen Plotter und passen Sie die Baud Rate an, um die Rohdaten zu erhalten. Nach kurzer Zeit sollte ein Ihnen bekanntes Bild entstehen (elektrische Aktivität des Herzens). Falls Sie kein solches Bild wie in Abbildung 1.2 erkennen, überprüfen Sie erneut Ihr Hardware Setup und die Befestigung der Elektroden und Kabel.
 
 ![Abbildung 1.2](../assets/img/ekgRoh.bmp)
 
@@ -29,37 +28,25 @@ und Kabel.
 Trennen Sie Ihren Laptop vom Ladegerät und somit vom Stromnetz. Öffnen Sie Ihren seriellen Plotter und achten Sie auf Ihre Daten. Schließen Sie nun ihr Ladegerät wieder an und schauen Sie sich erneut die Daten an.
 Was können Sie für Unterschiede zwischen diesen Szenarien feststellen und durch was können diese verursacht werden? **(Aufgabe 2 der Abgabe)**
 
-Stecken Sie das Ladegerät wieder ein und greifen Sie mit beiden Händen
-an das Metallgehäuse ihres Laptops. Was können Sie in den Rohdaten für
+Stecken Sie das Ladegerät wieder ein und greifen Sie mit beiden Händen an das Gehäuse ihres Laptops. Was können Sie in den Rohdaten für
 Veränderungen beobachten und wieso kommt es dazu?
 
-Der Beispiel-Code der Arduino IDE gibt die Rohdaten ohne Zeitstempel
-aus. Zur Berechnung der Herzfrequenz sollte die Zeit jedoch hinzugefügt
-werden. Gehen Sie dafür in die *void loop()* und ersetzen Sie die Zeile
-*Serial.println(sensorValue);* mit folgendem Code.
 
-````c
-Serial.print(sensorValue) ; // EKG Rohdaten
-Serial.print("/t") ; // Leerzeichen
-Serial.print(millis( )) ; // Zeit* *in* *Millisekunden
-Serial.println( ) ; // neue Zeile
-````
-Um eine höhere Sample Rate zu erhalten, ändern Sie die *Serial.begin(9600);*zu *Serial.begin(500000);* . Dadurch wird die Geschwindigkeit der Datenübertragung zwischen Computer und Mikrocontroller erhöht. Sie müssen für eine weitere Darstellung der Daten im seriellen Plotter die Baud Rate im seriellen Plotter oder Monitor ändern.
-
-Speichern Sie die neue Datei auf ihrem Laptop und laden Sie den Code auf den Mikrocontroller. Sie können nun Rohdaten für die folgenden Experimente aufnehmen und die Daten aus dem seriellen Monitor in eine separate Textdatei hineinkopieren, um ihre Messwerte zu speichern.
 
 ## **Experiment in Ruhe**
-
-In diesem Experiment werden Sie ein 10-minütiges Ruhe-EKG aufnehmen.
-Nutzen Sie den Ihnen auf Sakai zur Verfügung gestellten Code **Lab2Code1** und **serialRead.ipynb**, bei dem mit einer Frequenz von 1000 Hz und einer Baud Rate von 500000 aufgenommen wird. 
 
 **Achtung**
 
 Der Serial Monitor der Arduino-IDE ist ein praktisches Tool zum Anzeigen von seriellen Daten, aber nicht für Hochgeschwindigkeits-Datenübertragungen wie 1000 Hz ausgelegt. Der Serial Monitor versucht, alle empfangenen Zeichen grafisch darzustellen (scrollen, puffern, rendern). Diese GUI-Darstellung ist deutlich langsamer als das reine Empfangen von Daten. Dadurch entstehen Verzögerungen und Datenverlust bei hohen Frequenzen.
 
-Da der serielle Monitor der Arduino-IDE nicht schnell genug ist, um Daten mit einer Abtastrate von 1000 Hz zuverlässig darzustellen, verwenden Sie in diesem Fall ein Python-Skript (**serialRead.ipynb**), das direkt mit dem Arduino über die serielle Schnittstelle (USB) kommuniziert.
+Da der serielle Monitor der Arduino-IDE nicht schnell genug ist, um Daten mit einer Abtastrate von mindestens 1000 Hz zuverlässig darzustellen, verwenden Sie in diesem Fall das Python-Skript (**serialRead.ipynb**), das direkt mit dem Arduino über die serielle Schnittstelle (USB) kommuniziert.
 
 Das Skript liest die ankommenden Messwerte ein und speichert sie direkt in eine CSV-Datei auf dem Computer.
+
+In diesem Experiment werden Sie ein 10-minütiges Ruhe-EKG aufnehmen.
+Nutzen Sie den Ihnen auf Sakai zur Verfügung gestellten Code **Lab2Code1** und **serialRead.ipynb**, bei dem mit einer Frequenz von mindestens 1000 Hz und einer Baud Rate von 500000 aufgenommen wird. 
+
+
 
 1. Bauen Sie die gesamte Hardware auf und laden Sie den Code auf Ihren Mikrocontroller
 
@@ -71,7 +58,9 @@ Sensoren an
 4. Gehen Sie sicher, dass Ihr Laptop nicht während den 10 Minuten in
 den Ruhemodus wechselt oder sich ausschaltet
 
-5. Starten Sie das Python-Skript **serialRead.ipynb**. Das Skript stoppt automatisch nach 10 Minuten
+5. **serialRead.ipynb** Skript so konfigurieren, dass es nach 10 Minuten automatisch stoppt.
+
+6. Starten Sie das Python-Skript **serialRead.ipynb**. 
 
 
 

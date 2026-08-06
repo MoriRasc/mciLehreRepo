@@ -6,25 +6,22 @@ Für Teil 2 des Praktikums werden Sie einen Laborbericht einreichen müssen, in 
 
 1. Erstellen Sie Diagramme, in denen das Messsystem dargestellt ist. Beschriften Sie jede Komponente, jeden Bus (einschließlich Bustyp und -geschwindigkeit) sowie jeden Signalpfad, und beschreiben Sie diese jeweils kurz. (1-2 Sätze pro Komponente). **(2 Punkte)**
 
-2. Beschreiben Sie was im seriellen Plotter zu erkennen ist, wenn Sie Ihre Messdaten aufnehmen und der Laptop dabei nicht am Stromnetz angeschlossen ist. Was passiert, wenn Sie mit beiden Händen an das Metallgehäuse des Laptops greifen und der Laptop am Stromnetz angeschlossen ist? **(kurze Erklärung, 1 Punkte)**
+2. Beschreiben Sie was im seriellen Plotter zu erkennen ist, wenn Sie Ihre Messdaten aufnehmen und der Laptop dabei nicht am Stromnetz angeschlossen ist. Was passiert, wenn Sie mit beiden Händen an das Gehäuse des Laptops greifen und der Laptop am Stromnetz angeschlossen ist? **(kurze Erklärung, 1 Punkte)**
 
-3. Führen Sie *Experiment in Ruhe* für jeden Teilnehmer Ihrer Gruppe aus und plotten Sie etwas 5 Sekunden der gefilterten Daten.
+3. Führen Sie *Experiment in Ruhe* für eine Teilnehmer Ihrer Gruppe aus und plotten Sie etwas 5 Sekunden der gefilterten Daten.
 Markieren Sie für einen Teilnehmer die P-Welle, den QRS-Komplex und
 die T-Welle im Plot. Beschreiben Sie das physiologische Phänomen, welches für die jeweiligen elektrischen Signale des EKGs verantwortlich ist. **(1 Darstellung mit allen Teilnehmern + Markierung der Wellen für eine Person, 1 Paragraph, 3 Punkte)**
 
 4. Beschreiben Sie den Code an (Arduino und Python), welcher für die Aufnahme der Rohdaten des EKGSignals verantwortlich ist. **(kurze Erklärung,1 Punkt)**
 
-5. Plotten Sie etwa 5 Sekunden des EKG-Signals vom *Experiment in Ruhe*
-von einem der Teilnehmer (gefiltert). Nutzen Sie die Ergebnisse der PeakSuche-Funktion, um die R-Zacken im Plot zu labeln. **(1 Darstellung, 1 Punkt)**
+5. Plotten Sie etwa 5 Sekunden des EKG-Signals vom *Experiment in Ruhe* (gefiltert). Nutzen Sie die Ergebnisse der PeakSuche-Funktion, um die R-Zacken im Plot zu labeln. **(1 Darstellung, 1 Punkt)**
 
-6. Verwenden Sie Python, um die mittlere Herzfrequenz und HRV (mit der
-Standardabweichung) für jeden der drei Teilnehmer zu bestimmen. Vergleichen Sie die Ergebnisse in einer Tabelle (eine Zeile pro Teilnehmer). Denken Sie daran, alle Datensätze zu den jeweiligen Teilnehmern mit abzugeben. Die Berechnung soll im Code *MainCode2* stattfinden. **(1 Tabelle, wenige Sätze, 2 Punkte)**
+6. Verwenden Sie Python, um die mittlere Herzfrequenz und HRV (mit der Standardabweichung) zu bestimmen. Die Berechnung soll im Code *MainCode2* stattfinden. **(1 Tabelle, wenige Sätze, 2 Punkte)**
 
 7. Tragen Sie in dem auf OneDrive verfügbaren Dokument [*HeartRateData*](https://docs.google.com/spreadsheets/d/1IZlOrsPcqqN9A8LrEouLDmAJqMR-j0uEoi3fHgGO_qM/edit?usp=drive_link) (in neuen Tab öffnen) die
-mittlere Herzfrequenz und Herzfrequenzvariabilität für alle Teilnehmer ein. Sobald alle Gruppen ihre Messungen und Ergebnisse eingetragen haben, werden Sie durch den Praktikumsleiter informiert und können mit den folgenden Schritten fortfahren:
+mittlere Herzfrequenz und Herzfrequenzvariabilität. Sobald alle Gruppen ihre Messungen und Ergebnisse eingetragen haben, werden Sie durch den Praktikumsleiter informiert und können mit den folgenden Schritten fortfahren:
 
-    (a) Downloaden Sie das Dokument im Tabellenformat und verwenden Sie
-Python, um zwei Histogramme zu erstellen. Eines soll die Verteilung
+    (a) Downloaden Sie das Dokument im Tabellenformat und verwenden Sie Python, um zwei Histogramme zu erstellen. Eines soll die Verteilung
 der mittleren Herzfrequenz der Klasse zeigen, das andere die Herzfrequenzvariabilität. Der Plot soll als Beschriftung Ihren Gruppennamen enthalten. Die Daten im jeweiligen Plot sollen nach Geschlecht farblich markiert werden. Dies erlaubt einen Vergleich der Herzfrequenz zwischen den Geschlechtern. Was können Sie beobachten? Falls Sie keine Unterschiede erkennen - was kann die Ursache dafür sein? **(2 Darstellungen, 3-5 Sätze, 3 Punkte)**
 
     (b) Interpretieren Sie Ihre persönlichen Daten in Bezug auf die Gesamtverteilung in der Klasse. **(1 Punkt)**
@@ -52,7 +49,7 @@ lange? **(1 Punkt)**
   
     (c) Denken Sie, dass die Zeit bis zur Erholung der Herzfrequenz bei Athleten kürzer ist, als bei untrainierten Personen? Warum? **(1 Punkt)**
 
-11. Berechnen Sie den metabolischen Energieverbrauch über die Zeit mit der Gleichung, welche Sie ausgewählt haben. Ergibt die relative Änderung des metabolischen Energieverbrauchs Sinn für das, was Sie für das Experiment erwarten? Begründen Sie Ihre Aussage. **(1 Darstellung, wenige Sätze, 2 Punkte)**
+11. Berechnen Sie den metabolischen Energieverbrauch über die Zeit mit der Gleichung, welche Sie ausgewählt haben. Bitte verwenden Sie dafür das Paper von Hiiloskorpi, zu finden in der Sektion „Unterlagen Praktikum“. Ergibt die relative Änderung des metabolischen Energieverbrauchs Sinn für das, was Sie für das Experiment erwarten? Begründen Sie Ihre Aussage. **(1 Darstellung, wenige Sätze, 2 Punkte)**
 
 12. Berechnen Sie den gesamten Energieverbrauch für das Experiment. Drücken Sie das Ergebnis in Einheiten von Joule, Kalorien, Rittersport Tafeln, Bier und als Anteil des Kalorienbedarfs für Ihre Person. Formeln zu Berechnung Ihres täglichen Kalorienbedarfs finden Sie im Internet. Implementieren Sie Ihre Berechnungen in Python und geben Sie die Ergebnisse im Bericht an.
 **(2 Punkte)**
