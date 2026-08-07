@@ -65,6 +65,7 @@ lange? **(1 Punkt)**
 Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweise (Lab2_*Gruppe_Gruppennummer*) für die Gruppeneinreichung und speichern Sie die
 folgenden Dateien in dieser *.zip* -Datei:
 
+
   - Laborbericht als PDF als *Bericht_2_Gruppe_Gruppennummer*
 
   - **Main Skript der Python Auswertung als *MainCode2.ipynb***
@@ -75,6 +76,7 @@ folgenden Dateien in dieser *.zip* -Datei:
 werden
 
   - **Bitte alles in eine *.zip* -Datei speichern!!!**
+
 
 
 
