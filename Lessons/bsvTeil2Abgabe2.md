@@ -52,7 +52,7 @@ lange? **(1 Punkt)**
 
 11. Berechnen Sie den metabolischen Energieverbrauch über die Zeit mit der Gleichung, welche Sie ausgewählt haben. Bitte verwenden Sie dafür das Paper von Hiiloskorpi, zu finden in der Sektion „Unterlagen Praktikum“. Ergibt die relative Änderung des metabolischen Energieverbrauchs Sinn für das, was Sie für das Experiment erwarten? Begründen Sie Ihre Aussage. **(1 Darstellung, wenige Sätze, 2 Punkte)**
 
-12. Berechnen Sie den gesamten Energieverbrauch für das Experiment. Drücken Sie das Ergebnis in Einheiten von Joule, Kalorien, Rittersport Tafeln, Bier und als Anteil des Kalorienbedarfs für Ihre Person. Formeln zu Berechnung Ihres täglichen Kalorienbedarfs finden Sie im Internet. Implementieren Sie Ihre Berechnungen in Python und geben Sie die Ergebnisse im Bericht an.
+12. Berechnen Sie den gesamten Energieverbrauch für das Experiment. Drücken Sie das Ergebnis in Einheiten von Joule, Kalorien, Rittersport Tafeln, Bier und als Anteil des Kalorienbedarfs für Ihre Person (Bitte geben Sie die verwendeten Referenzwerte (Wert und Quelle) für Ritter-Sport-Tafeln, Bier und Ihre Person an.). Formeln zu Berechnung Ihres täglichen Kalorienbedarfs finden Sie im Internet. Implementieren Sie Ihre Berechnungen in Python und geben Sie die Ergebnisse im Bericht an.
 **(2 Punkte)**
 
 13. Ihr abgegebener Code funktioniert und erzeugt die richtigen Plots, welche für diesen Bericht gefordert waren. **(1 Punkt)**
