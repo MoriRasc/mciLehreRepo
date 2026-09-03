@@ -1,4 +1,4 @@
-# Praktikumsunterlagen
+# Laborunterlagen
 {: .reading}
 ## **Biosignalverarbeitung - Teil 1**
 ### WS 2025
@@ -13,21 +13,21 @@ Letztes Update: 05. Juni 2025
 
 # **Inhaltsverzeichnis**
 
-**1** **Praktikum** 
+**1** **Labor** 
 
 1.1 Organisatorisches
 
 1.2 Teil 1 - Aufbau der Hardware & Datenakquise
 
-# **Praktikum**
+# **Labor**
 
-In diesem Praktikum werden Sie lernen, mit frei verfügbarer Hardware Biosignale am Menschen aufzunehmen und die Daten über Programmierung zu filtern,
+In diesem Labor werden Sie lernen, mit frei verfügbarer Hardware Biosignale am Menschen aufzunehmen und die Daten über Programmierung zu filtern,
 verarbeiten und analysieren. Dabei werden Sie Biosignale vom Muskel-, Nerven und Herz-Kreislauf-System kennenlernen und für sich erforschen.
 ## **1.1 Organisatorisches**
 
 1. **Bewertung**
 Die Bewertung dieses Moduls erfolgt über die Abgabe von Laborberichten
-und der Abgabe eines Abschlussprojektes. Das Praktikum wird in 3-4er
+und der Abgabe eines Abschlussprojektes. Das Labor wird in 3-4er
 Gruppen durchgeführt und bewertet.
 
 2. **Gruppenbildung**
@@ -39,13 +39,13 @@ Absprache mit dem Lehrenden vorgenommen.
 3. **Aufteilung der Ubungen**
 
     (a) **Teil 1 - Aufbau der Hardware und erste Aufnahmen + Schrei-**
-**ben eines Praktikumsberichtes**
+**ben eines Laborberichtes**
 
     In dieser Sektion wird das Hardware Setup aufgebaut. Es werden
 erste Messungen vorgenommen sowie Daten gefiltert und analysiert.
-Zum Schluss wird gemeinsam das Schreiben von Praktikumsberichten
+Zum Schluss wird gemeinsam das Schreiben von Laborberichten
 besprochen und einige Beispiele aufgezeigt. **Abgabe von Python**
-**Programmen + freiwillige Abgabe vom Praktikumsbericht /**
+**Programmen + freiwillige Abgabe vom Laborbericht /**
 
 
 **Feedback formale Kriterien**
@@ -53,7 +53,7 @@ besprochen und einige Beispiele aufgezeigt. **Abgabe von Python**
 **Bitte machen Sie sich mit den Grundlagen der Arduino IDE**
 **[unter folgendem Link bekannt. Fokussieren Sie sich auf die](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino##arduino-software-tools-1)**
 **Sektionen beginnend mit ”Arduino API“. Downloaden Sie**
-**für dieses Praktikum die Version 1.8.19, welche als Legacy**
+**für dieses Labor die Version 1.8.19, welche als Legacy**
 **Version geführt wird (Siehe [Abbildung 1.1](../assets/img/arduinoLegacy.bmp)).**
 
   ![Abbildung 1.1](../assets/img/arduinoLegacy.bmp)
@@ -65,13 +65,13 @@ Aktivität des Herzens durch ein 1-Kanal-EKG. Dabei sollen Eigenschaften wie die
 Energieverbrauch untersucht werden. **Abschluss mit Laborbericht**
 
 (c) **Teil 3 - Elektromyografie (EMG)**
-Das EMG Praktikum umfasst die Messung und Analyse der vom Skelettmuskel erzeugten elektrischen Aktivität. Dabei gilt es, die relative
+Das EMG Labor umfasst die Messung und Analyse der vom Skelettmuskel erzeugten elektrischen Aktivität. Dabei gilt es, die relative
 Muskelaktivierung, das Frequenzspektrum des aktiven Muskels und
 die Ermüdung zu bestimmen. **Abschluss mit Laborbericht**
 
 4. **Hardware**
 
-Jeder Projektgruppe wird zu Beginn des Praktikums ein Hardware-Kit
+Jeder Projektgruppe wird zu Beginn des Labor ein Hardware-Kit
 ausgehändigt, welches mit Vorsicht zu behandeln und nach Projektende
 **vollständig** zurückzugeben ist. Dieses Kit umfasst die in Tabelle 1.1 dargestellten Komponenten.
 
@@ -135,7 +135,7 @@ Aufgabe 2 fortfahren.
 
 **Bitte machen Sie sich mit den Grundlagen der Arduino IDE unter folgendem 
 **[Link](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino##arduino-software-tools-1)** bekannt. Fokussieren Sie sich auf die Sektionen beginnend
-**mit ”Arduino API“.Downloaden Sie für dieses Praktikum die Version**
+**mit ”Arduino API“.Downloaden Sie für dieses Labor die Version**
 **1.8.19, welche als Legacy Version geführt wird (Siehe [Abbildung 1.1](../assets/img/arduinoLegacy.bmp)).**
 
 **ACHTUNG: Fehlerbehebung**
@@ -300,7 +300,7 @@ trennen, um dies zu vermeiden.
 Für diese Aufgabe wird Python zur Auswertung der aufgenommenen Daten verwendet. Es dürfen sowohl VS Code als auch Jupiter Notebooks zum Lösen der
 Aufgabe verwendet werden. Aufgrund der einfachen Zugänglichkeit, werden die
 Skripte vom Lehrenden über Jupiter Notebooks zur Verfügung gestellt, um erste
-praktische Erfahrungen mit der digitalen Signalverarbeitung zu machen. Das Python Script ist auf SAKAI unter dem Ordner **Ressourcen/Praktikum/Praktikum 1/P1 Visualisierung Messdaten.ipynb** zu finden.
+praktische Erfahrungen mit der digitalen Signalverarbeitung zu machen. Das Python Script ist auf SAKAI unter dem Ordner **Ressourcen/Labor/Labor 1/P1 Visualisierung Messdaten.ipynb** zu finden.
 
 1. **Einrichtung der Umgebung**
 Da bereits VS Code und Jupiter Notebooks im ersten und zweiten Semester verwendet wurden, wird der Installationsprozess nicht erneut beschrieben.
@@ -345,9 +345,9 @@ können die Zeit bis zum Neustart danach händisch in der Textdatei löschen.
 
   - Pflicht: Abgabe der Python Dateien in .zip-File
 
-  - Freiwillig: Praktikumsbericht zu übrigen Fragen
+  - Freiwillig: Laborbericht zu übrigen Fragen
 
-Für Teil 1 des Praktikums werden Sie **keinen** Laborbericht einreichen müssen, sondern nur ihren Python Code, mit dem Sie die Signale verarbeitet haben. Sie haben dennoch die Möglichkeit alle folgenden Fragen zu beantworten und im Rahmen eines Laborberichtes abzugeben. Dadurch bekommen Sie vor den eigentlich bewerteten Laborberichten Feedback und können dieses direkt in die Folgenden Berichte einbauen. Dabei geht es vor allem um die Form der Laborbericht und nicht den Inhalt. Der Bericht soll in LATEX geschrieben werden. Die dafür benötigte Vorlage können Sie auf Sakai finden.
+Für Teil 1 des Labor werden Sie **keinen** Laborbericht einreichen müssen, sondern nur ihren Python Code, mit dem Sie die Signale verarbeitet haben. Sie haben dennoch die Möglichkeit alle folgenden Fragen zu beantworten und im Rahmen eines Laborberichtes abzugeben. Dadurch bekommen Sie vor den eigentlich bewerteten Laborberichten Feedback und können dieses direkt in die Folgenden Berichte einbauen. Dabei geht es vor allem um die Form der Laborbericht und nicht den Inhalt. Der Bericht soll in LATEX geschrieben werden. Die dafür benötigte Vorlage können Sie auf Sakai finden.
 
 **Die Abgabe des Python Codes umfasst das Bearbeiten der Aufgaben:**
 

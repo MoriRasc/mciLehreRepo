@@ -23,7 +23,7 @@ gefiltert, um eine Einhüllende der absoluten Werte zu bilden. Die Verarbeitung 
 
 4. Einhüllende bilden
 
-Für die folgenden Schritte werden Sie die Python Bibliotheken *matplotlib.pyplot*, *numpy*, *scipy.signal* und die Ihnen auf Sakai zur Verfügung gestellte Bibliothek *Lab3Functions* benötigen. Ihnen werden gewisse Teile des Codes zur Verfügung gestellt, um die Struktur des Codes vorzugeben und eine gleiche Benennung der Variablen zu gewährleisten. Der Code, den Sie für dieses Praktikum schreiben werden, ist ein großer Bestandteil der Bewertung. Ihre neun Datensätze (3xMVC, 3xGewichte, 3xErmüdung) sollten in einem Ordner mit ihrem Code gespeichert werden. Benennen Sie die Datensätze MVC1, MVC2, MVC3, Weight1, Weight2, Weight3, Fatigue1,
+Für die folgenden Schritte werden Sie die Python Bibliotheken *matplotlib.pyplot*, *numpy*, *scipy.signal* und die Ihnen auf Sakai zur Verfügung gestellte Bibliothek *Lab3Functions* benötigen. Ihnen werden gewisse Teile des Codes zur Verfügung gestellt, um die Struktur des Codes vorzugeben und eine gleiche Benennung der Variablen zu gewährleisten. Der Code, den Sie für dieses Labor schreiben werden, ist ein großer Bestandteil der Bewertung. Ihre neun Datensätze (3xMVC, 3xGewichte, 3xErmüdung) sollten in einem Ordner mit ihrem Code gespeichert werden. Benennen Sie die Datensätze MVC1, MVC2, MVC3, Weight1, Weight2, Weight3, Fatigue1,
 Fatigue2 und Fatigue3. Danach können Sie die Funktion *import.data()* desIhnen zur Verfügung gestellten Codes verwenden, um die Datensätze in drei Variablen zu komprimieren. Dies könnte folgendermaßen aussehen, wobei auf den richten Separator zu achten ist:
 
 ````python

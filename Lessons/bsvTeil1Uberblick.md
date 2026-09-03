@@ -1,13 +1,13 @@
-# **Praktikumsunterlagen**
+# **Laborunterlagen**
 
 
-In diesem Praktikum werden Sie lernen, mit frei verfügbarer Hardware Biosignale am Menschen aufzunehmen und die Daten über Programmierung zu filtern, verarbeiten und analysieren. Dabei werden Sie Biosignale vom Muskel-, Nerven und Herz-Kreislauf-System kennenlernen und für sich erforschen.
+In diesem Labor werden Sie lernen, mit frei verfügbarer Hardware Biosignale am Menschen aufzunehmen und die Daten über Programmierung zu filtern, verarbeiten und analysieren. Dabei werden Sie Biosignale vom Muskel-, Nerven und Herz-Kreislauf-System kennenlernen und für sich erforschen.
 ## **Organisatorisches**
 
 **1. Bewertung**
 
 Die Bewertung dieses Moduls erfolgt über die Abgabe von Laborberichten
-und der Abgabe eines Abschlussprojektes. Das Praktikum wird in 3-4er
+und der Abgabe eines Abschlussprojektes. Das Labor wird in 3-4er
 Gruppen durchgeführt und bewertet.
 
 **2. Gruppenbildung**
@@ -17,17 +17,17 @@ A & B frei überlassen. Die Aufteilung wird im Rahmen der ersten Vorlesung durch
 
 **3. Aufteilung der Übungen**
 
-(a) **Teil 1 - Aufbau der Hardware und erste Aufnahmen + Schreiben eines Praktikumsberichtes**
+(a) **Teil 1 - Aufbau der Hardware und erste Aufnahmen + Schreiben eines Laborberichtes**
 
 In dieser Sektion wird das Hardware Setup aufgebaut. Es werden
 erste Messungen vorgenommen sowie Daten gefiltert und analysiert.
-Zum Schluss wird gemeinsam das Schreiben von Praktikumsberichten
+Zum Schluss wird gemeinsam das Schreiben von Laborberichten
 besprochen und einige Beispiele aufgezeigt. **Abgabe von Python**
-**Programmen + Abgabe vom Praktikumsbericht /Feedback formale Kriterien**
+**Programmen + Abgabe vom Laborbericht /Feedback formale Kriterien**
 
 
 **Bitte machen Sie sich mit den Grundlagen der Arduino IDE**
-**unter folgendem [Link](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino##arduino-software-tools-1){:target="_blank"} bekannt. Fokussieren Sie sich auf die Sektionen beginnend mit ”Arduino API“. Laden Sie für dieses Praktikum die letzte stabile Version herunter. [Download-Link](https://www.arduino.cc/en/software/){:target="_blank"}**
+**unter folgendem [Link](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino##arduino-software-tools-1){:target="_blank"} bekannt. Fokussieren Sie sich auf die Sektionen beginnend mit ”Arduino API“. Laden Sie für dieses Labor die letzte stabile Version herunter. [Download-Link](https://www.arduino.cc/en/software/){:target="_blank"}**
 
 
 (b) **Teil 2 - Elektrokardiografie (EKG)**
@@ -36,13 +36,13 @@ Aktivität des Herzens durch ein 1-Kanal-EKG. Dabei sollen Eigenschaften wie die
 Energieverbrauch untersucht werden. **Abschluss mit Laborbericht**
 
 (c) **Teil 3 - Elektromyografie (EMG)**
-Das EMG Praktikum umfasst die Messung und Analyse der vom Skelettmuskel erzeugten elektrischen Aktivität. Dabei gilt es, die relative
+Das EMG Labor umfasst die Messung und Analyse der vom Skelettmuskel erzeugten elektrischen Aktivität. Dabei gilt es, die relative
 Muskelaktivierung, das Frequenzspektrum des aktiven Muskels und
 die Ermüdung zu bestimmen. **Abschluss mit Laborbericht**
 
 **4. Hardware**
 
-Jeder Projektgruppe wird zu Beginn des Praktikums ein Hardware-Kit ausgehändigt, welches mit Vorsicht zu behandeln und nach Projektende
+Jeder Projektgruppe wird zu Beginn des Labor ein Hardware-Kit ausgehändigt, welches mit Vorsicht zu behandeln und nach Projektende
 **vollständig** zurückzugeben ist. Dieses Kit umfasst die in Tabelle 1.1 dargestellten Komponenten.
 
 

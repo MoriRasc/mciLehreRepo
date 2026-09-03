@@ -1,4 +1,4 @@
-# Praktikumsunterlagen
+# Laborunterlagen
 ## **Biosignalverarbeitung - Teil 2**
 ### WS 2025
 
@@ -12,20 +12,20 @@ Letztes Update: 11. Juni 2025
 
 # **Inhaltsverzeichnis**
 
-**1** **Praktikum** **2**
+**1** **Labor** **2**
 
 1.1 Organisatorisches . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
 
 1.2 Teil 2 - Elektrokardiografie (EKG) . . . . . . . . . . . . . . . . . . 5
 
-In diesem Praktikum werden Sie lernen, mit frei verfügbarer Hardware Biosignale am Menschen aufzunehmen und die Daten über Programmierung zu filtern,
+In diesem Labor werden Sie lernen, mit frei verfügbarer Hardware Biosignale am Menschen aufzunehmen und die Daten über Programmierung zu filtern,
 verarbeiten und analysieren. Dabei werden Sie Biosignale vom Muskel-, Nervenund Herz-Kreislauf-System kennenlernen und für sich erforschen.
 
 ### **1.1 Organisatorisches**
 
 1. **Bewertung**
 Die Bewertung dieses Moduls erfolgt über die Abgabe von Laborberichten
-und der Abgabe eines Abschlussprojektes. Das Praktikum wird in 3-4er
+und der Abgabe eines Abschlussprojektes. Das Labor wird in 3-4er
 Gruppen durchgeführt und bewertet.
 
 2. **Gruppenbildung**
@@ -37,24 +37,24 @@ Absprache mit dem Lehrenden vorgenommen.
 3. **Aufteilung der Übungen**
 
 (a) **Teil 1 - Aufbau der Hardware und erste Aufnahmen + Schrei-**
-**ben eines Praktikumsberichtes**
+**ben eines Laborberichtes**
 
 In dieser Sektion wird das Hardware Setup aufgebaut. Es werden
 erste Messungen vorgenommen sowie Daten gefiltert und analysiert.
-Zum Schluss wird gemeinsam das Schreiben von Praktikumsberichten
+Zum Schluss wird gemeinsam das Schreiben von Laborberichten
 besprochen und einige Beispiele aufgezeigt. **Abgabe von Python**
-**Programmen + freiwillige Abgabe vom Praktikumsbericht /**
+**Programmen + freiwillige Abgabe vom Laborbericht /**
 
 2
 
-1. Praktikum 3
+1. Labor 3
 
 **Feedback formale Kriterien**
 
 **Bitte machen Sie sich mit den Grundlagen der Arduino IDE**
 **[unter folgendem Link bekannt. Fokussieren Sie sich auf die](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino##arduino-software-tools-1)**
 **Sektionen beginnend mit ”Arduino API“. Downloaden Sie**
-**für dieses Praktikum die Version 1.8.19, welche als Legacy**
+**für dieses Labor die Version 1.8.19, welche als Legacy**
 **Version geführt wird (Siehe Abbildung 1.1).**
 
 Abbildung 1.1: Arduino IDE 1.8.19
@@ -65,17 +65,17 @@ Aktivität des Herzens durch ein 1-Kanal-EKG. Dabei sollen Eigenschaften wie die
 Energieverbrauch untersucht werden. **Abschluss mit Laborbericht**
 
 (c) **Teil 3 - Elektromyografie (EMG)**
-Das EMG Praktikum umfasst die Messung und Analyse der vom Skelettmuskel erzeugten elektrischen Aktivität. Dabei gilt es, die relative
+Das EMG Labor umfasst die Messung und Analyse der vom Skelettmuskel erzeugten elektrischen Aktivität. Dabei gilt es, die relative
 Muskelaktivierung, das Frequenzspektrum des aktiven Muskels und
 die Ermüdung zu bestimmen. **Abschluss mit Laborbericht**
 
 4. **Hardware**
 
-Jeder Projektgruppe wird zu Beginn des Praktikums ein Hardware-Kit
+Jeder Projektgruppe wird zu Beginn des Labor ein Hardware-Kit
 ausgehändigt, welches mit Vorsicht zu behandeln und nach Projektende
 **vollständig** zurückzugeben ist. Dieses Kit umfasst die in Tabelle 1.1 dargestellten Komponenten.
 
-1. Praktikum 4
+1. Labor 4
 
 Tabelle 1.1: Hardwarekomponenten mit Mengenangaben pro
 Kit.
@@ -100,14 +100,14 @@ Micro-USB-Kabel 1
 Qwiic Kabel 3
 Jumper Kabel 4
 
-1. Praktikum 5
+1. Labor 5
 ### **1.2 Teil 2 - Elektrokardiografie (EKG)**
 
 **ACHTUNG: Sollte ein Studierender bereits EKG Elektroden verwen-**
 
 **det und damit Hautreizungen verursacht haben, soll diese Person im**
-**Rahmen dieses Praktikums keine Messungen mit Elektroden durchführen.**
-**Sprechen Sie dies gegebenenfalls mit der Praktikumsleitung ab.**
+**Rahmen dieses Labor keine Messungen mit Elektroden durchführen.**
+**Sprechen Sie dies gegebenenfalls mit der Laborleitung ab.**
 
 **Ziele**
 
@@ -140,7 +140,7 @@ quenz
 
 2. Arduino IDE
 
-1. Praktikum 6
+1. Labor 6
 ### **Aufgabe 1: Wie nehme ich EKG Rohdaten auf?**
 
 In dieser Aufgabe lernen Sie, das EKG-Messsystem aufzubauen und damit Rohdaten aufzunehmen. Außerdem werden die Rahmenbedingungen für kommende
@@ -183,7 +183,7 @@ folgende Stellen kleben:
 
     Elektrode 1 (weiß) an das Manubrium
 
-1. Praktikum 7
+1. Labor 7
 
     - Elektrode 2 (rot) an den **[linken V6 Ableitpunkt](https://en.wikipedia.org/wiki/Electrocardiography#/media/File:Precordial_leads_in_ECG.png)** . Als Hilfestellung wird folgender **[Link](https://en.wikipedia.org/wiki/Electrocardiography#/media/File:Precordial_leads_in_ECG.png)** bereitgestellt, in dem das Ermitteln des V6
 erläutert wird.
@@ -218,7 +218,7 @@ nun ihr Ladegerät wieder an und schauen Sie sich erneut die Daten an.
 Was können Sie für Unterschiede zwischen diesen Szenarien feststellen und
 durch was können diese verursacht werden? **(Aufgabe 2 der Abgabe)**
 
-1. Praktikum 8
+1. Labor 8
 
 Stecken Sie das Ladegerät wieder ein und greifen Sie mit beiden Händen
 an das Metallgehäuse ihres Laptops. Was können Sie in den Rohdaten für
@@ -260,7 +260,7 @@ Mikrocontroller
 
 (b) Suchen Sie einen geeigneten Ort, an dem der Proband oder die Probandin eine liegende Position für 10 Minuten einnehmen kann
 
-1. Praktikum 9
+1. Labor 9
 
 (c) Positionieren Sie den Laptop an diesem Ort und schließen Sie alle
 Sensoren an
@@ -297,7 +297,7 @@ fühlen
 
 iii. Stoppen zu treten - 5 Minuten ruhen und Puls erholen lassen
 
-1. Praktikum 10
+1. Labor 10
 
 (b) **Experiment 2 - Conconi Test (15 min)**
 Für den Conconi Test schließen Sie bitte Ihr mobiles Setup an, da dieser etwa 14 Minuten dauert. Gehen Sie sicher, dass Ihre SD-Karte
@@ -308,10 +308,10 @@ finden.
 **an, genug Flüssigkeit zu sich zu nehmen, um Auswirkungen**
 **durch Dehydration zu vermeiden.**
 
-1. Praktikum 11
+1. Labor 11
 ### **Aufgabe 2: Analyse der Rohdaten**
 
-In diesem Teil des Praktikums werden Sie lernen bzw. vertiefen, wie sich die Herzfrequenz, Herzfrequenzvariabilität und der Energieverbrauch durch die Analyse
+In diesem Teil des Labor werden Sie lernen bzw. vertiefen, wie sich die Herzfrequenz, Herzfrequenzvariabilität und der Energieverbrauch durch die Analyse
 der Rohdaten berechnen lassen.
 
 1. **Detektion der R-Zacke und Berechnung der Herzfrequenz**
@@ -350,7 +350,7 @@ und plotten Sie original gegen gefiltert in einem Graphen.
 
 Um nun aus dem gefilterten Signal eine die R-Zacken zu identifizieren,
 
-1. Praktikum 12
+1. Labor 12
 
 müssen folgende drei Schritte befolgt werden:
 
@@ -388,7 +388,7 @@ Dafür soll die Funktion *Rwave peaks()* verwendet werden. Die Funktion betracht
 Ableitungs-Maximum auftreten (in den ersten 20 % zwischen den beiden Maxima). Als Input müssen das EKG-Signal, d ECG, die gefunden
 Hochpunkte aus der *d ecg peaks()* Funktion und die Zeit. Als Output
 
-1. Praktikum 13
+1. Labor 13
 
 werden die Zeitpunkte der R-Zacke zurückgegeben. Die angewendete
 Funktion könnte folgendermaßen aussehen:
@@ -422,10 +422,10 @@ erhalten. Danach können Sie die genaue Anzahl der Kalorien berechnen,
 welche nach der Formel für diese Aktivität verbraucht wurden (Ergebnis in
 kcal).
 
-1. Praktikum 14
+1. Labor 14
 ### **Abgabe: Teil 2**
 
-Für Teil 2 des Praktikums werden Sie einen Laborbericht einreichen müssen, in
+Für Teil 2 des Labor werden Sie einen Laborbericht einreichen müssen, in
 dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Der Bericht soll in LATEX geschrieben werden.
 Die dafür benötigte Vorlage können Sie auf Sakai finden.
 
@@ -458,10 +458,10 @@ Die Berechnung soll im Code *MainCode2* stattfinden. **(1 Tabelle, wenige**
 7. Tragen Sie in dem auf Sakai verfügbaren Dokument *HeartRateData* die
 mittlere Herzfrequenz und Herzfrequenzvariabilität für alle Teilnehmer ein.
 Sobald alle Gruppen ihre Messungen und Ergebnisse eingetragen haben,
-werden Sie durch den Praktikumsleiter informiert und können mit den fol
+werden Sie durch den Laborleiter informiert und können mit den fol
 genden Schritten fortfahren:
 
-1. Praktikum 15
+1. Labor 15
 
 (a) Downloaden Sie das Dokument im Tabellenformat und verwenden Sie
 Python, um zwei Histogramme zu erstellen. Eines soll die Verteilung
@@ -508,11 +508,11 @@ hat. **(1 Darstellung, 1 Punkt)**
 ja, wie lange hat dies gedauert und warum dauert dieser Prozess so
 lange? **(1 Punkt)**
 
-1. Praktikum 16
+1. Labor 16
 
 (c) Denken Sie, dass die Zeit bis zur Erholung der Herzfrequenz bei Athleten kürzer ist, als bei untrainierten Personen? Warum? **(1 Punkt)**
 
-11. Lesen Sie das Paper, welches unter Sakai-Ressourcen-Praktikum2-Paper zu
+11. Lesen Sie das Paper, welches unter Sakai-Ressourcen-Labor2-Paper zu
 finden ist[1], und erklären Sie, wie die Autoren die Verbindung zwischen
 Herzfrequenz und Energieverbrauch entwickelt haben. Was ist der Unterschied zwischen den drei beschriebene Gleichungen? Welche der Gleichungen würden Sie für die Berechnung Ihres Energieverbrauchs in diesem Experiment verwenden? Begründen Sie Ihre Auswahl. **(2 Paragraphen, 3**
 **Punkte)**
@@ -549,7 +549,7 @@ folgenden Dateien in dieser *.zip* -Datei:
 
   - Main Skript der Python Auswertung als *MainCode2*
 
-1. Praktikum 17
+1. Labor 17
 
   - Alle Datensätze um *MainCode2* ausführen zu können (z.B. Lab1Frage4)
 
@@ -579,7 +579,7 @@ V
 
 # **Tabellenverzeichnis**
 
-1.1 Praktikum Hardware Komponenten . . . . . . . . . . . . . . . . . 4
+1.1 Labor Hardware Komponenten . . . . . . . . . . . . . . . . . 4
 
 VI
 

@@ -1,12 +1,12 @@
   - Pflicht: Abgabe der Python Dateien in .zip-File (**Main Skript der Python Auswertung als *MainCode3.ipynb***)
 
-  - Pflicht: Praktikumsbericht zu übrigen Fragen
+  - Pflicht: Laborbericht zu übrigen Fragen. Max. 10 Seiten
 
-Für Teil 3 des Praktikums werden Sie einen Laborbericht einreichen müssen, in dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Der Bericht soll in LATEX geschrieben werden. Die dafür benötigte Vorlage können Sie auf Sakai finden.
+Für Teil 3 des Labor werden Sie einen Laborbericht einreichen müssen, in dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Der Bericht soll in LATEX geschrieben werden. Die dafür benötigte Vorlage können Sie auf Sakai finden.
 
 1.- Erstellen Sie Diagramme, in denen das Messsystem dargestellt ist. Fügen Sie den Muskel und die Elektrodenplatzierung in dieses Diagramm ein.  Beschriften Sie jede Komponente, jeden Bus (einschließlich Bustyp und -geschwindigkeit) sowie jeden Signalpfad, und beschreiben Sie diese jeweils kurz. Beschriften Sie diese Komponenten und erläutern Sie die Funktion der einzelnen Komponenten. Wenn die Komponenten bereits in früheren Arbeiten verwendet wurden, geben Sie an, wie sie in diesem Experiment anders eingesetzt wurden. **(1 Darstellung, Absatz oder Notizen, 3 Punkte)**
 
-2.- Führen Sie Experiment 1 - MVC, dieses Praktikums durch. **Achtung: Für alle Experimente sollten Sie mindestens 1-2 Sekunden vor und
+2.- Führen Sie Experiment 1 - MVC, dieses Labor durch. **Achtung: Für alle Experimente sollten Sie mindestens 1-2 Sekunden vor und
 nach der geplanten Muskelkontraktion eine Pause einlegen und den
 Muskel nicht anspannen. Dadurch können Sie bei der Analyse Ihrer
 Daten besser die Zeitpunkte der Kontraktion identifizieren.** Verarbeiten Sie die Daten eines Gruppenmitglieds vor (Mittelwert entfernen, filtern, gleichrichten, Hüllkurve) und präsentieren Sie die Ergebnisse. Erläutern Sie, wie Sie die Daten vorverarbeitet haben und warum jeder Schritt notwendig ist **(1 Abbildung mit 3 Subplots; 1 Absatz, 3 Punkte)**
@@ -18,13 +18,13 @@ könnten **(1 Tabelle mit kleiner Erklärung; 1 Punkt)**
 4.- Beschreiben Sie kurz den Aufbau Ihres MVC-Experiments. Warum erlaubt
 dieser Aufbau dem Muskel, sich maximal zu kontrahieren? **(2 Punkte)**
 
-5.- Führen Sie Experiment 2 - Relative Muskelaktivierung - aus diesem Praktikum durch. **Achtung: Für alle Experimente sollten Sie mindestens 1-2 Sekunden vor und
+5.- Führen Sie Experiment 2 - Relative Muskelaktivierung - aus diesem Labor durch. **Achtung: Für alle Experimente sollten Sie mindestens 1-2 Sekunden vor und
 nach der geplanten Muskelkontraktion eine Pause einlegen und den
 Muskel nicht anspannen. Dadurch können Sie bei der Analyse Ihrer
 Daten besser die Zeitpunkte der Kontraktion identifizieren.**  Stellen Sie die relative Muskelaktivität (d. h. als Prozentsatz der MVC-Messung) gegen die Größe des Gewichts/Widerstands für ein einzelnes Gruppenmitglied dar. Erläutern Sie in wenigen Sätzen die physiologischen Mechanismen, die der aufgezeichneten Beziehung zugrunde liegen.
 **(1 Abbildung, wenige Sätze; 2 Punkte)**
 
-6.- Führen Sie Experiment 3 - Ermüdung, aus diesem Praktikum durch. **Achtung: Für alle Experimente sollten Sie mindestens 1-2 Sekunden vor und nach der geplanten Muskelkontraktion eine Pause einlegen und den
+6.- Führen Sie Experiment 3 - Ermüdung, aus diesem Labor durch. **Achtung: Für alle Experimente sollten Sie mindestens 1-2 Sekunden vor und nach der geplanten Muskelkontraktion eine Pause einlegen und den
 Muskel nicht anspannen. Dadurch können Sie bei der Analyse Ihrer
 Daten besser die Zeitpunkte der Kontraktion identifizieren.** 
 Führen Sie eine Analyse im Frequenzspektrum zu Beginn, in der Mitte

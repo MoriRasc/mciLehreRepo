@@ -3,7 +3,7 @@
 In dieser Aufgabe lernen Sie, das EMG-Messsystem aufzubauen und damit Rohdaten aufzunehmen. Außerdem werden die Rahmenbedingungen für kommende Messungen mit dem EMG/EKG-System besprochen.
 
 ## 1. **Platzierung der Elektroden und Verbindungen**
-In diesem Praktikum wird die Muskelaktivität des Bizeps Brachii untersucht. Die beiden Messelektroden sollten einen Abstand von 2 cm von Elektrodenmitte zu Elektrodenmitte aufweisen und entlang des Muskels auf dem Muskelbauch platziert sein. Die Referenzelektrode sollte wie bei der Elektrokardiografie an einem sehr knöchernen Körperteil mit wenig Muskelaktivität angebracht werden.
+In diesem Labor wird die Muskelaktivität des Bizeps Brachii untersucht. Die beiden Messelektroden sollten einen Abstand von 2 cm von Elektrodenmitte zu Elektrodenmitte aufweisen und entlang des Muskels auf dem Muskelbauch platziert sein. Die Referenzelektrode sollte wie bei der Elektrokardiografie an einem sehr knöchernen Körperteil mit wenig Muskelaktivität angebracht werden.
 
   - Weiße Elektrode auf der Mitte des Muskels (Muskelbauch), siehe Abbildung 1.1.
 
@@ -19,7 +19,7 @@ Beim Festkleben der Kabel auf der Haut soll dieses etwas lockerer festgeklebt we
 Dort finden Sie die Vorschläge für eine optimale Platzierung auf dem Bizeps Brachii. Allgemeine Informationen für einen praxisnahen Einstieg in EMG Messungen können Sie in der **[EMG Fibel](https://sakai.mci4me.at/access/content/group/Course-ID-SLVA-47568/Literatur/Konrad_EMG-FIBEL-V1.1.pdf){:target="_blank"}** von Peter Konrad nachlesen [[2]](#2).
 
 ## 2. **Datenakquise mit dem EMG/EKG-Setup**
-Dieser Teil wird durchgeführt, um die Funktionalität des Setups zu prüfen. Dafür wird der gleiche Code wie im Praktikumsteil des EKGs verwendet, um mit dem Code *AnalogReadSerial* und dem seriellen Plotter Daten aufzunehmen. Testen Sie, ob Ihre Muskelaktivität gemessen und dargestellt werden kann, indem Sie den Bizeps immer wieder anspannen und danach entspannen. Sie sollten beim Anspannen eine Veränderung der Amplitude und Frequenz erkennen. Falls das y-Achsen Setting den Graphen unlesbar macht, entfernen Sie das *Serial.println(sensorValue);* und ersetzen Sie es mit folgendem Code:
+Dieser Teil wird durchgeführt, um die Funktionalität des Setups zu prüfen. Dafür wird der gleiche Code wie im Laborteil des EKGs verwendet, um mit dem Code *AnalogReadSerial* und dem seriellen Plotter Daten aufzunehmen. Testen Sie, ob Ihre Muskelaktivität gemessen und dargestellt werden kann, indem Sie den Bizeps immer wieder anspannen und danach entspannen. Sie sollten beim Anspannen eine Veränderung der Amplitude und Frequenz erkennen. Falls das y-Achsen Setting den Graphen unlesbar macht, entfernen Sie das *Serial.println(sensorValue);* und ersetzen Sie es mit folgendem Code:
 ````c
 Serial.print(sensorValue) ;
 Serial.print(",250,400") ;
@@ -75,7 +75,7 @@ In diesem Experiment werden sie eine isometrische Kraftübung für die
 Messung der MVC verwenden. Bei einer **[isometrische Muskelkontraktion](https://de.wikipedia.org/wiki/Isometrische_Kontraktion){:target="_blank"}**
 ändert sich die Länge des Muskels nicht, sondern nur die
 Spannung im Muskel [[4]](#4).
-**Schlagen Sie nach, welche isometrischen Maximalkraft Übungen für Sie durchführbar sind. Halten Sie diese schriftlich und auch auf Bildern fest, um diese anschließend in Ihren Praktikumsbericht einzubinden.**
+**Schlagen Sie nach, welche isometrischen Maximalkraft Übungen für Sie durchführbar sind. Halten Sie diese schriftlich und auch auf Bildern fest, um diese anschließend in Ihren Laborbericht einzubinden.**
 
 Gehen Sie nun folgendermaßen vor:
 

@@ -1,4 +1,4 @@
-### Praktikumsunterlagen
+### Laborunterlagen
 ## **Biosignalverarbeitung - Teil 3**
 ### WS 2024
 
@@ -12,7 +12,7 @@ Letztes Update: 30. September 2024
 
 # **Inhaltsverzeichnis**
 
-**1** **Praktikum** **2**
+**1** **Labor** **2**
 
 1.1 Organisatorisches . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
 
@@ -26,15 +26,15 @@ Letztes Update: 30. September 2024
 
 1
 
-# **Kapitel 1** **Praktikum**
+# **Kapitel 1** **Labor**
 
-In diesem Praktikum werden Sie lernen, mit frei verfügbarer Hardware Biosignale am Menschen aufzunehmen und die Daten über Programmierung zu filtern,
+In diesem Labor werden Sie lernen, mit frei verfügbarer Hardware Biosignale am Menschen aufzunehmen und die Daten über Programmierung zu filtern,
 verarbeiten und analysieren. Dabei werden Sie Biosignale vom Muskel-, Nervenund Herz-Kreislauf-System kennenlernen und für sich erforschen.
 ### **1.1 Organisatorisches**
 
 1. **Bewertung**
 Die Bewertung dieses Moduls erfolgt über die Abgabe von Laborberichten
-und der Abgabe eines Abschlussprojektes. Das Praktikum wird in 3-4er
+und der Abgabe eines Abschlussprojektes. Das Labor wird in 3-4er
 Gruppen durchgeführt und bewertet.
 
 2. **Gruppenbildung**
@@ -46,24 +46,24 @@ Absprache mit dem Lehrenden vorgenommen.
 3. **Aufteilung der Übungen**
 
 (a) **Teil 1 - Aufbau der Hardware und erste Aufnahmen + Schrei-**
-**ben eines Praktikumsberichtes**
+**ben eines Laborberichtes**
 
 In dieser Sektion wird das Hardware Setup aufgebaut. Es werden
 erste Messungen vorgenommen sowie Daten gefiltert und analysiert.
-Zum Schluss wird gemeinsam das Schreiben von Praktikumsberichten
+Zum Schluss wird gemeinsam das Schreiben von Laborberichten
 besprochen und einige Beispiele aufgezeigt. **Abgabe von Python**
-**Programmen + freiwillige Abgabe vom Praktikumsbericht /**
+**Programmen + freiwillige Abgabe vom Laborbericht /**
 
 2
 
-1. Praktikum 3
+1. Labor 3
 
 **Feedback formale Kriterien**
 
 **Bitte machen Sie sich mit den Grundlagen der Arduino IDE**
 **[unter folgendem Link bekannt. Fokussieren Sie sich auf die](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino##arduino-software-tools-1)**
 **Sektionen beginnend mit ”Arduino API“. Downloaden Sie**
-**für dieses Praktikum die Version 1.8.19, welche als Legacy**
+**für dieses Labor die Version 1.8.19, welche als Legacy**
 **Version geführt wird (Siehe Abbildung 1.1).**
 
 Abbildung 1.1: Arduino IDE 1.8.19
@@ -74,17 +74,17 @@ Aktivität des Herzens durch ein 1-Kanal-EKG. Dabei sollen Eigenschaften wie die
 Energieverbrauch untersucht werden. **Abschluss mit Laborbericht**
 
 (c) **Teil 3 - Elektromyografie (EMG)**
-Das EMG Praktikum umfasst die Messung und Analyse der vom Skelettmuskel erzeugten elektrischen Aktivität. Dabei gilt es, die relative
+Das EMG Labor umfasst die Messung und Analyse der vom Skelettmuskel erzeugten elektrischen Aktivität. Dabei gilt es, die relative
 Muskelaktivierung, das Frequenzspektrum des aktiven Muskels und
 die Ermüdung zu bestimmen. **Abschluss mit Laborbericht**
 
 4. **Hardware**
 
-Jeder Projektgruppe wird zu Beginn des Praktikums ein Hardware-Kit
+Jeder Projektgruppe wird zu Beginn des Labor ein Hardware-Kit
 ausgehändigt, welches mit Vorsicht zu behandeln und nach Projektende
 **vollständig** zurückzugeben ist. Dieses Kit umfasst die in Tabelle 1.1 dargestellten Komponenten.
 
-1. Praktikum 4
+1. Labor 4
 
 Tabelle 1.1: Hardwarekomponenten mit Mengenangaben pro
 Kit.
@@ -109,14 +109,14 @@ Micro-USB-Kabel 1
 Qwiic Kabel 3
 Jumper Kabel 4
 
-1. Praktikum 5
+1. Labor 5
 ### **1.2 Teil 3 - Elektromyografie (EMG)**
 
 **ACHTUNG: Sollte ein Studierender bereits EKG Elektroden verwen-**
 
 **det und damit Hautreizungen verursacht haben, soll diese Person im**
-**Rahmen dieses Praktikums keine Messungen mit Elektroden durchführen.**
-**Sprechen Sie dies gegebenenfalls mit der Praktikumsleitung ab.**
+**Rahmen dieses Labor keine Messungen mit Elektroden durchführen.**
+**Sprechen Sie dies gegebenenfalls mit der Laborleitung ab.**
 
 **Ziele**
 
@@ -158,10 +158,10 @@ Messungen mit dem EKG-System besprochen.
 Die Verbindung der Hardware gleicht dem Setup aus *Teil 2 - Elektrokar-*
 *diografie*, welches Sie für den Aufbau heranziehen können.
 
-1. Praktikum 6
+1. Labor 6
 
 2. **Platzierung der Elektroden und Verbindungen**
-In diesem Praktikum wird die Muskelaktivität des Bizeps Brachii untersucht. Die beiden Messelektroden sollten einen Abstand von 2 cm von Elek
+In diesem Labor wird die Muskelaktivität des Bizeps Brachii untersucht. Die beiden Messelektroden sollten einen Abstand von 2 cm von Elek
 trodenmitte zu Elektrodenmitte aufweisen und entlang des Muskels auf
 dem Muskelbauch platziert sein. Die Referenzelektrode sollte wie bei der
 Elektrokardiografie an einem sehr knöchernen Körperteil mit wenig Muskelaktivität angebracht werden.
@@ -182,7 +182,7 @@ Messungen können Sie in der **[EMG Fibel](http://www.velamed.com/wp-content/upl
 
 3. **Datenakquise mit dem EKG-Setup**
 Dieser Teil wird durchgeführt, um die Funktionalität des Setups zu prüfen.
-Dafür wird der gleiche Code wie im Praktikumsteil des EKGs verwendet,
+Dafür wird der gleiche Code wie im Laborteil des EKGs verwendet,
 um mit dem Code *AnalogReadSerial* und dem seriellen Plotter Daten aufzunehmen. Testen Sie, ob Ihre Muskelaktivität gemessen und dargestellt
 werden kann, indem Sie den Bizeps immer wieder anspannen und danach
 entspannen. Sie sollten beim Anspannen eine Veränderung der Amplitude
@@ -198,7 +198,7 @@ Die Werte 250 und 400 stehen für den y-Achsenabschnitt und ändern sich
 nicht mehr im seriellen Plotter. Falls Ihre Muskelaktivität eine niedrigere
 oder höhere Amplitude aufweist, können Sie die Werte händisch anpassen.
 
-1. Praktikum 7
+1. Labor 7
 
 4. **Bessere Auflösung mit einem ADC**
 Wenn Sie auf ihren Plotter sehen, können Sie diskretisierte Werte erkennen.
@@ -240,7 +240,7 @@ Die MVC ist ein Parameter, welcher im Krafttraining verwendet wird
 und der führ das Gewicht steht, welches der oder die SportlerIn einfach maximal bewältigen kann [3]. Die MVC Messung wird sich für
 jede Person und auch unterschiedliche Anbringung der Elektroden unterscheiden. Bei der Messung soll der Muskel zu 100 % angespannt
 
-1. Praktikum 8
+1. Labor 8
 
 werden. Die Messung für die MVC muss wiederholt werden, sobald
 die Elektroden neu angebracht wurden.
@@ -249,7 +249,7 @@ In diesem Experiment werden sie eine isometrische Kraftübung für die
 Messung der MVC verwenden. Bei einer **[isometrische Muskelkon-](https://de.wikipedia.org/wiki/Isometrische_Kontraktion)**
 **[traktion](https://de.wikipedia.org/wiki/Isometrische_Kontraktion)** ändert sich die Länge des Muskels nicht, sondern nur die
 Spannung im Muskel [4].
-**Schlagen Sie nach, welche isometrischen Maximalkraft Übungen für Sie durchführbar sind. Halten Sie diese schriftlich und auch auf Bildern fest, um diese anschließend in Ihren Praktikumsbericht einzubinden.**
+**Schlagen Sie nach, welche isometrischen Maximalkraft Übungen für Sie durchführbar sind. Halten Sie diese schriftlich und auch auf Bildern fest, um diese anschließend in Ihren Laborbericht einzubinden.**
 
 Für alle Experimente sollten Sie mindestens 1-2 Sekunden vor und
 nach der geplanten Muskelkontraktion eine Pause einlegen und den
@@ -286,7 +286,7 @@ In diesem Experiment werden Sie ähnlich zum Experiment 1 vorgehen, jedoch mit d
 50 % und 75 % liegen des MVC liegen sollten. Suchen Sie sich also drei
 unterschiedliche Gewichte und dokumentieren Sie diese. Nutzen Sie
 
-1. Praktikum 9
+1. Labor 9
 
 folgende Vorgehensweise:
 
@@ -335,7 +335,7 @@ Das EMG Signal tendiert zu einer Schwingung um den Nullpunkt. Diese
 Schwingung gilt es zu eliminieren, indem die Absolutwerte zur Berechnung
 herangezogen werden. Abschließend werden die Daten nochmals Tiefpass
 
-1. Praktikum 10
+1. Labor 10
 
 gefiltert, um eine Einhüllende der absoluten Werte zu bilden. Die Verarbeitung wird nachfolgend in vier Schritte aufgeteilt.
 
@@ -351,7 +351,7 @@ Für die folgenden Schritte werden Sie die Python Bibliotheken *matplot-*
 *lib.pyplot*, *numpy*, *scipy.signal* und die Ihnen auf Sakai zur Verfügung gestellte Bibliothek *Lab3Functions* benötigen. Ihnen werden gewisse Teile des
 Codes zur Verfügung gestellt, um die Struktur des Codes vorzugeben und
 eine gleiche Benennung der Variablen zu gewährleisten. Der Code, den Sie
-für dieses Praktikum schreiben werden, ist ein großer Bestandteil der Bewertung. Ihre neun Datensätze (3xMVC, 3xGewichte, 3xErmüdung) sollten in einem Ordner mit ihrem Code gespeichert werden. Benennen Sie die
+für dieses Labor schreiben werden, ist ein großer Bestandteil der Bewertung. Ihre neun Datensätze (3xMVC, 3xGewichte, 3xErmüdung) sollten in einem Ordner mit ihrem Code gespeichert werden. Benennen Sie die
 Datensätze MVC1, MVC2, MVC3, Weight1, Weight2, Weight3, Fatique1,
 Fatique2 und Fatique3. Danach können Sie die funktion *import.data()* des
 Ihnen zur Verfügung gestellten Codes verwenden, um die Datensätze in drei
@@ -366,13 +366,13 @@ als Kontrolle dienen.
 
 Abbildung 1.2: Offset-Korrektur der EMG-Daten.
 
-1. Praktikum 11
+1. Labor 11
 
 Abbildung 1.3: Filtern der EMG-Daten.
 
 Abbildung 1.4: Gleichrichten der EMG-Daten.
 
-1. Praktikum 12
+1. Labor 12
 
 Abbildung 1.5: Einhüllende der EMG-Daten. Verwenden Sie eine
 Tiefpass Grenzfrequenz von 3 Hz, um eine Einhüllende zu erzeugen.
@@ -407,12 +407,12 @@ dafür die Einhüllende der drei Bursts und berechnen Sie mit der numpy
 danach erhalten Sie Ihren persönlichen MVC, welche ab diesem Zeitpunkt
 das Maximum darstellt. Demnach werden alle weiteren Berechnungen in %
 
-1. Praktikum 13
+1. Labor 13
 
 Abbildung 1.6: Grafische Darstellung der Aktivierungsdauer von
 drei MVC Datensätzen.
 
-1. Praktikum 14
+1. Labor 14
 
 von MVC angegeben.
 
@@ -439,7 +439,7 @@ am Anfang, in der Mitte und zum Ende einer EMG-Aktivierung.
 (b) Berechnen Sie nun für jeden der drei isolierten Teile die spektrale Leistungsdichte mit der *get power* Funktion aus dem **Lab3Functions**
 Code.
 
-1. Praktikum 15
+1. Labor 15
 
 power, f r e q u e n c i e s = l 3 f . get power (EMGdata, s a m p l i n g f r e q )
 
@@ -453,7 +453,7 @@ Filter, mit dem Sie auch die Einhüllende der Muskelaktivität berechnet
 haben und einer cutoff-Frequenz von 40 Hz. Das gefilterte Spektrum
 wird in Abbildung 1.9 gezeigt.
 
-1. Praktikum 16
+1. Labor 16
 
 Abbildung 1.9: Auswahl von eines 0.5 Sekunden langen Intervalls
 nach Anwendung der Filter.
@@ -471,7 +471,7 @@ total power = a r e a f r eq [ −1]
 median freq = frequencies [ np . where ( a r ea f r eq
 *>* = total power / 2 ) [ 0 ] [ 0 ] ]
 
-1. Praktikum 17
+1. Labor 17
 
 Abbildung 1.10: Gefilterte Spektrale Leistungsdichte mit berechnetem Median.
 
@@ -481,14 +481,14 @@ Median-Frequenzen mit dem Zeitpunkt in der Messung plotten (siehe Abbildung 1.11
 
 Abbildung 1.11: Median-Frequenzen bei Ermüdungen drei unterschiedlichen Zeitpunkte.
 
-1. Praktikum 18
+1. Labor 18
 
 Abbildung 1.12: Median-Frequenzen bei Ermüdungen drei unterschiedlichen Zeitpunkte einer Messung.
 
-1. Praktikum 19
+1. Labor 19
 ### **Abgabe: Teil 3**
 
-Für Teil 3 des Praktikums werden Sie einen Laborbericht einreichen müssen, in
+Für Teil 3 des Labor werden Sie einen Laborbericht einreichen müssen, in
 dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Der Bericht soll in LATEX geschrieben werden.
 Die dafür benötigte Vorlage können Sie auf Sakai finden.
 
@@ -526,14 +526,14 @@ auslösen? **(1 Absatz; 1 Punkt)**
 
 (b) Wie führt ein Aktionspotenzial in einer Muskelfaser zu einer Muskelkontraktion? **(1 Absatz; 1 Punkt)**
 
-1. Praktikum 20
+1. Labor 20
 
 4. Erläutern Sie in einem Absatz, wie die Aktivität der einzelnen Muskelfasern zu dem von den EMG-Elektroden gemessenen zusammengesetzten
 Aktionspotenzial beiträgt. Beschreiben Sie, wie die gemessene Muskelaktivität durch die Größe und Lage der Muskelfasern bestimmt wird und wie sie
 durch subkutanes Fett beeinflusst wird. Erläutern Sie auch, wie das Größenprinzip bestimmt, welche Fasern mehr beitragen, wenn Aktivität und Kraft
 gering sind **(1 Absatz; 3 Punkte)**
 
-5. Führen Sie Teil 5, Experiment 1 - MVC, dieses Praktikums durch. Verarbeiten Sie die Daten eines Gruppenmitglieds vor (Mittelwert entfernen, filtern,
+5. Führen Sie Teil 5, Experiment 1 - MVC, dieses Labor durch. Verarbeiten Sie die Daten eines Gruppenmitglieds vor (Mittelwert entfernen, filtern,
 gleichrichten, Hüllkurve) und präsentieren Sie die Ergebnisse. Erläutern Sie,
 wie Sie die Daten vorverarbeitet haben und warum jeder Schritt notwendig
 ist **(1 Abbildung mit 3 Subplots; 1 Absatz, 3 Punkte)**
@@ -546,11 +546,11 @@ könnten **(1 Tabelle mit kleiner Erklärung; 1 Punkt)**
 7. Beschreiben Sie kurz den Aufbau Ihres MVC-Experiments. Warum erlaubt
 dieser Aufbau dem Muskel, sich maximal zu kontrahieren? **(2 Punkte)**
 
-8. Führen Sie Experiment 2 - Relative Muskelaktivierung - aus diesem Praktikum durch. Stellen Sie die relative Muskelaktivität (d. h. als Prozentsatz
+8. Führen Sie Experiment 2 - Relative Muskelaktivierung - aus diesem Labor durch. Stellen Sie die relative Muskelaktivität (d. h. als Prozentsatz
 der MVC-Messung) gegen die Größe des Gewichts/Widerstands für ein einzelnes Gruppenmitglied dar. Erläutern Sie in wenigen Sätzen die physiologischen Mechanismen, die der aufgezeichneten Beziehung zugrunde liegen.
 **(1 Abbildung, wenige Sätze; 2 Punkte)**
 
-9. Führen Sie Teil 5, Experiment 3 - Ermüdung, aus diesem Praktikum durch.
+9. Führen Sie Teil 5, Experiment 3 - Ermüdung, aus diesem Labor durch.
 Führen Sie eine Analyse im Frequenzspektrum zu Beginn, in der Mitte
 und am Ende jedes der drei Ermüdungsexperimente durch (insgesamt 9).
 Zeichnen Sie eines der 9 Leistungsspektren von einem Ihrer Gruppenmitglieder auf (beachten Sie, dass MainCode3 alle 9 Plots enthalten sollte). Die
@@ -561,7 +561,7 @@ enthalten. **(1 Abbildung; 2 Punkte)**
 den Frequenzgehalt des gemessenen EMGs darstellt. Hinweis: Erläutern Sie
 die Fasertypen. **(Diagramm(e) und 1 Absatz; 3 Punkte)**
 
-1. Praktikum 21
+1. Labor 21
 
 11. Berechnen Sie die Medianfrequenz jedes Leistungsspektrums und stellen Sie
 die Veränderung der Medianfrequenz zu Beginn, in der Mitte und am Ende
@@ -645,7 +645,7 @@ V
 
 # **Tabellenverzeichnis**
 
-1.1 Praktikum Hardware Komponenten . . . . . . . . . . . . . . . . . 4
+1.1 Labor Hardware Komponenten . . . . . . . . . . . . . . . . . 4
 
 VI
 

@@ -1,8 +1,8 @@
   - Pflicht: Abgabe der Python Dateien in .zip-File (**Main Skript der Python Auswertung als *MainCode2.ipynb***)
 
-  - Pflicht: Praktikumsbericht zu übrigen Fragen
+  - Pflicht: Laborbericht zu übrigen Fragen. Max. 10 Seiten
 
-Für Teil 2 des Praktikums werden Sie einen Laborbericht einreichen müssen, in dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Der Bericht soll in LATEX geschrieben werden. Die dafür benötigte Vorlage können Sie auf Sakai finden.
+Für Teil 2 des Labor werden Sie einen Laborbericht einreichen müssen, in dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Der Bericht soll in LATEX geschrieben werden. Die dafür benötigte Vorlage können Sie auf Sakai finden.
 
 
 1. Erstellen Sie Diagramme, in denen das Messsystem dargestellt ist. Beschriften Sie jede Komponente, jeden Bus (einschließlich Bustyp und -geschwindigkeit) sowie jeden Signalpfad, und beschreiben Sie diese jeweils kurz. (1-2 Sätze pro Komponente). **(2 Punkte)**
@@ -20,7 +20,7 @@ die T-Welle im Plot. Beschreiben Sie das physiologische Phänomen, welches für 
 6. Verwenden Sie Python, um die mittlere Herzfrequenz und HRV (mit der Standardabweichung) zu bestimmen. Die Berechnung soll im Code *MainCode2* stattfinden. **(1 Tabelle, wenige Sätze, 2 Punkte)**
 
 7. Tragen Sie in dem auf OneDrive verfügbaren Dokument [*HeartRateData*](https://docs.google.com/spreadsheets/d/1IZlOrsPcqqN9A8LrEouLDmAJqMR-j0uEoi3fHgGO_qM/edit?usp=drive_link) (in neuen Tab öffnen) die
-mittlere Herzfrequenz und Herzfrequenzvariabilität. Sobald alle Gruppen ihre Messungen und Ergebnisse eingetragen haben, werden Sie durch den Praktikumsleiter informiert und können mit den folgenden Schritten fortfahren:
+mittlere Herzfrequenz und Herzfrequenzvariabilität. Sobald alle Gruppen ihre Messungen und Ergebnisse eingetragen haben, werden Sie durch den Laborleiter informiert und können mit den folgenden Schritten fortfahren:
 
     (a) Downloaden Sie das Dokument im Tabellenformat und verwenden Sie Python, um zwei Histogramme zu erstellen. Eines soll die Verteilung
 der mittleren Herzfrequenz der Klasse zeigen, das andere die Herzfrequenzvariabilität. Der Plot soll als Beschriftung Ihren Gruppennamen enthalten. Die Daten im jeweiligen Plot sollen nach Geschlecht farblich markiert werden. Dies erlaubt einen Vergleich der Herzfrequenz zwischen den Geschlechtern. Was können Sie beobachten? Falls Sie keine Unterschiede erkennen - was kann die Ursache dafür sein? **(2 Darstellungen, 3-5 Sätze, 3 Punkte)**
@@ -50,7 +50,7 @@ lange? **(1 Punkt)**
   
     (c) Denken Sie, dass die Zeit bis zur Erholung der Herzfrequenz bei Athleten kürzer ist, als bei untrainierten Personen? Warum? **(1 Punkt)**
 
-11. Berechnen Sie den metabolischen Energieverbrauch über die Zeit mit der Gleichung, welche Sie ausgewählt haben. Bitte verwenden Sie dafür das Paper von Hiiloskorpi, zu finden in der Sektion „Unterlagen Praktikum“. Ergibt die relative Änderung des metabolischen Energieverbrauchs Sinn für das, was Sie für das Experiment erwarten? Begründen Sie Ihre Aussage. **(1 Darstellung, wenige Sätze, 2 Punkte)**
+11. Berechnen Sie den metabolischen Energieverbrauch über die Zeit mit der Gleichung, welche Sie ausgewählt haben. Bitte verwenden Sie dafür das Paper von Hiiloskorpi, zu finden in der Sektion „Unterlagen Labor“. Ergibt die relative Änderung des metabolischen Energieverbrauchs Sinn für das, was Sie für das Experiment erwarten? Begründen Sie Ihre Aussage. **(1 Darstellung, wenige Sätze, 2 Punkte)**
 
 12. Berechnen Sie den gesamten Energieverbrauch für das Experiment. Drücken Sie das Ergebnis in Einheiten von Joule, Kalorien, Rittersport Tafeln, Bier und als Anteil des Kalorienbedarfs für Ihre Person (Bitte geben Sie die verwendeten Referenzwerte (Wert und Quelle) für Ritter-Sport-Tafeln, Bier und Ihre Person an.). Formeln zu Berechnung Ihres täglichen Kalorienbedarfs finden Sie im Internet. Implementieren Sie Ihre Berechnungen in Python und geben Sie die Ergebnisse im Bericht an.
 **(2 Punkte)**

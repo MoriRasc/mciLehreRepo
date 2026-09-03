@@ -1,6 +1,6 @@
 # **Analyse der Rohdaten**
 
-In diesem Teil des Praktikums werden Sie lernen bzw. vertiefen, wie sich die Herzfrequenz, Herzfrequenzvariabilität und der Energieverbrauch durch die Analyse der Rohdaten berechnen lassen.
+In diesem Teil des Labor werden Sie lernen bzw. vertiefen, wie sich die Herzfrequenz, Herzfrequenzvariabilität und der Energieverbrauch durch die Analyse der Rohdaten berechnen lassen.
 
 ## **Detektion der R-Zacke und Berechnung der Herzfrequenz**
 
