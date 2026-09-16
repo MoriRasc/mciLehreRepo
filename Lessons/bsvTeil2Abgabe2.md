@@ -1,6 +1,6 @@
   - Pflicht: Abgabe der Python Dateien in .zip-File (**Main Skript der Python Auswertung als *MainCode2.ipynb***)
 
-  - Pflicht: Laborbericht zu übrigen Fragen. Max. 10 Seiten (**Berichte, die länger als die vorgegebene Maximallänge sind, werden nicht korrigiert oder bewertet.**)
+  - Pflicht: Laborbericht zu übrigen Fragen. Max. 10 Seiten (**Berichte, die die vorgegebene Maximallänge überschreiten, werden nicht korrigiert und mit 0 Punkten bewertet.**)
 
 Für Teil 2 des Labor werden Sie einen Laborbericht einreichen müssen, in dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Der Bericht soll in LATEX geschrieben werden. Die dafür benötigte Vorlage können Sie auf Sakai finden.
 
@@ -66,7 +66,7 @@ Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweis
 folgenden Dateien in dieser *.zip* -Datei:
 
 
-  - Laborbericht als PDF als *Bericht_2_Gruppe_Gruppennummer* (**Berichte, die länger als die vorgegebene Maximallänge sind, werden nicht korrigiert oder bewertet.**)
+  - Laborbericht als PDF als *Bericht_2_Gruppe_Gruppennummer* (**Berichte, die die vorgegebene Maximallänge überschreiten, werden nicht korrigiert und mit 0 Punkten bewertet.**)
 
   - **Main Skript der Python Auswertung als *MainCode2.ipynb***
 

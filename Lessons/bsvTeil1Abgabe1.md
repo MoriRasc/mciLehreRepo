@@ -1,7 +1,7 @@
 
   - Pflicht: Abgabe der Python Dateien in .zip-File (**Main Skript der Python Auswertung als *MainCode1.ipynb***)
 
-  - Pflicht: Laborbericht zu übrigen Fragen. Max 10 Seiten. (**Berichte, die länger als die vorgegebene Maximallänge sind, werden nicht korrigiert oder bewertet.**)
+  - Pflicht: Laborbericht zu übrigen Fragen. Max 10 Seiten. (**Berichte, die die vorgegebene Maximallänge überschreiten, werden nicht korrigiert und mit 0 Punkten bewertet.**)
 
 Für Teil 1 des Labor werden Sie einen Laborbericht einreichen müssen, in dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Dadurch bekommen Sie vor den eigentlich bewerteten Laborberichten Feedback und können dieses direkt in die Folgenden Berichte einbauen. Dabei geht es vor allem um die Form der Laborbericht und nicht den Inhalt. Der Bericht soll in LATEX geschrieben werden. Die dafür benötigte Vorlage können Sie auf Sakai finden.
 
@@ -57,7 +57,7 @@ Drehen Sie den Beschleunigungssensor in alle 6 Richtungen (jede Achse nach oben 
 ## **Abgabe auf Sakai:**
 Die Abgabe erfolgt über das Sakai Portal. Verwenden Sie dabei diese Schreibweise (Lab1_*Gruppe_Gruppennummer*) für die Gruppeneinreichung und speichern Sie die folgenden Dateien in dieser *.zip*-Datei:
 
- -  Laborbericht als PDF als *Bericht_1_Gruppe_Gruppennummer* (**Berichte, die länger als die vorgegebene Maximallänge sind, werden nicht korrigiert oder bewertet.**)
+ -  Laborbericht als PDF als *Bericht_1_Gruppe_Gruppennummer* (**Berichte, die die vorgegebene Maximallänge überschreiten, werden nicht korrigiert und mit 0 Punkten bewertet.**)
 
  -  Modifiziertes **Lab1Code1** Arduino Code (Abgabe 5)
 
