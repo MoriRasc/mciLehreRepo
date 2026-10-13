@@ -3,7 +3,7 @@
 
   - Pflicht: Laborbericht zu übrigen Fragen. Max 10 Seiten. (**Berichte, die die vorgegebene Maximallänge überschreiten, werden nicht korrigiert und mit 0 Punkten bewertet.**)
 
-Für Teil 1 des Labors werden Sie einen Laborbericht einreichen müssen, in dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Dadurch bekommen Sie vor den eigentlich bewerteten Laborberichten Feedback und können dieses direkt in die Folgenden Berichte einbauen. Dabei geht es vor allem um die Form der Laborbericht und nicht den Inhalt. Der Bericht soll in LATEX geschrieben werden. Die dafür benötigte Vorlage können Sie auf Sakai finden.
+Für Teil 1 des Labors werden Sie einen Laborbericht einreichen müssen, in dem Sie die nachfolgenden Fragen beantworten und ihren Code zur Signalverarbeitung von Biosignalen abgeben. Dadurch bekommen Sie vor den eigentlich bewerteten Laborberichten Feedback und können dieses direkt in die Folgenden Berichte einbauen. Der Bericht soll in LATEX geschrieben werden. Die dafür benötigte Vorlage können Sie auf Sakai finden.
 
 **Die Abgabe des Python Codes umfasst das Bearbeiten der Aufgaben:**
 
