@@ -39,7 +39,7 @@ Ihre geschlossene Hand und bewegen Sie ihn sehr schnell pro Sekunde einmal hoch 
 6. Die Abtastfrequenz zu bestimmen jede Messung soll mit einem eigenen Zeitstempel versehen werden, der unmittelbar auf dem Mikrocontroller erzeugt wird (z. B. mit einer Mikrosekunden- oder Millisekunden-Uhr). Verwenden Sie dafür nicht die Zeitstempel der seriellen Konsole, sondern eine Funktion in Ihre Code während der Datenerfassung. Aus den aufgezeichneten Zeitstempeln berechnen Sie die mittlere Abtastfrequenz und Abweichung Ihrer Messung. 
 Drehen Sie den Beschleunigungssensor in alle 6 Richtungen (jede Achse nach oben und unten zeigend) und messen Sie jeweils 10 Sekunden in jedem Zustand. Prüfen Sie damit, ob jeweils eine Beschleunigung von 1 g angezeigt wird.
 
-    (a) Stellen Sie die Daten in einem Plot dar. **(1 Darstellung, 1 Punkte)**
+    (a) Stellen Sie alle die Daten gemeinsam in einem Plot dar. **(1 Darstellung, 1 Punkte)**
 
     (b) Sehen Sie sich die Daten an, wenn der Sensor mit einer Achse nach unten oder oben zeigt. Ergeben die Daten Sinn? 
 
