@@ -37,9 +37,10 @@ Ihre geschlossene Hand und bewegen Sie ihn sehr schnell pro Sekunde einmal hoch 
 5. Ändern Sie den vorherigen Arduino Code so, dass die Aufzeichnungen mit den Bewegungen übereinstimmen, indem Sie das Datenblatt des Sensors konsultieren. Dokumentieren Sie die Seite, auf der Sie die Information über das betreffende Register gefunden haben, sowie den Parameter und alle möglichen Werte, die dieser Parameter annehmen kann. Begründen Sie die Auswahl des verwendeten Wertes. Wiederholen Sie das Experiment. Plotten Sie wieder 4 Sekunden der Daten und vergleichen Sie den Plot mit dem aus der vorhergegangenen Aufgabe. Welche Gemeinsamkeiten und Unterschiede gibt es, und warum bestehen sie? **(1 Darstellung, 1 Paragraph, 2 Punkte)**
 
 6. Die Abtastfrequenz zu bestimmen jede Messung soll mit einem eigenen Zeitstempel versehen werden, der unmittelbar auf dem Mikrocontroller erzeugt wird (z. B. mit einer Mikrosekunden- oder Millisekunden-Uhr). Verwenden Sie dafür nicht die Zeitstempel der seriellen Konsole, sondern eine Funktion in Ihre Code während der Datenerfassung. Aus den aufgezeichneten Zeitstempeln berechnen Sie die mittlere Abtastfrequenz und Abweichung Ihrer Messung. 
-Drehen Sie den Beschleunigungssensor in alle 6 Richtungen (jede Achse nach oben und unten zeigend) und messen Sie jeweils 10 Sekunden in jedem Zustand. Prüfen Sie damit, ob jeweils eine Beschleunigung von 1 g angezeigt wird.
+Führen Sie **genau eine zusammenhängende Messaufnahme** durch, die Aufnahme darf beim Drehen des Sensors **nicht unterbrochen** werden. Drehen Sie den Beschleunigungssensor nacheinander in alle sechs Orientierungen, sodass jede Achse einmal nach oben und einmal nach unten zeigt. Halten Sie jede Orientierung für **10 Sekunden** möglichst ruhig. Prüfen Sie anhand der Messdaten, ob für jede Orientierung auf der entsprechenden Achse näherungsweise eine Beschleunigung von ±1 g angezeigt wird.
 
-    (a) Stellen Sie alle die Daten gemeinsam in einem Plot dar. **(1 Darstellung, 1 Punkte)**
+
+    (a) Stellen Sie die Daten der **gesamten Messaufnahme** in **einem gemeinsamen Plot** dar. **(1 Darstellung, 1 Punkte)**
 
     (b) Sehen Sie sich die Daten an, wenn der Sensor mit einer Achse nach unten oder oben zeigt. Ergeben die Daten Sinn? 
 
